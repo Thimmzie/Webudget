@@ -14,36 +14,9 @@ body {
 }
 
 section {
-    height: 140vh;
+    height: 120vh;
     display: flex;
     justify-content: space-between;
-}
-
-.img-sect {
-    z-index: 2;
-    width: 37vw;
-}
-
-.img-sect-img {
-    height: 140vh;
-    width: 37vw;
-    object-fit: cover;
-    object-position: 100% 40%;
-}
-
-.img-sect-x {
-    position: absolute;
-    height: 5vh;
-    left: 1vw;
-    top: 1vw;
-}
-
-a.Alink-backhome:link, a.Alink-backhome:visited {
-    height: 5vh;
-}
-
-a.Alink-backhome:hover, a.Alink-backhome:active {
-    height: 5vh;
 }
 
 .shape-n-form { 
@@ -55,8 +28,8 @@ a.Alink-backhome:hover, a.Alink-backhome:active {
 }
 
 .shape-sect {
-    height: 139.8vh; /* adjust to cover the edges */
-    width: 61.81vw; /* adjust to cover the edges */
+    height: 20vh; /* adjust to cover the edges */
+    width: 10vw; /* adjust to cover the edges */
     position: absolute;
     z-index: 1;
 }
@@ -66,43 +39,17 @@ a.Alink-backhome:hover, a.Alink-backhome:active {
     height: 17vh;
     z-index: 0;
     position: absolute;
-    right: 0vw;
+    left: 0vw;
 }
 
 .s1 {
-    height: 16vh;
-}
-
-.shape2 {
-    width: 20.4vw;
-    height: 23.8vh;
-    z-index: 1;
-    position: absolute;
-    bottom: 4vh;
-    left: -7vw;
-}
-
-.s2 {
-    height: 28vh;
-}
-
-.shape3 {
-    width: 11.6vw;
-    height: 22vh;
-    z-index: 1;
-    position: absolute;
-    bottom: 0vh;
-    right: 0;
-}
-
-.s3 {
-    height: 22vh;
+    height: 33vh;
 }
 
 .form-sect {
     margin: auto;
     width: 50.5vw;
-    height: 116vh;
+    height: 98vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -112,18 +59,40 @@ a.Alink-backhome:hover, a.Alink-backhome:active {
 
 .form-sectA {
     width: 50vw;
-    height: 86vh;
+    height: 88vh;
     background-color: white;
     border-radius: 3vh;
     padding-top: 7vh;
     z-index: 4;
 }
 
+.create-row {
+    width: 35vw;
+    height: 6.5vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrowback {
+    height: 4vh;
+    margin-top: 1vh;
+}
+
+a.Alink-backhome:link, a.Alink-backhome:visited {
+    height: 5vh;
+    cursor: pointer;
+}
+
+a.Alink-backhome:hover, a.Alink-backhome:active {
+    height: 5vh;
+}
+
 h3 {
     font-size: 4vh;
     font-weight: 500;
-    margin-left: 7.5vw;
     color: black;
+    margin-left: -7vw;
 }
 
 .h3span {
@@ -132,11 +101,34 @@ h3 {
     color: black;
 }
 
+.stepbox {
+    border: 1px solid #6f42c1;
+    display: inline-block;
+    height: 6vh;
+    width: 6.5vw;
+    padding: 1.5vh;
+    border-radius: 10px;
+}
+
+.steps {
+    font-size: 2vh;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+
+.currentstep {
+    font-size: 2vh;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+
 .email-pword-inputBox {
     display: flex;
     flex-direction: column;
     width: 36vw;
-    height: 60vh;
+    height: 66vh;
     margin: auto;
     margin-top: 5vh;
     padding: 0.5vw;
@@ -150,7 +142,7 @@ h3 {
     font-weight: 500;
 }
   
-#email, #password {
+#email, #password, #confirmpassword {
     width: 35vw;
     height: 8vh;
     background-color: white;
@@ -160,30 +152,20 @@ h3 {
     padding-left: 1vw;
     border: 1px solid black;
     display: block;
-    margin-bottom: 3vh;
+    margin-bottom: 4vh;
 }
 
-#email::placeholder, #password::placeholder {
+#email::placeholder, #password::placeholder, #confirmpassword::placeholder {
     color: #757575;
     font-family: "Poppins", serif;
     font-size: 2vh;
 }
 
-#email:focus, #password:focus {
+#email:focus, #password:focus, #confirmpassword:focus {
     border: 2px solid #8762cb;
 }
 
-#remember {
-    display: inline-block;
-    margin-bottom: 2.5vh;
-}
-
-.remlabel {
-    font-size: 1.8vh;
-    font-weight: 500;
-}
-
-.submitButton {
+.proceedButton {
     background-color: #6f42c1;
     color: white;
     width: 35vw;
@@ -200,10 +182,11 @@ h3 {
     font-style: normal;
     margin: auto;
     border: none;
+    margin-top: 8vh;
     cursor: pointer;
-  }
+}
   
-  .submitButton:hover {
+.proceedButton:hover {
     background-color: #5d37a1;
     color: white;
     width: 35vw;
@@ -218,86 +201,40 @@ h3 {
     font-weight: 400;
     border-radius: 8px;
     margin: auto;
+    margin-top: 8vh;
     border: none;
     transition: 0.3s ease-in;
-  }
+}
 
-  .forgot {
+.signin {
     text-align: center;
     color: black;
-    font-size: 2.1vh;
-  }
+    font-size: 2.3vh;
+}
 
-  a.forgot-link:link, a.forgot-link:visited {
+a.signin-link:link, a.signin-link:visited {
     text-decoration: underline;
     color: black;
-    font-size: 2.1vh;
-    text-align: center;
-  }
-
-  a.forgot-link:hover, a.forgot-link:active {
-    color: #6940b5;
-    font-weight: 500;
-    text-decoration: none;
-  }
-
-  .createacct {
-    font-size: 2.1vh;
-    color: black;
-    text-align: center;
-  }
-
-  a.createacct-link:link, a.createacct-link:visited {
-    text-decoration: underline;
-    color: black;
-  }
-
-  a.createacct-link:hover, a.createacct-link:visited {
-    text-decoration: none;
-    color: #47297e;
-    font-size: 2.1vh;
-    text-align: center;
-    font-weight: 500;
-  }
-
-.form-sectB {
-    height: 22vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    z-index: 4;
-}
-
-.orsign {
-    height: 4vh;
-    width: 48vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.line {
-   width: 19vw;
-}
-
-.fsB-text {
-    color: black;
-    font-size: 2vh;
+    font-size: 2.3vh;
     font-weight: 400;
+    text-align: center;
 }
 
-.logosign {
-    height: 12vh;
-    width: 22vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+a.signin-link:hover, a.signin-link:active {
+    color: #6940b5;
+    font-size: 2.3vh;
+    font-weight: 500;
+    text-decoration: none;
 }
 
-.google, .facebook, .twitter {
-
+.img-sect {
+    z-index: 2;
+    width: 37vw;
+    height: 100vh;
 }
 
-.logo {
-    height: 11vh;
+.img-sect-img {
+    height: 100vh;
+    object-fit: cover;
+    object-position: 100% 40%;
 }
