@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your WeBudget account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="createaccount2-style.css">
+</head>
+<body>
+    <section>
+        <div class="shape-n-form">
+            <div class="shape-sect">
+                <div class="shape1">
+                    <img src="images icons/Ellipse 78 (2).png" alt="" srcset="" 
+                    class="s1" width="auto" height="auto">
+                </div>
+            </div>
+
+            <div class="form-sect">
+                <div class="form-sectA">
+                    <div class="create-row">
+                        <a href="http://127.0.0.1:5500/signups/createaccount1-index.html" class="Alink-backhome" target="_self" title="Go back">
+                        <img src="images icons/ion_arrow-back.png" alt="" srcset="" width="auto" height="auto" class="arrowback"></a>
+                
+                        <h3>Basic Information<span class="h3span"></span></h3>
+
+                        <div class="stepbox">
+                            <p class="steps">Step <span class="currentstep">2</span>/4</p>
+                        </div>
+                    </div>
+                    
+                    <div class="name-occ-inputBox">
+                        <form action="/action_page.php">
+                            <label for="text" class="inputLabel"
+                            >Full name</label>
+                            <input
+                            type="text"
+                            id="fname"
+                            name="fname"
+                            placeholder="Enter Full Name"
+                            />
+
+                            <label for="text" class="inputLabel"
+                            >Occupation</label>
+                            <input
+                            type="text"
+                            id="occupation"
+                            name="occupation"
+                            placeholder="Enter Occupation eg. Banker, Engineer, etc."
+                            />
+
+                            <label for="country" class="countryLabel">Currency Preference</label>
+                            <select id="currency" name="currency" title="currency">
+                                <img src="images icons/tabler_currency-naira.png" alt="" srcset="" width="auto" height="auto" class="currencyicon">
+                                <div class="optioncontent">
+                                    
+                                    <option value="Choose currency" style="text-align: left;">Choose currency</option>
+                                    <option value="USD">
+                                        <img src="images icons/555526 1 (5).png" alt="" srcset="" width="auto" height="auto" class="flag">
+                                        <p class="flagtxt">USD</p>
+                                    </option>
+                                    <option value="CAD"> <span class="currimg"> <img src="images icons/555526 1 (6).png" alt="" srcset="" width="auto" height="auto" class="flag"></span>CAD</option>
+                                    <option value="JPY"> <span class="currimg"> <img src="images icons/555526 1 (2).png" alt="" srcset="" width="auto" height="auto" class="flag"></span>JPY</option>
+                                    <option value="AUD"> <span class="currimg"> <img src="images icons/555526 1 (3).png" alt="" srcset="" width="auto" height="auto" class="flag"></span>AUD</option>
+                                    <option value="AED"> <span class="currimg"> <img src="images icons/555526 1 (4).png" alt="" srcset="" width="auto" height="auto" class="flag"></span>AED</option>
+                                    <option value="NGN"> <span class="currimg"> <img src="images icons/555526 1.png" alt="" srcset="" width="auto" height="auto" class="flag"></span>NGN</option>
+                                </div> 
+                            </select>
+
+                            <label for="MFI" class="inputLabel">Monthly Fixed Income</label>
+                            <input type="number" id="income" name="income" min="100.00" placeholder="0.00">
+
+                            <label for="phone" class="inputLabel">Phone number</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="Enter Contact Number">
+
+                            <label for="datemax" class="inputLabel">Date of Birth</label>
+                            <input type="date" id="datemax" name="datemax" max="2007-12-31">
+
+                            <button type="submit" class="proceedButton" href="#">
+                                Proceed <span class="proceedarrow"><img src="images icons/ion_arrow-forward.png" alt="" srcset="" width="auto" height="auto" class="arrowforward"></span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="img-sect">
+            <img src="images icons/Rectangle 64 (1).png" class="img-sect-img" alt="account creation image" srcset="" width="auto" height="auto">
+        </div>
+    </section>
+    <script src="createaccount2-script.js"></script>
+    
+</body>
+</html>

@@ -14,7 +14,7 @@ body {
 }
 
 section {
-    height: 120vh;
+    height: 152vh;
     display: flex;
     justify-content: space-between;
 }
@@ -49,7 +49,7 @@ section {
 .form-sect {
     margin: auto;
     width: 50.5vw;
-    height: 98vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -59,7 +59,7 @@ section {
 
 .form-sectA {
     width: 50vw;
-    height: 88vh;
+    height: 137vh;
     background-color: white;
     border-radius: 3vh;
     padding-top: 7vh;
@@ -124,7 +124,7 @@ h3 {
     text-align: center;
 }
 
-.email-pword-inputBox {
+.name-occ-inputBox {
     display: flex;
     flex-direction: column;
     width: 36vw;
@@ -135,14 +135,14 @@ h3 {
     justify-content: space-between;
 }
 
-.inputLabel {
+.inputLabel, .countryLabel {
     width: 5vw;
     display: inline;
     font-size: 2.5vh;
     font-weight: 500;
 }
   
-#email, #password, #confirmpassword {
+#fname, #occupation, #phone {
     width: 35vw;
     height: 8vh;
     background-color: white;
@@ -150,19 +150,103 @@ h3 {
     border-radius: 6px;
     font-size: 2.3vh;
     padding-left: 1vw;
+    border: 1px solid black;
+    display: block;
+    margin-bottom: 4vh;
+    width: 35vw;
+    height: 8vh;
+    background-color: white;
+    margin: auto;
+    border-radius: 6px;
+    font-size: 2.3vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
     border: 1px solid #a0a0a0;
     display: block;
     margin-bottom: 4vh;
 }
 
-#email::placeholder, #password::placeholder, #confirmpassword::placeholder {
+#currency {
+    width: 25vw;
+    height: 8vh;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 2.3vh;
+    padding-left: 1vw;
+    border: 1px solid #a0a0a0;
+    display: block;
+    margin-bottom: 4vh;
+    color: #757575;
+}
+
+option {
+    margin: auto;
+    border-radius: 5vh;
+    text-align: center;
+    color: black;
+    font-size: 2.3vh;
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+}
+
+.currencyicon {
+    height: 2vh;
+}
+
+
+#income {
+    width: 35vw;
+    height: 9.5vh;
+    background-color: white;
+    margin: auto;
+    border-radius: 6px;
+    font-size: 4vh;
+    padding-left: 3vw;
+    border: 1px solid #a0a0a0;
+    display: block;
+    margin-bottom: 4vh;
+}
+
+#datemax {
+    width: 25vw;
+    height: 8vh;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #a0a0a0;
+    font-size: 2.3vh;
+    padding-left: 1vw;
+    display: block;
+    margin-bottom: 4vh;
+    color: #757575;
+}
+
+#fname::placeholder, #occupation::placeholder, #currency::placeholder, #phone::placeholder, #datemax::placeholder {
     color: #757575;
     font-family: "Poppins", serif;
     font-size: 2vh;
 }
 
-#email:focus, #password:focus, #confirmpassword:focus {
+#income::placeholder {
+    color: #757575;
+    font-family: "Poppins", serif;
+    font-size: 4vh;
+}
+
+#fname:focus, #occupation:focus, #currency:focus, #phone:focus, #datemax:focus {
     border: 2px solid #8762cb;
+}
+
+#income:focus {
+    font-size: 4vh;
+}
+
+.currimg {
+    display: inline;
+}
+
+.flag {
+    height: 1vh;
 }
 
 .proceedButton {
@@ -213,27 +297,6 @@ h3 {
 
 .arrowforward {
     height: 3vh;
-}
-
-.signin {
-    text-align: center;
-    color: black;
-    font-size: 2.3vh;
-}
-
-a.signin-link:link, a.signin-link:visited {
-    text-decoration: underline;
-    color: black;
-    font-size: 2.3vh;
-    font-weight: 400;
-    text-align: center;
-}
-
-a.signin-link:hover, a.signin-link:active {
-    color: #6940b5;
-    font-size: 2.3vh;
-    font-weight: 500;
-    text-decoration: none;
 }
 
 .img-sect {
