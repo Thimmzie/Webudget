@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your WeBudget account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="createaccount3-style.css">
+</head>
+<body>
+    <section>
+        <div class="shape-n-form">
+            <div class="shape-sect">
+                <div class="shape1">
+                    <img src="images icons/Ellipse 78 (2).png" alt="" srcset="" 
+                    class="s1" width="auto" height="auto">
+                </div>
+            </div>
+
+            <div class="form-sect">
+                <div class="form-sectA">
+                    <div class="create-row">
+                        <a href="http://127.0.0.1:5500/signups/createaccount1-index.html" class="Alink-backhome" target="_self" title="Go back">
+                        <img src="images icons/ion_arrow-back.png" alt="" srcset="" width="auto" height="auto" class="arrowback"></a>
+                
+                        <h3>Sync Bank Account<span class="h3span"></span></h3>
+
+                        <div class="stepbox">
+                            <p class="steps">Step <span class="currentstep">3</span>/4</p>
+                        </div>
+                    </div>
+
+                    <div class="bvn-acct-inputBox">
+                        <form action="/action_page.php">
+                            <label for="bvn" class="inputLabel"
+                            >Bank Verification Number</label>
+                            <input
+                            type="number"
+                            id="bvn"
+                            name="bvn"
+                            placeholder="Eg. 0000000000"
+                            size="10"
+                            />
+
+                            <div class="why">
+                                <a href="" class="Alink-why">
+                                     <img src="images icons/Group.svg" alt="" srcset="" class="whyiconimg"> 
+                                     <p class="pwhy">Why we ask for your BVN?</p>
+                                </a>
+                            </div>
+                            <label for="bank" class="bankLabel">Currency Preference</label>
+                            <select id="bankinput" name="bank" title="bank name">
+                                <div class="optioncontent">
+                                    <option value="Choose bank" style="text-align: left;">Choose Bank</option>
+                                    <option value="access">
+                                        <div>
+                                            <img src="images icons/555526 1 (10).png" alt="" srcset="" width="auto" height="auto" class="banklogo">
+                                            <p class="banktxt">Access Bank</p>
+                                        </div>
+                                    </option>
+
+                                    <option value="Union"> <span class="bankimg"> <img src="images icons/555526 1 (11).png" alt="" srcset="" width="auto" height="auto" class="banklogo"></span>Union Bank</option>
+
+                                    <option value="United Bank of Africa"> <span class="bankimg"> <img src="images icons/555526 1 (12).png" alt="" srcset="" width="auto" height="auto" class="banklogo"></span>United Bank of Africa</option>
+
+                                    <option value="Standard Chartered"> <span class="bankimg"> <img src="images icons/555526 1 (13).png" alt="" srcset="" width="auto" height="auto" class="banklogo"></span>Standard Chartered</option>
+
+                                    <option value="Zenith Bank"> <span class="bankimg"> <img src="images icons/555526 1 (14).png" alt="" srcset="" width="auto" height="auto" class="banklogo"></span>Zenith Bank</option>
+
+                                    <option value="GTBank"> <span class="bankimg"> <img src="images icons/555526 1 (15).png" alt="" srcset="" width="auto" height="auto" class="banklogo"></span>GTBank</option>
+                                </div> 
+                            </select>
+
+                            <label for="acctno" class="inputLabel"
+                            >Account Number</label>
+                            <input
+                            type="number"
+                            id="acctno"
+                            name="account number"
+                            placeholder="Eg. 0000000000"
+                            size="10"
+                            />
+
+                            <div class="buttons">
+                                <button type="button" class="skipButton" href="#">
+                                    Skip
+                                </button>
+
+                                <button type="submit" class="proceedButton" href="#">
+                                    Proceed <span class="proceedarrow"><img src="images icons/ion_arrow-forward.png" alt="" srcset="" width="auto" height="auto" class="arrowforward"></span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="img-sect">
+            <img src="images icons/Rectangle 64 (1).png" class="img-sect-img" alt="account creation image" srcset="" width="auto" height="auto">
+        </div>
+    </section>  
+    <script src="createaccount3-script.js"></script>
+</body>
+</html>
