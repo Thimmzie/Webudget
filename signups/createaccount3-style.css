@@ -182,7 +182,7 @@ h3 {
 .why {
     margin-top: -3vh;
     margin-bottom: 2.3vh;
-    width: 9.8vw;
+    width: 23.6vw;
 }
 
 a.Alink-why:link, a.Alink-why:visited {
@@ -190,7 +190,6 @@ a.Alink-why:link, a.Alink-why:visited {
     font-size: 2.2vh;
     color: black;
     display: flex;
-    justify-content: space-between;
 }
 
 a.Alink-why:hover, .whyiconimg:hover {
@@ -202,8 +201,15 @@ a.Alink-why:active, .whyiconimg:active {
 }
 
 .pwhy {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.4vh;
+    padding-left: 0.5vw;
+}
+
+#pwhy2 {
+    font-weight: 400;
+    font-size: 1.2vh;
+    display: none;
 }
 
 .whyicon {
