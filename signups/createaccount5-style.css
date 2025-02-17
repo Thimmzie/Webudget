@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", serif;
+    background: linear-gradient(rgb(231, 231, 231), rgb(200, 200, 200));
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shape-n-form { 
+    width: 63vw;
+    height: auto;
+    background: linear-gradient(rgb(231, 231, 231), rgb(200, 200, 200));
+    z-index: 0;
+    position: relative;
+}
+
+.shape-sect {
+    height: 20vh; /* adjust to cover the edges */
+    width: 10vw; /* adjust to cover the edges */
+    position: absolute;
+    z-index: 1;
+}
+
+.shape1 {
+    width: 9vw;
+    height: 17vh;
+    z-index: 0;
+    position: absolute;
+    left: 0vw;
+}
+
+.s1 {
+    height: 33vh;
+}
+
+.form-sect {
+    margin: auto;
+    width: 50.5vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 4;
+    margin-top: 7vh;
+}
+
+.form-sectA {
+    width: 50vw;
+    height: 85vh;
+    background-color: white;
+    border-radius: 3vh;
+    padding-top: 7vh;
+    z-index: 4;
+}
+
+.create-row {
+    width: 35vw;
+    height: 6.5vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrowback {
+    height: 4vh;
+    margin-top: 1vh;
+}
+
+a.Alink-backhome:link, a.Alink-backhome:visited {
+    height: 5vh;
+    cursor: pointer;
+}
+
+a.Alink-backhome:hover, a.Alink-backhome:active {
+    height: 5vh;
+}
+
+h3 {
+    font-size: 4vh;
+    font-weight: 500;
+    color: black;
+    margin-left: -4vw;
+}
+
+.h3span {
+    font-size: 4vh;
+    font-weight: 500;
+    color: black;
+}
+
+.stepbox {
+    border: 1px solid #6f42c1;
+    display: inline-block;
+    height: 6vh;
+    width: 6.5vw;
+    padding: 1.5vh;
+    border-radius: 10px;
+}
+
+.steps {
+    font-size: 2vh;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+
+.currentstep {
+    font-size: 2vh;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+
+.txt-add-inputBox {
+    display: flex;
+    flex-direction: column;
+    width: 37vw;
+    height: 57vh;
+    margin: auto;
+    margin-top: 5vh;
+    padding: 0.5vw;
+    justify-content: space-between;
+}
+
+.txt {
+    height: 14vh;
+}
+
+.txtpara {
+    font-size: 2.1vh;
+    color: black;
+    text-align: center;
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+    height: 18vh;
+    width: 20vw;
+    margin-top: 2vh;
+}
+
+.addicon {
+    height: 16vh;
+}
+
+a.Alink-add:link, a.Alink-add:visited {
+    margin-top:0vh;
+}
+
+a.Alink-add:hover, a.Alink-add:active {
+    margin-top: 0vh;
+}
+
+.buttons {
+    display: flex;
+    width: 35vw;
+    height: 9vh;
+    justify-content: space-between;
+    margin-top: 4vh;
+}
+
+.skipButton {
+    background: none;
+    color: black;
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "Poppins", serif;
+    font-size: 2.4vh;
+    border: 1px solid #6f42c1;
+    border-radius: 8px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0vh;
+    cursor: pointer;
+}
+  
+.skipButton:hover {
+    background-color: black;
+    color: white;
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.4vh;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    margin-top: 0vh;
+    transition: 0.3s ease-in;
+}
+
+.proceedButton {
+    background-color: #6f42c1;
+    color: white;
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "Poppins", serif;
+    font-size: 2.4vh;
+    border-radius: 8px;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    margin-top: 0vh;
+    cursor: pointer;
+}
+  
+.proceedButton:hover {
+    background-color: #5d37a1;
+    color: white;
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.4vh;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    border-radius: 8px;
+    margin-top: 0vh;
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+.proceedarrow {
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+.arrowforward {
+    height: 3vh;
+}
+
+.img-sect {
+    z-index: 2;
+    width: 37vw;
+    height: 90vh;
+}
+
+.img-sect-img {
+    height: 95vh;
+    object-fit: cover;
+    object-position: 100% 40%;
+}

@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", serif;
+    background: linear-gradient(rgb(231, 231, 231), rgb(200, 200, 200));
+}
+
+section {
+    height: 190vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.Alink-backhome:link, a.Alink-backhome:visited {
+    height: 5vh;
+}
+
+a.Alink-backhome:hover, a.Alink-backhome:active {
+    height: 5vh;
+}
+
+.shape-n-form { 
+    width: 100vw;
+    height: auto;
+    background: linear-gradient(rgb(231, 231, 231), rgb(200, 200, 200));
+    z-index: 0;
+    position: relative;
+}
+
+.shape-sect {
+    height: 190vh; /* adjust to cover the edges */
+    width: 98.8vw; /* adjust to cover the edges */
+    position: absolute;
+    z-index: 1;
+}
+
+.shape1 {
+    width: 20vw;
+    height: 40vh;
+    z-index: 0;
+    position: absolute;
+}
+
+.s1 {
+    height: 36vh;
+}
+
+.shape2 {
+    width: 29vw;
+    height: 35vh;
+    z-index: 1;
+    position: absolute;
+    left: 7vw;
+    bottom: 0vh;
+}
+
+.s2 {
+    height: 35vh;
+    margin-bottom: -4vh;
+}
+
+.shape3 {
+    width: 15.6vw;
+    height: 50vh;
+    z-index: 1;
+    position: absolute;
+    bottom: 0vh;
+    right: 0;
+}
+
+.s3 {
+    height: 50vh;
+}
+
+.form-sect {
+    margin: auto;
+    width: 50.5vw;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 4;
+    margin-top: 7vh;
+}
+
+.form-sectA {
+    width: 50vw;
+    height: 175vh;
+    background-color: white;
+    border-radius: 3vh;
+    padding-top: 7vh;
+    z-index: 4;
+}
+
+.create-row {
+    width: 22vw;
+    height: 6.5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.6vw;
+}
+
+.arrowback {
+    height: 4vh;
+    margin-top: 1vh;
+}
+
+a.Alink-backhome:link, a.Alink-backhome:visited {
+    height: 5vh;
+    cursor: pointer;
+}
+
+a.Alink-backhome:hover, a.Alink-backhome:active {
+    height: 5vh;
+}
+
+h3 {
+    font-size: 4vh;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+}
+
+.h3span {
+    font-size: 4vh;
+    font-weight: 500;
+    color: black;
+}
+
+.txt-inputBox {
+    display: flex;
+    flex-direction: column;
+    width: 37vw;
+    height: 150vh;
+    margin: auto;
+    margin-top: 5vh;
+    padding: 0.5vw;
+    justify-content: space-between;
+}
+
+.txt {
+    height: 146vh;
+}
+
+.txtpara {
+    font-size: 2vh;
+    color: black;
+    text-align: left;
+    font-weight: 300;
+}
+
+.txthead {
+    font-size: 2vh;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+}
+
+a.Alink-privacy:link, a.Alink-privacy:visited {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+a.Alink-privacy:hover, a.Alink-privacy:active {
+    color: #5d37a1;
+    font-weight: 600;
+}
+
+.proceedButton {
+    background-color: #6f42c1;
+    color: white;
+    width: 35vw;
+    height: 8vh;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "Poppins", serif;
+    font-size: 2.4vh;
+    border-radius: 8px;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    border: none;
+    margin-top: 8vh;
+    cursor: pointer;
+}
+  
+.proceedButton:hover {
+    background-color: #5d37a1;
+    color: white;
+    width: 35vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.4vh;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 8vh;
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+.proceedarrow {
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+.arrowforward {
+    height: 3vh;
+}
