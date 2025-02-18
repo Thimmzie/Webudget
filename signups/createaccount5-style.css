@@ -173,7 +173,7 @@ a.Alink-add:hover, a.Alink-add:active {
     margin-top: 4vh;
 }
 
-.skipButton {
+a.Alink-skipButton:link, a.Alink-skipButton:visited {
     background: none;
     color: black;
     width: 13vw;
@@ -193,7 +193,7 @@ a.Alink-add:hover, a.Alink-add:active {
     cursor: pointer;
 }
   
-.skipButton:hover {
+a.Alink-skipButton:hover, a.Alink-skipButton:active {
     background-color: black;
     color: white;
     width: 13vw;
@@ -212,7 +212,7 @@ a.Alink-add:hover, a.Alink-add:active {
     transition: 0.3s ease-in;
 }
 
-.proceedButton {
+a.Alink-proceedButton:link, a.Alink-proceedButton:visited {
     background-color: #6f42c1;
     color: white;
     width: 13vw;
@@ -232,7 +232,7 @@ a.Alink-add:hover, a.Alink-add:active {
     cursor: pointer;
 }
   
-.proceedButton:hover {
+a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
     background-color: #5d37a1;
     color: white;
     width: 13vw;

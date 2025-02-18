@@ -274,7 +274,8 @@ option {
     margin-top: 10vh;
 }
 
-.skipButton {
+
+a.Alink-skipButton:link, a.Alink-skipButton:visited {
     background: none;
     color: black;
     width: 13vw;
@@ -294,7 +295,7 @@ option {
     cursor: pointer;
 }
   
-.skipButton:hover {
+a.Alink-skipButton:hover, a.Alink-skipButton:active {
     background-color: black;
     color: white;
     width: 13vw;
