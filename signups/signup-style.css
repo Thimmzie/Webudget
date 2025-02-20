@@ -294,10 +294,338 @@ h3 {
     justify-content: space-between;
 }
 
+/*
 .google, .facebook, .twitter {
 
-}
+} */
 
 .logo {
     height: 11vh;
 }
+
+
+/* Tablet screen */
+
+@media (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        font-family: "Poppins", serif;
+        background: linear-gradient(rgb(231, 231, 231), rgb(200, 200, 200));
+    }
+    
+    section {
+        height: 100vh;
+        background-image: url("images\ icons/Rectangle_64");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: 100%;
+        background-position-y: 100%;
+        background-size: 100%;
+        background-origin: padding-box;
+        z-index: 0;
+        object-fit: cover;
+        object-position: 100% 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .img-sect {
+       width: 98vw;
+    }
+    
+    .img-sect-img {
+        height: 79vh;
+        width: 98vw;
+    }
+    
+    .img-sect-x {
+        position: absolute;
+        height: 5vh;
+        left: 1vw;
+        top: 1vw;
+    }
+    
+    a.Alink-backhome:link, a.Alink-backhome:visited {
+        height: 5vh;
+    }
+    
+    a.Alink-backhome:hover, a.Alink-backhome:active {
+        height: 5vh;
+    }
+    
+    .shape-n-form {
+        width: 100vw;
+        height: 100vh;
+        background: none;
+        z-index: 2;
+        position: relative;
+        margin: auto;
+        margin-top: -80vh;
+    }
+    
+    .shape-sect {
+        height: 100vh; /* adjust to cover the edges */
+        width: 99.5vw; /* adjust to cover the edges */
+        position: absolute;
+        z-index: 2;
+        margin: auto;
+    }
+    
+    .shape1 {
+        width: auto;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        right: 0vw;
+    }
+    
+    .s1 {
+        height: 11vh;
+    }
+    
+    .shape2 {
+        width: auto;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        bottom: 0vh;
+        left: -15vw;
+    }
+    
+    .s2 {
+        height: 12vh;
+    }
+    
+    .shape3 {
+        width: auto;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        bottom: 0vh;
+        right: 0;
+    }
+    
+    .s3 {
+        height: 10vh;
+    }
+    
+    .form-sect {
+        width: 70vw;
+        height: 88vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 3;
+        margin-top: 7vh;
+    }
+    
+    .form-sectA {
+        width: 60vw;
+        height: 46vh;
+        background-color: white;
+        border-radius: 3vh;
+        padding-top: 3vh;
+        z-index: 4;
+        margin: auto;
+        margin-top: 13vh;
+    }
+    
+    h3 {
+        font-size: 2.3vh;
+        font-weight: 500;
+        margin-left: 7.5vw;
+        color: black;
+    }
+    
+    .h3span {
+        font-size: 2.3vh;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .email-pword-inputBox {
+        display: flex;
+        flex-direction: column;
+        width: 45vw;
+        height: 34vh;
+        margin: auto;
+        margin-top: 3vh;
+        padding: 0.5vw;
+        justify-content: space-between;
+    }
+    
+    .inputLabel {
+        width: 5vw;
+        display: inline;
+        font-size: 1.3vh;
+        font-weight: 500;
+    }
+      
+    #email, #password {
+        width: 44vw;
+        height: 4vh;
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        padding-left: 1vw;
+        border: 1px solid #a0a0a0;
+        display: block;
+        margin-bottom: 3vh;
+    }
+    
+    #email::placeholder, #password::placeholder {
+        color: #757575;
+        font-family: "Poppins", serif;
+        font-size: 1.2vh;
+    }
+    
+    #email:focus, #password:focus {
+        border: 2px solid #8762cb;
+    }
+    
+    #remember {
+        display: inline-block;
+        margin-bottom: 2.5vh;
+    }
+    
+    .remlabel {
+        font-size: 1.3vh;
+        font-weight: 500;
+    }
+    
+    .submitButton {
+        background-color: #6f42c1;
+        color: white;
+        width: 44vw;
+        height: 4vh;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-family: "Poppins", serif;
+        font-size: 1.5vh;
+        border-radius: 10px;
+        font-weight: 400;
+        font-style: normal;
+        margin: auto;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .submitButton:hover {
+        background-color: #5d37a1;
+        color: white;
+        width: 35vw;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.5vh;
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        border-radius: 10px;
+        margin: auto;
+        border: none;
+        transition: 0.3s ease-in;
+      }
+    
+      .forgot {
+        text-align: center;
+        color: black;
+        font-size: 1.3vh;
+        font-weight: 400;
+      }
+    
+      a.forgot-link:link, a.forgot-link:visited {
+        text-decoration: underline;
+        color: black;
+        font-size: 1.3vh;
+        text-align: center;
+      }
+    
+      a.forgot-link:hover, a.forgot-link:active {
+        color: #6940b5;
+        font-weight: 500;
+        text-decoration: none;
+      }
+    
+      .createacct {
+        font-size: 1.3vh;
+        color: black;
+        text-align: center;
+      }
+    
+      a.createacct-link:link, a.createacct-link:visited {
+        text-decoration: underline;
+        color: black;
+        font-size: 1.3vh;
+        font-weight: 600;
+      }
+    
+      a.createacct-link:hover, a.createacct-link:visited {
+        text-decoration: none;
+        color: #47297e;
+        font-size: 1.3vh;
+        font-weight: 400;
+      }
+    
+    .form-sectB {
+        height: 14vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 4;
+    }
+    
+    .orsign {
+        height: 4vh;
+        width: 64vw;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .line {
+       width: 20vw;
+    }
+    
+    .fsB-text {
+        color: black;
+        font-size: 1.5vh;
+        font-weight: 400;
+    }
+    
+    .logosign {
+        height: 7vh;
+        width: 40vw;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    /*
+    .google, .facebook, .twitter {
+    
+    } */
+    
+    .logo {
+        height: 6vh;
+    }
+    
+}
+
+/* Mobile screen */
+
+@media (max-width: 600px) { }
