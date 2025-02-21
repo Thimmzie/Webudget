@@ -36,11 +36,11 @@ html {
 }
 #site-logo {
   margin-left: 1rem;
-  width: 50vw;
+  width: 40vw;
   margin-top: 2rem;
 }
 .menu {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: rgb(114, 113, 113);
   padding-top: 3rem;
   padding-left: 2rem;
@@ -50,7 +50,7 @@ html {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   margin-top: 3rem;
   padding-left: 2rem;
 }
@@ -59,7 +59,7 @@ html {
 }
 .dashboard-menu a {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   color: rgb(100, 100, 100);
 }
 .original {
@@ -81,7 +81,7 @@ html {
   color: rgb(247, 245, 245);
 }
 #menu-icon {
-  width: 10vw;
+  width: 5vw;
 }
 
 .header-menu {
@@ -99,23 +99,24 @@ html {
   -webkit-transition: all 0.3s ease-in-out;
 }
 .hamburger.active {
-  margin-left: 27rem;
+  margin-left: 28rem;
   position: fixed;
-  margin-top: -1rem;
+  margin-top: -0.2rem;
   background-color: rgb(159, 129, 214);
   color: rgb(255, 255, 255);
+  padding: 0.1rem;
 }
 .hamburger.active #burger:nth-child(2) {
   opacity: 0;
 }
 .hamburger.active #burger:nth-child(1) {
   transform: translateY(12px) rotate(45deg);
-  width: 3rem;
+  width: 2rem;
   background-color: rgb(255, 255, 255);
 }
 .hamburger.active #burger:nth-child(3) {
   transform: translateY(-12px) rotate(-45deg);
-  width: 3rem;
+  width: 2rem;
   background-color: rgb(255, 255, 255);
 }
 .burger-span-one {
