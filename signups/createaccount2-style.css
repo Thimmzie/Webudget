@@ -310,3 +310,653 @@ option {
     object-fit: cover;
     object-position: 100% 40%;
 }
+
+/* Tablet screen */
+
+@media (max-width: 1024px), (max-width: 820px), (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        font-family: "Poppins", serif;
+        background: linear-gradient(rgb(231, 231, 231), rgb(200, 200, 200));
+    }
+    
+    section {
+        height: 100vh;
+        justify-content: space-between;
+        background-image: url("images\ icons/Rectangle_64 (1)");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: 100%;
+        background-position-y: 100%;
+        background-size: 100%;
+        background-origin: padding-box;
+        z-index: 0;
+        object-fit: cover;
+        object-position: 100% 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .shape-n-form { 
+        height: 100vh;
+        width: 100vw;
+        background: none;
+        z-index: 2;
+        position: relative;
+        margin: auto;
+        margin-top: 0vh;
+    }
+    
+    .shape-sect {
+        height: 15vh;
+        width: 99vw;
+        position: absolute;
+        z-index: 0;
+    }
+    
+    .shape1 {
+        width: 9vw;
+        height: 15vh;
+        z-index: 0;
+        position: absolute;
+        left: 0vw;
+    }
+    
+    .s1 {
+        height: 13vh;
+    }
+    
+    .form-sect {
+        margin: auto;
+        width: 64vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 4;
+        margin-top: 5vh; /* adjust */
+    }
+    
+    .form-sectA {
+        width: 60vw;
+        height: 74vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 3vh;
+        padding-top: 3vh;
+        z-index: 4;
+        margin: auto;
+    }
+    
+    .create-row {
+        width: 45vw;
+        height: 4.5vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .arrowback {
+        height: 2.1vh;
+        margin-top: 1vh;
+    }
+    
+    a.Alink-backhome:link, a.Alink-backhome:visited {
+        height: 5vh;
+        cursor: pointer;
+    }
+    
+    a.Alink-backhome:hover, a.Alink-backhome:active {
+        height: 5vh;
+    }
+    
+    h3 {
+        font-size: 1.6vh;
+        font-weight: 500;
+        margin-left: -8vw;
+        color: black;
+        margin-top: 0.9vh;
+    }
+    
+    .h3span {
+        font-size: 1.6vh;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .stepbox {
+        border: 1px solid #6f42c1;
+        display: inline-block;
+        height: 3.7vh;
+        width: 12vw;
+        padding: 0.7vh;
+        border-radius: 10px;
+    }
+    
+    .steps {
+        font-size: 1.3vh;
+        color: black;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .currentstep {
+        font-size: 1.3vh;
+        color: black;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .name-occ-inputBox {
+        display: flex;
+        flex-direction: column;
+        width: 45vw;
+        height: 34vh;
+        margin: auto;
+        margin-top: 3vh;
+        padding: 0.5vw;
+        justify-content: space-between;
+    }
+    
+    .inputLabel, .countryLabel {
+        width: 5vw;
+        display: inline;
+        font-size: 1.3vh;
+        font-weight: 500;
+    }
+      
+    #fname, #occupation, #phone {
+        width: 44vw;
+        height: 4vh;
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        padding-left: 1.2vw;
+        padding-bottom: 0.8vh;
+        border: 1px solid #a0a0a0;
+        display: block;
+        margin-bottom: 3vh;
+    }
+    
+    #currency {
+        width: 44vw;
+        height: 4vh;
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        padding-left: 1.2vw;
+        padding-bottom: 0.3vh;
+        border: 1px solid #a0a0a0;
+        display: block;
+        margin-bottom: 3vh;
+        font-size: 1.2vh;
+    }
+    
+    option {
+        margin: auto;
+        border-radius: 5vh;
+        text-align: center;
+        color: black;
+        font-size: 1.3vh;
+        display: flex;
+        flex-direction: column;
+        width: 10vw;
+    }
+    
+    .currencyicon {
+        height: 2vh;
+    }
+    
+    
+    #income {
+        width: 44vw;
+        height: 5vh;
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        padding-left: 1.2vw;
+        padding-bottom: 1vh;
+        display: block;
+        margin-bottom: 3vh;
+        border: 1px solid #a0a0a0;
+    }
+    
+    #datemax {
+        width: 44vw;
+        height: 4vh;
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        padding-left: 1.2vw;
+        padding-bottom: 0.5vh;
+        display: block;
+        margin-bottom: 3vh;
+        border: 1px solid #a0a0a0;
+        font-size: 1.2vh;
+    }
+    
+    #fname::placeholder, #occupation::placeholder, #currency::placeholder, #phone::placeholder, #datemax::placeholder {
+        color: #757575;
+        font-family: "Poppins", serif;
+        font-size: 1.2vh;
+    }
+    
+    #income::placeholder {
+        color: #757575;
+        font-family: "Poppins", serif;
+        font-size: 2vh;
+    }
+    
+    #fname:focus, #occupation:focus, #currency:focus, #phone:focus, #datemax:focus {
+        border: 2px solid #8762cb;
+    }
+    
+    #income:focus {
+        font-size: 1.2vh;
+    }
+    
+    .currimg {
+        display: inline;
+    }
+    
+    .flag {
+        height: 1vh;
+    }
+    
+    .proceedButton {
+        background-color: #6f42c1;
+        color: white;
+        width: 44vw;
+        height: 4vh;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-family: "Poppins", serif;
+        font-size: 1.5vh;
+        border-radius: 10px;
+        font-weight: 400;
+        font-style: normal;
+        margin: auto;
+        border: none;
+        cursor: pointer;
+        margin-top: 3vh;
+    }
+      
+    .proceedButton:hover {
+        background-color: #5d37a1;
+        color: white;
+        width: 35vw;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.5vh;
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        border-radius: 10px;
+        margin: auto;
+        border: none;
+        margin-top: 3vh;
+        transition: 0.3s ease-in;
+    }
+    
+    .proceedarrow {
+        margin-top: 0.5vh;
+        margin-left: 1vw;
+    }
+    
+    .arrowforward {
+        height: 2vh;
+    }
+    
+    .img-sect {
+        z-index: 0;
+        width: 80vw;
+        height: 92vh;
+        margin: auto;
+        margin-left: 10vw;
+        margin-top: -120vh;
+    }
+    
+    .img-sect-img {
+        height: 90vh;
+    }
+    
+}
+
+/* Mobile screen */
+
+@media (max-width: 600px), (max-width: 412px), (max-width: 390px), (max-width: 375px), (max-width: 360px) { 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        font-family: "Poppins", serif;
+        background: linear-gradient(rgb(231, 231, 231), rgb(200, 200, 200));
+    }
+    
+    section {
+        height: 100vh;
+        justify-content: space-between;
+        background-image: url("images\ icons/Rectangle_64 (1)");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: 100%;
+        background-position-y: 100%;
+        background-size: 100%;
+        background-origin: padding-box;
+        z-index: 0;
+        object-fit: cover;
+        object-position: 100% 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .shape-n-form { 
+        height: 100vh;
+        width: 100vw;
+        background: none;
+        z-index: 2;
+        position: relative;
+        margin: auto;
+        margin-top: 0vh;
+    }
+    
+    .shape-sect {
+        height: 15vh;
+        width: 99vw;
+        position: absolute;
+        z-index: 0;
+    }
+    
+    .shape1 {
+        width: 9vw;
+        height: 15vh;
+        z-index: 0;
+        position: absolute;
+        left: 0vw;
+    }
+    
+    .s1 {
+        height: 13vh;
+    }
+    
+    .form-sect {
+        margin: auto;
+        width: 64vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 4;
+        margin-top: 5vh; /* adjust */
+    }
+    
+    .form-sectA {
+        width: 60vw;
+        height: 76vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 3vh;
+        padding-top: 3vh;
+        z-index: 4;
+        margin: auto;
+    }
+    
+    .create-row {
+        width: 45vw;
+        height: 4.5vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .arrowback {
+        height: 2.1vh;
+        margin-top: 1vh;
+    }
+    
+    a.Alink-backhome:link, a.Alink-backhome:visited {
+        height: 5vh;
+        cursor: pointer;
+    }
+    
+    a.Alink-backhome:hover, a.Alink-backhome:active {
+        height: 5vh;
+    }
+    
+    h3 {
+        font-size: 1.6vh;
+        font-weight: 500;
+        margin-left: -2vw;
+        color: black;
+        margin-top: 0.9vh;
+    }
+    
+    .h3span {
+        font-size: 1.6vh;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .stepbox {
+        border: 1px solid #6f42c1;
+        display: inline-block;
+        height: 3.7vh;
+        width: 13vw;
+        padding: 0.7vh;
+        border-radius: 10px;
+    }
+    
+    .steps {
+        font-size: 1.1vh;
+        color: black;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .currentstep {
+        font-size: 1.3vh;
+        color: black;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .name-occ-inputBox {
+        display: flex;
+        flex-direction: column;
+        width: 45vw;
+        height: 34vh;
+        margin: auto;
+        margin-top: 3vh;
+        padding: 0.5vw;
+        justify-content: space-between;
+    }
+    
+    .inputLabel, .countryLabel {
+        width: 5vw;
+        display: inline;
+        font-size: 1.3vh;
+        font-weight: 500;
+    }
+      
+    #fname, #occupation, #phone {
+        width: 45vw;
+        height: 4vh;
+        background-color: white;
+        margin: auto;
+        border-radius: 8px;
+        padding-left: 1.2vw;
+        padding-bottom: 0.8vh;
+        border: 1px solid #a0a0a0;
+        display: block;
+        margin-bottom: 3vh;
+    }
+    
+    #currency {
+        width: 34vw;
+        height: 4vh;
+        background-color: white;
+        margin-left: 0vw;
+        border-radius: 8px;
+        padding-left: 1.2vw;
+        border: 1px solid #a0a0a0;
+        display: block;
+        margin-bottom: 3vh;
+        font-size: 1.1vh;
+    }
+    
+    option {
+        margin: auto;
+        border-radius: 5vh;
+        text-align: center;
+        color: black;
+        font-size: 1.3vh;
+        display: flex;
+        flex-direction: column;
+        width: 10vw;
+    }
+    
+    .currencyicon {
+        height: 2vh;
+    }
+    
+    
+    #income {
+        width: 44vw;
+        height: 5vh;
+        background-color: white;
+        margin: auto;
+        border-radius: 8px;
+        padding-left: 5vw;
+        padding-bottom: 0.2vh;
+        display: block;
+        margin-bottom: 3vh;
+        border: 1px solid #a0a0a0;
+        font-size: 2vh;
+    }
+    
+    #datemax {
+        width: 44vw;
+        height: 4vh;
+        background-color: white;
+        margin: auto;
+        border-radius: 8px;
+        padding-left: 1.2vw;
+        padding-bottom: 0.4vh;
+        display: block;
+        margin-bottom: 3vh;
+        border: 1px solid #a0a0a0;
+        font-size: 1.1vh;
+    }
+    
+    #fname::placeholder, #occupation::placeholder, #currency::placeholder, #phone::placeholder, #datemax::placeholder {
+        color: #757575;
+        font-family: "Poppins", serif;
+        font-size: 1.1vh;
+    }
+    
+    #income::placeholder {
+        color: #757575;
+        font-family: "Poppins", serif;
+        font-size: 2vh;
+    }
+    
+    #fname:focus, #occupation:focus, #currency:focus, #phone:focus, #datemax:focus {
+        border: 2px solid #8762cb;
+    }
+    
+    #income:focus {
+        font-size: 2vh;
+        border: 2px solid #8762cb;
+    }
+    
+    .currimg {
+        display: inline;
+    }
+    
+    .flag {
+        height: 1vh;
+    }
+    
+    .proceedButton {
+        background-color: #6f42c1;
+        color: white;
+        width: 44vw;
+        height: 4vh;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-family: "Poppins", serif;
+        font-size: 1.5vh;
+        border-radius: 8px;
+        font-weight: 400;
+        font-style: normal;
+        margin: auto;
+        border: none;
+        cursor: pointer;
+        margin-top: 3vh;
+    }
+      
+    .proceedButton:hover {
+        background-color: #5d37a1;
+        color: white;
+        width: 35vw;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.5vh;
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        border-radius: 10px;
+        margin: auto;
+        border: none;
+        margin-top: 3vh;
+        transition: 0.3s ease-in;
+    }
+    
+    .proceedarrow {
+        margin-top: 1vh;
+        margin-left: 1vw;
+    }
+    
+    .arrowforward {
+        height: 2vh;
+    }
+    
+    .img-sect {
+        z-index: 0;
+        width: 80vw;
+        height: 92vh;
+        margin: auto;
+        margin-left: 10vw;
+        margin-top: -120vh;
+    }
+    
+    .img-sect-img {
+        height: 90vh;
+    }
+}
