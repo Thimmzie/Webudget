@@ -37,7 +37,10 @@ html {
 #site-logo {
   margin-left: 1rem;
   width: 40vw;
-  margin-top: 2rem;
+  margin-top: 5rem;
+}
+.desktop-avatar {
+  display: none;
 }
 .menu {
   font-size: 1.4rem;
@@ -75,7 +78,7 @@ html {
   padding-bottom: 1.5rem;
   margin-left: -1rem;
   padding-left: 1rem;
-  width: 80%;
+  width: 50%;
 }
 #link-abstract {
   color: rgb(247, 245, 245);
@@ -83,7 +86,6 @@ html {
 #menu-icon {
   width: 5vw;
 }
-
 .header-menu {
   display: flex;
   padding: 2.5rem 1.3rem;
@@ -99,7 +101,7 @@ html {
   -webkit-transition: all 0.3s ease-in-out;
 }
 .hamburger.active {
-  margin-left: 28rem;
+  margin-left: 30rem;
   position: fixed;
   margin-top: -0.2rem;
   background-color: rgb(159, 129, 214);
@@ -218,6 +220,9 @@ html {
   border-radius: 40rem;
   width: 13vw;
 }
+.desktop-graph {
+  display: none;
+}
 .bill-share-box {
   height: 123vh;
   width: 100%;
@@ -237,6 +242,7 @@ html {
   font-weight: 400;
   overflow-y: hidden;
   height: 10vh;
+  padding-left: 3.5rem;
 }
 .bill-info {
   display: flex;
@@ -449,7 +455,7 @@ html {
   color: rgb(73, 73, 73);
 }
 .savings-item {
-  height: 220vh;
+  height: 265vh;
   margin-top: 4rem;
   display: flex;
   flex-direction: column;
@@ -1062,11 +1068,11 @@ html {
   }
   #site-logo {
     margin-left: 1rem;
-    width: 30vw;
-    margin-top: 2rem;
+    width: 20vw;
+    margin-top: 5rem;
   }
   .menu {
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     color: rgb(114, 113, 113);
     padding-top: 1.5rem;
     padding-left: 2rem;
@@ -1076,7 +1082,7 @@ html {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 3.9rem;
+    gap: 2.5rem;
     margin-top: 2rem;
     padding-left: 2rem;
   }
@@ -1085,7 +1091,7 @@ html {
   }
   .dashboard-menu a {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: rgb(100, 100, 100);
   }
   .original {
@@ -1101,13 +1107,13 @@ html {
     padding-bottom: 2rem;
     margin-left: -1rem;
     padding-left: 1rem;
-    width: 65%;
+    width: 60%;
   }
   #link-abstract {
     color: rgb(247, 245, 245);
   }
   #menu-icon {
-    width: 4.5vw;
+    width: 2.8vw;
   }
 
   .header-menu {
@@ -1116,7 +1122,7 @@ html {
   }
   .hamburger {
     background-color: rgb(255, 255, 255);
-    padding: 1.2rem;
+    padding: 0.5rem;
     border-radius: 50rem;
     box-shadow: 0px 3px 3px rgb(190, 190, 190);
     z-index: 1000;
@@ -1125,9 +1131,9 @@ html {
     -webkit-transition: all 0.3s ease-in-out;
   }
   .hamburger.active {
-    margin-left: 63rem;
+    margin-left: 70rem;
     position: fixed;
-    margin-top: 1rem;
+    margin-top: -0.5rem;
     background-color: rgb(159, 129, 214);
     color: rgb(255, 255, 255);
   }
@@ -1136,12 +1142,12 @@ html {
   }
   .hamburger.active #burger:nth-child(1) {
     transform: translateY(12px) rotate(45deg);
-    width: 3rem;
+    width: 2rem;
     background-color: rgb(255, 255, 255);
   }
   .hamburger.active #burger:nth-child(3) {
     transform: translateY(-12px) rotate(-45deg);
-    width: 3rem;
+    width: 2rem;
     background-color: rgb(255, 255, 255);
   }
   .burger-span-one {
@@ -1172,16 +1178,16 @@ html {
     background-color: rgb(111, 66, 193);
   }
   .menu-text-two {
-    margin-left: 2rem;
-    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 12rem;
   }
   .menu-text-two h3 {
     color: rgb(0, 0, 0);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
   }
   .menu-text-two p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-top: 0.5rem;
   }
   .mobile-search {
@@ -1192,20 +1198,19 @@ html {
     padding-left: 5rem;
     border: none;
     background: rgb(255, 255, 255);
-    height: 6.5vh;
-    width: 40vw;
-    padding-top: 0.7rem;
+    height: 5vh;
+    width: 35vw;
   }
   #gsearch::placeholder {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     color: rgb(128, 128, 128, 0.5);
   }
   .search-icon {
     color: rgb(120, 78, 197);
     position: relative;
     left: 5.7vh;
-    top: 1rem;
-    font-size: 3.3rem;
+    top: 0.5rem;
+    font-size: 2rem;
   }
   .search-bar {
     display: block;
@@ -1225,11 +1230,11 @@ html {
   }
   .tablet-chat {
     display: block;
-    margin-left: 0.5rem;
-    margin-top: -0.6rem;
+    margin-left: 2rem;
+    margin-top: -0.4rem;
   }
   #message-notif {
-    width: 8vw;
+    width: 5vw;
     border-radius: 20rem;
     padding: 1rem;
     background: rgb(255, 255, 255);
@@ -1242,13 +1247,14 @@ html {
   }
   .savings-container-one-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 0 0rem 3rem 0rem;
   }
   .savings-container-one-text h2 {
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 1.8rem;
     padding-top: 1rem;
+    margin-right: 19rem;
   }
   .calendar-img {
     margin-top: -1rem;
@@ -1258,13 +1264,15 @@ html {
     display: block;
     display: flex;
     background: rgb(255, 255, 255);
-    height: 8.5vh;
+    height: 6vh;
     border-radius: 1rem;
+    padding-right: 0.8rem;
+    margin-right: 2rem;
   }
   #months {
     padding: 1rem;
     border: none;
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     outline: none;
     font-family: "poppins", serif;
   }
@@ -1277,25 +1285,25 @@ html {
     background: rgb(255, 255, 255);
     display: flex;
     gap: 1rem;
-    height: 8.5;
+    height: 6vh;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 1.6rem;
     border-radius: 1rem;
-    padding-top: 1.5rem;
+    align-items: center;
   }
   .download-icon {
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgb(111, 66, 193);
   }
   .download-comm p {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
   }
   .solar-calendar-tablet-div {
-    margin-top: 2.1rem;
+    margin-top: 1rem;
     margin-left: 1.3rem;
   }
   #solar-calendar-tablet {
-    width: 4vw;
+    width: 3vw;
   }
   #solar-calendar {
     background-color: rgb(255, 255, 255);
@@ -1304,65 +1312,71 @@ html {
     width: 11vw;
   }
   .bill-share-box {
-    height: 123vh;
+    height: 70vh;
     width: 100%;
     border-radius: 1.5rem;
     background-color: rgb(255, 255, 255);
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2.5rem;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     border: solid 0.1rem rgb(209, 208, 208);
     box-shadow: 0px 3px 2px rgb(179, 178, 178);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   #bill-img {
-    width: 45vw;
+    width: 25vw;
   }
   .bill-share {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     color: rgb(117, 117, 117);
     font-weight: 400;
     overflow-y: hidden;
-    height: 10vh;
+    height: 15vh;
+    padding-left: 1rem;
   }
   .bill-info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    gap: 5rem;
   }
   .bill-info-slide-one {
     margin-top: 0.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 30vh;
+    height: 50vh;
     overflow-y: hidden;
   }
   .bill-info-saved {
-    margin-top: -16rem;
+    margin-top: -12rem;
   }
   .bill-info-saved p {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: rgb(100, 100, 100);
-    padding-left: 2.6rem;
+    padding-left: 4.5rem;
   }
   .bill-info-price {
     display: flex;
-    gap: 1.2rem;
-    padding-top: 0.5rem;
+    gap: 1rem;
+    padding-top: -2rem;
   }
   .bill-info-price p {
-    font-size: 2.9rem;
+    font-size: 1.7rem;
     color: rgb(56, 55, 55);
-    padding-left: 2.6rem;
+    padding-left: 4rem;
+    padding-top: rem;
   }
   .edit-img-div {
     width: 10vw;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
   #edit-img {
-    width: 3.3vw;
+    width: 2vw;
     cursor: pointer;
   }
   .bill-info-details {
@@ -1372,7 +1386,7 @@ html {
     gap: 3rem;
   }
   .total {
-    font-size: 1.85rem;
+    font-size: 1.3rem;
     color: rgb(14, 13, 13);
   }
   .total::before {
@@ -1383,7 +1397,7 @@ html {
     margin-right: 2rem;
   }
   .left {
-    font-size: 1.85rem;
+    font-size: 1.3rem;
     color: rgb(14, 13, 13);
   }
   .left::before {
@@ -1394,9 +1408,9 @@ html {
     margin-right: 2rem;
   }
   .savings-trend-box {
-    height: 53vh;
-    width: 92%;
-    margin-top: 10rem;
+    height: 60vh;
+    width: 49%;
+    margin-top: -0.5rem;
     background: rgb(255, 255, 255);
     border-radius: 1.3rem;
     border: solid 0.1rem rgb(209, 208, 208);
@@ -1408,10 +1422,10 @@ html {
     justify-content: space-between;
   }
   .save-trend-text {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
   .save-trend-fig {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     font-weight: 400;
     padding-top: 0.7rem;
   }
@@ -1419,7 +1433,7 @@ html {
     display: flex;
   }
   .text-edit-div {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-left: 0.7rem;
   }
   .trend-control {
@@ -1430,7 +1444,7 @@ html {
   .left-angle {
     color: rgb(111, 66, 193);
     padding: 0.3rem;
-    font-size: 2.3rem;
+    font-size: 2rem;
     border-radius: 40rem;
     border: solid 0.2rem rgb(111, 66, 193);
     cursor: pointer;
@@ -1441,7 +1455,7 @@ html {
   .right-angle {
     color: rgb(160, 160, 160);
     padding: 0.3rem;
-    font-size: 2.3rem;
+    font-size: 2rem;
     border-radius: 40rem;
     border: solid 0.2rem rgb(160, 160, 160);
     cursor: pointer;
@@ -1450,15 +1464,16 @@ html {
     transform: scale(0.96);
   }
   .trend-chart {
-    height: 28vh;
+    height: 33vh;
     margin-top: 10rem;
   }
   .bars {
     position: relative;
     width: 100%;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2.1rem;
     padding-top: 20rem;
   }
   .bar::after {
@@ -1466,7 +1481,7 @@ html {
     position: absolute;
     display: block;
     bottom: 20px;
-    width: 5vw;
+    width: 3.5vw;
     background: rgb(219, 207, 239);
     border-radius: 0.4rem;
   }
@@ -1494,33 +1509,37 @@ html {
   }
   .savings-menu {
     display: flex;
-    justify-content: space-between;
-    margin-top: 5rem;
+    justify-content: flex-start;
+    margin-top: 2rem;
     padding: 2rem 2rem;
     margin-bottom: 3rem;
   }
   .savings-menu-text p {
-    color: rgb(43, 42, 42);
-    font-size: 2.5rem;
+    color: rgba(17, 17, 17, 0.8);
+    font-size: 1.7rem;
+    margin-right: 20rem;
   }
   .savings-add {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    gap: 1rem;
     align-items: center;
     background: rgb(111, 66, 193);
-    border-radius: 0.8rem;
-    width: 18vw;
-    height: 7vh;
+    border-radius: 1rem;
+    width: 36vw;
+    height: 6.5vh;
     margin-top: -1rem;
     margin-left: 2rem;
   }
   .plus {
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: rgb(255, 255, 255);
   }
   .plus-text {
-    display: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
   }
   .savings-sub-menu {
     margin-top: 3rem;
@@ -1529,34 +1548,38 @@ html {
     gap: 2rem;
   }
   #filter {
-    width: 7vw;
+    width: 4vw;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   #sort {
-    width: 7vw;
+    width: 4vw;
   }
   .all {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     background: rgb(217, 217, 217);
     border-radius: 3rem;
     padding: 1.1rem 3rem;
   }
   .Personal {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     padding-top: 1.1rem;
     color: rgb(73, 73, 73);
   }
   .savings-item {
-    height: 250vh;
+    height: 85vh;
     margin-top: 4rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-left: 1.6rem;
   }
   .car {
     background: rgb(255, 255, 255);
-    width: 85%;
-    height: 45vh;
+    width: 31%;
+    height: 38vh;
     border-radius: 1rem;
     padding-top: 2rem;
     display: flex;
@@ -1565,48 +1588,48 @@ html {
   }
   .items-slide-one {
     display: flex;
-    gap: 4rem;
+    gap: 1.5rem;
   }
   .item-text-one {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .item-icon-text-div {
     display: flex;
     padding-top: 1rem;
   }
   .item-icon {
-    font-size: 2.8rem;
+    font-size: 1.4rem;
     color: rgb(54, 54, 54);
   }
   .item-icon-text-div p {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     padding-left: 0.7rem;
     padding-bottom: 0.4rem;
-    padding-top: 0.3rem;
+    padding-top: 0rem;
     color: rgb(36, 35, 35);
   }
   .saved-btn {
     background: rgb(111, 66, 193);
     color: rgb(221, 218, 218);
-    padding: 2.4rem 3.9rem;
+    padding: 1.5rem 4rem;
     border: none;
     border-radius: 0.8rem;
-    font-size: 2rem;
-    margin-top: 3rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
   }
   .view {
-    padding-top: 2rem;
-    font-size: 1.6rem;
+    padding-top: 1rem;
+    font-size: 1.4rem;
     cursor: pointer;
   }
   .progress {
-    font-size: 1.6rem;
-    padding-top: 2.8rem;
+    font-size: 1.4rem;
+    padding-top: 1rem;
     padding-right: 0.3rem;
   }
   .white-span {
     background: rgb(226, 217, 243);
-    width: 45vw;
+    width: 18vw;
     margin-left: 0.7rem;
     border-radius: 0.4rem;
     height: 1vh;
@@ -1614,7 +1637,1284 @@ html {
   }
   .purple-span {
     background: rgb(111, 66, 193);
+    width: 2vw;
+    height: 1vh;
+    border-radius: 0.4rem;
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .side-menu {
+    height: 105vh;
+    width: 20vw;
+    background: rgb(253, 250, 250);
+    padding: 1rem 1.5rem;
+    opacity: 1;
+    margin-top: -3rem;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+    z-index: 0;
+    display: block;
+    position: fixed;
+    transition: 0.3s;
+  }
+  .side-menu.active {
+    left: 0;
+    display: block;
+    opacity: 1;
+  }
+  #site-logo {
+    margin-left: 1rem;
     width: 10vw;
+    margin-top: 4rem;
+  }
+  .menu {
+    font-size: 1.1rem;
+    color: rgb(114, 113, 113);
+    padding-top: 1.8rem;
+    padding-left: 1rem;
+  }
+  .dashboard-menu ul {
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+  }
+  .menu-text {
+    margin-top: -0.5rem;
+  }
+  .menu-text-abstract {
+    margin-top: 0.1rem;
+  }
+  .dashboard-menu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(100, 100, 100);
+  }
+  .original {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    margin-left: -1rem;
+    padding-left: 1rem;
+    height: 7vh;
+    align-items: center;
+  }
+  .original:hover {
+    background: rgb(159, 129, 214);
+    border-radius: 0.8rem;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+  }
+  .original:hover * {
+    color: rgb(255, 255, 255);
+  }
+  .original:hover img {
+    filter: brightness(0) invert(1);
+  }
+  .original-abstract {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: rgb(159, 129, 214);
+    border-radius: 0.8rem;
+    height: 7.5vh;
+    margin-left: -1rem;
+    padding-left: 1rem;
+    width: 100%;
+    overflow-y: hidden;
+  }
+  #link-abstract {
+    color: rgb(247, 245, 245);
+  }
+  #menu-icon {
+    width: 1.5vw;
+  }
+  .main-page {
+    margin-left: 25rem;
+    display: inline-block;
+    overflow-x: hidden;
+  }
+  .header-menu {
+    display: flex;
+    padding: 2.5rem 1.3rem;
+  }
+  .hamburger {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    border-radius: 50rem;
+    box-shadow: 0px 3px 3px rgb(190, 190, 190);
+    z-index: 1000;
+    display: none;
+  }
+  #burger {
+    -webkit-transition: all 0.3s ease-in-out;
+  }
+  .hamburger.active {
+    margin-left: 70rem;
+    position: fixed;
+    margin-top: -0.5rem;
+    background-color: rgb(159, 129, 214);
+    color: rgb(255, 255, 255);
+  }
+  .hamburger.active #burger:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active #burger:nth-child(1) {
+    transform: translateY(12px) rotate(45deg);
+    width: 2rem;
+    background-color: rgb(255, 255, 255);
+  }
+  .hamburger.active #burger:nth-child(3) {
+    transform: translateY(-12px) rotate(-45deg);
+    width: 2rem;
+    background-color: rgb(255, 255, 255);
+  }
+  .burger-span-one {
+    display: block;
+    width: 1.8rem;
+    height: 0.2rem;
+    margin: 1rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-two {
+    display: block;
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 1rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-three {
+    display: block;
+    width: 1.5rem;
+    height: 0.2rem;
+    margin: 1rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .desktop-avatar {
+    display: block;
+  }
+  .menu-text-two {
+    margin-left: 1rem;
+    margin-right: 19rem;
+  }
+  .menu-text-two h3 {
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .menu-text-two p {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+  }
+  .mobile-search {
+    display: none;
+  }
+  #gsearch {
+    border-radius: 3rem;
+    padding-left: 5rem;
+    border: none;
+    background: rgb(255, 255, 255);
+    height: 5vh;
+    width: 35vw;
+  }
+  #gsearch::placeholder {
+    font-size: 1.5rem;
+    color: rgb(128, 128, 128, 0.5);
+  }
+  .search-icon {
+    color: rgb(120, 78, 197);
+    position: relative;
+    left: 5.7vh;
+    top: 0.5rem;
+    font-size: 2rem;
+  }
+  .search-bar {
+    display: block;
+    visibility: visible;
+  }
+  .mobile-search-icon {
+    color: rgb(120, 78, 197);
+    font-size: 4rem;
+    background: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 40rem;
+    cursor: pointer;
+  }
+  .mobile-search-icon:active {
+    transform: scale(0.96);
+    color: rgb(0, 0, 0);
+  }
+  .tablet-chat {
+    display: none;
+    margin-left: 2rem;
+    margin-top: -0.4rem;
+  }
+  #message-notif {
+    width: 5vw;
+    border-radius: 20rem;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+  }
+  .savings-container-one {
+    margin-top: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+  .savings-container-one-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0rem 3rem 0rem;
+  }
+  .savings-container-one-text h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    margin-right: 19rem;
+  }
+  .calendar-img {
+    margin-top: -1rem;
+    display: none;
+  }
+  .tablet-drop-down {
+    display: none;
+    display: none;
+    background: rgb(255, 255, 255);
+    height: 6vh;
+    border-radius: 1rem;
+    padding-right: 0.8rem;
+    margin-right: 2rem;
+  }
+  #months {
+    padding: 1rem;
+    border: none;
+    font-size: 1.6rem;
+    outline: none;
+    font-family: "poppins", serif;
+  }
+  #months option {
+    font-size: 1.3rem;
+    font-family: "poppins", serif;
+  }
+  .download-tablet {
+    display: none;
+    background: rgb(255, 255, 255);
+    display: none;
+    gap: 1rem;
+    height: 6vh;
+    padding-left: 1rem;
+    padding-right: 1.6rem;
+    border-radius: 1rem;
+    align-items: center;
+  }
+  .download-icon {
+    font-size: 2rem;
+    color: rgb(111, 66, 193);
+  }
+  .download-comm p {
+    font-size: 1.6rem;
+  }
+  .solar-calendar-tablet-div {
+    margin-top: 1rem;
+    margin-left: 1.3rem;
+  }
+  #solar-calendar-tablet {
+    width: 3vw;
+  }
+  #solar-calendar {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 40rem;
+    width: 11vw;
+  }
+  .desktop-graph {
+    display: block;
+  }
+  .bill-share-box {
+    height: 85vh;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border: solid 0.2rem rgb(209, 208, 208);
+    box-shadow: 0px 3px 3px rgb(179, 178, 178);
+    margin-bottom: 1rem;
+  }
+  #bill-img {
+    width: 15vw;
+  }
+  .bill-share {
+    font-size: 1.7rem;
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    overflow-y: hidden;
+    height: 15vh;
+    padding-left: 1rem;
+  }
+  .bill-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+  }
+  .bill-info-slide-one {
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    overflow-y: hidden;
+  }
+  .bill-info-saved {
+    margin-top: -13rem;
+  }
+  .bill-info-saved p {
+    font-size: 1.2rem;
+    color: rgb(100, 100, 100);
+    padding-left: 4rem;
+  }
+  .bill-info-price {
+    display: flex;
+    gap: 1rem;
+    padding-top: -2rem;
+  }
+  .bill-info-price p {
+    font-size: 1.5rem;
+    color: rgb(56, 55, 55);
+    padding-left: 5rem;
+    padding-top: rem;
+  }
+  .edit-img-div {
+    width: 5vw;
+    margin-top: 0.5rem;
+  }
+  #edit-img {
+    width: 1vw;
+    cursor: pointer;
+  }
+  .bill-info-details {
+    color: rgb(124, 94, 178);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .total {
+    font-size: 1.2rem;
+    color: rgb(14, 13, 13);
+  }
+  .total::before {
+    content: "";
+    background-color: rgb(124, 94, 178);
+    padding: 0.5rem;
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  .left {
+    font-size: 1.2rem;
+    color: rgb(14, 13, 13);
+  }
+  .left::before {
+    content: "";
+    background-color: rgb(124, 202, 141);
+    padding: 0.5rem;
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  .savings-trend-box {
+    height: 72vh;
+    width: 57%;
+    margin-top: -0.5rem;
+    background: rgb(255, 255, 255);
+    border-radius: 1.3rem;
+    border: solid 0.1rem rgb(209, 208, 208);
+    box-shadow: 0px 6px 2px rgb(179, 178, 178);
+    padding: 2.3rem 1.3rem 0rem 1.3rem;
+  }
+  .trend-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .save-trend-text {
+    font-size: 1.4rem;
+  }
+  .save-trend-fig {
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding-top: 0.7rem;
+  }
+  .text-edit {
+    display: flex;
+  }
+  .text-edit-div {
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+  }
+  .trend-control {
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 1.3rem;
+  }
+  .left-angle {
+    color: rgb(111, 66, 193);
+    padding: 0.3rem;
+    font-size: 2rem;
+    border-radius: 40rem;
+    border: solid 0.2rem rgb(111, 66, 193);
+    cursor: pointer;
+  }
+  .left-angle:active {
+    transform: scale(0.96);
+  }
+  .right-angle {
+    color: rgb(160, 160, 160);
+    padding: 0.3rem;
+    font-size: 2rem;
+    border-radius: 40rem;
+    border: solid 0.2rem rgb(160, 160, 160);
+    cursor: pointer;
+  }
+  .right-angle:active {
+    transform: scale(0.96);
+  }
+  .trend-chart {
+    height: 40vh;
+    margin-top: 10rem;
+  }
+  .bars {
+    position: relative;
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2.1rem;
+    padding-top: 20rem;
+  }
+  .bar::after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    width: 2.8vw;
+    background: rgb(219, 207, 239);
+    border-radius: 0.4rem;
+  }
+  .bar:nth-child(1)::after {
+    height: calc((363px / 100) * 15);
+  }
+  .bar:nth-child(2)::after {
+    height: calc((363px / 100) * 35);
+  }
+  .bar:nth-child(3)::after {
+    height: calc((363px / 100) * 27);
+  }
+  .bar:nth-child(4)::after {
+    height: calc((363px / 100) * 70);
+  }
+  .bar:nth-child(5)::after {
+    height: calc((363px / 100) * 45);
+  }
+  .bar:nth-child(6)::after {
+    height: calc((363px / 100) * 38);
+  }
+  .bar:nth-child(7)::after {
+    height: calc((363px / 100) * 38);
+    background: rgb(111, 66, 193);
+  }
+  .savings-menu {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    padding: 2rem 2rem;
+    margin-bottom: 3rem;
+  }
+  .savings-menu-text p {
+    color: rgba(17, 17, 17, 0.8);
+    font-size: 1.7rem;
+    margin-right: 48rem;
+  }
+  .savings-add {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+    background: rgb(111, 66, 193);
+    border-radius: 1rem;
+    width: 20vw;
+    height: 7vh;
+    margin-top: 0rem;
+    margin-left: 2rem;
+  }
+  .plus {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+  }
+  .plus-text {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+  }
+  .savings-sub-menu {
+    margin-top: 1rem;
+    display: flex;
+    padding-left: 2rem;
+    gap: 2rem;
+  }
+  #filter {
+    width: 2vw;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  #sort {
+    width: 2vw;
+  }
+  .all {
+    font-size: 1.4rem;
+    background: rgb(217, 217, 217);
+    border-radius: 3rem;
+    padding: 1.1rem 3rem;
+  }
+  .Personal {
+    font-size: 1.4rem;
+    padding-top: 1.1rem;
+    color: rgb(73, 73, 73);
+  }
+  .savings-item {
+    height: 85vh;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-left: 0rem;
+  }
+  .car {
+    background: rgb(255, 255, 255);
+    width: 28%;
+    height: 38vh;
+    border-radius: 1rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .items-slide-one {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .item-text-one {
+    font-size: 1.3rem;
+  }
+  .item-icon-text-div {
+    display: flex;
+    padding-top: 1rem;
+  }
+  .item-icon {
+    font-size: 1.2rem;
+    color: rgb(54, 54, 54);
+  }
+  .item-icon-text-div p {
+    font-size: 1.2rem;
+    padding-left: 0.7rem;
+    padding-bottom: 0.4rem;
+    padding-top: 0rem;
+    color: rgb(36, 35, 35);
+  }
+  .saved-btn {
+    background: rgb(111, 66, 193);
+    color: rgb(221, 218, 218);
+    padding: 1.5rem 4rem;
+    border: none;
+    border-radius: 0.8rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .view {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .progress {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-right: 0.3rem;
+  }
+  .white-span {
+    background: rgb(226, 217, 243);
+    width: 14vw;
+    margin-left: 0.7rem;
+    border-radius: 0.4rem;
+    height: 1vh;
+    display: inline-block;
+  }
+  .purple-span {
+    background: rgb(111, 66, 193);
+    width: 2vw;
+    height: 1vh;
+    border-radius: 0.4rem;
+    display: block;
+  }
+}
+@media (min-width: 1280px) {
+  .side-menu {
+    height: 105vh;
+    width: 17vw;
+    background: rgb(253, 250, 250);
+    padding: 1rem 1.5rem;
+    opacity: 1;
+    margin-top: -3rem;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+    z-index: 0;
+    display: block;
+    position: fixed;
+    transition: 0.3s;
+  }
+  .side-menu.active {
+    left: 0;
+    display: block;
+    opacity: 1;
+  }
+  #site-logo {
+    margin-left: 1rem;
+    width: 10vw;
+    margin-top: 4rem;
+  }
+  .menu {
+    font-size: 1.1rem;
+    color: rgb(114, 113, 113);
+    padding-top: 1.8rem;
+    padding-left: 1rem;
+  }
+  .dashboard-menu ul {
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+  }
+  .menu-text {
+    margin-top: -0.5rem;
+  }
+  .menu-text-abstract {
+    margin-top: 0.1rem;
+  }
+  .dashboard-menu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(100, 100, 100);
+  }
+  .original {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    margin-left: -1rem;
+    padding-left: 1rem;
+    height: 7vh;
+    align-items: center;
+  }
+  .original:hover {
+    background: rgb(159, 129, 214);
+    border-radius: 0.8rem;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+  }
+  .original:hover * {
+    color: rgb(255, 255, 255);
+  }
+  .original:hover img {
+    filter: brightness(0) invert(1);
+  }
+  .original-abstract {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: rgb(159, 129, 214);
+    border-radius: 0.8rem;
+    height: 7.5vh;
+    margin-left: -1rem;
+    padding-left: 1rem;
+    width: 100%;
+  }
+  #link-abstract {
+    color: rgb(247, 245, 245);
+  }
+  #menu-icon {
+    width: 1.5vw;
+  }
+  .main-page {
+    margin-left: 23rem;
+    display: inline-block;
+    overflow-x: hidden;
+  }
+  .header-menu {
+    display: flex;
+    padding: 2rem 1.3rem;
+  }
+  .hamburger {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    border-radius: 50rem;
+    box-shadow: 0px 3px 3px rgb(190, 190, 190);
+    z-index: 1000;
+    display: none;
+  }
+  #burger {
+    -webkit-transition: all 0.3s ease-in-out;
+  }
+  .hamburger.active {
+    margin-left: 70rem;
+    position: fixed;
+    margin-top: -0.5rem;
+    background-color: rgb(159, 129, 214);
+    color: rgb(255, 255, 255);
+  }
+  .hamburger.active #burger:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active #burger:nth-child(1) {
+    transform: translateY(12px) rotate(45deg);
+    width: 2rem;
+    background-color: rgb(255, 255, 255);
+  }
+  .hamburger.active #burger:nth-child(3) {
+    transform: translateY(-12px) rotate(-45deg);
+    width: 2rem;
+    background-color: rgb(255, 255, 255);
+  }
+  .burger-span-one {
+    display: block;
+    width: 1.8rem;
+    height: 0.2rem;
+    margin: 1rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-two {
+    display: block;
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 1rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-three {
+    display: block;
+    width: 1.5rem;
+    height: 0.2rem;
+    margin: 1rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .desktop-avatar {
+    display: block;
+  }
+  .menu-text-two {
+    margin-left: 1rem;
+    margin-right: 42rem;
+  }
+  .menu-text-two h3 {
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .menu-text-two p {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+  }
+  .mobile-search {
+    display: none;
+  }
+  #gsearch {
+    border-radius: 3rem;
+    padding-left: 5rem;
+    border: none;
+    background: rgb(255, 255, 255);
+    height: 5vh;
+    width: 25vw;
+    outline: none;
+  }
+  #gsearch::placeholder {
+    font-size: 1.5rem;
+    color: rgb(128, 128, 128, 0.5);
+  }
+  .search-icon {
+    color: rgb(120, 78, 197);
+    position: relative;
+    left: 5.7vh;
+    top: 0.5rem;
+    font-size: 2rem;
+  }
+  .search-bar {
+    display: block;
+    visibility: visible;
+  }
+  .mobile-search-icon {
+    color: rgb(120, 78, 197);
+    font-size: 4rem;
+    background: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 40rem;
+    cursor: pointer;
+  }
+  .mobile-search-icon:active {
+    transform: scale(0.96);
+    color: rgb(0, 0, 0);
+  }
+  .tablet-chat {
+    display: none;
+    margin-left: 2rem;
+    margin-top: -0.4rem;
+  }
+  #message-notif {
+    width: 5vw;
+    border-radius: 20rem;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+  }
+  .savings-container-one {
+    margin-top: -2.5rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .savings-container-one-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0rem 4rem 0rem;
+  }
+  .savings-container-one-text h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin-right: 19rem;
+  }
+  .calendar-img {
+    margin-top: -1rem;
+    display: none;
+  }
+  .tablet-drop-down {
+    display: none;
+    display: none;
+    background: rgb(255, 255, 255);
+    height: 6vh;
+    border-radius: 1rem;
+    padding-right: 0.8rem;
+    margin-right: 2rem;
+  }
+  #months {
+    padding: 1rem;
+    border: none;
+    font-size: 1.6rem;
+    outline: none;
+    font-family: "poppins", serif;
+  }
+  #months option {
+    font-size: 1.3rem;
+    font-family: "poppins", serif;
+  }
+  .download-tablet {
+    display: none;
+    background: rgb(255, 255, 255);
+    display: none;
+    gap: 1rem;
+    height: 6vh;
+    padding-left: 1rem;
+    padding-right: 1.6rem;
+    border-radius: 1rem;
+    align-items: center;
+  }
+  .download-icon {
+    font-size: 2rem;
+    color: rgb(111, 66, 193);
+  }
+  .download-comm p {
+    font-size: 1.6rem;
+  }
+  .solar-calendar-tablet-div {
+    margin-top: 1rem;
+    margin-left: 1.3rem;
+  }
+  #solar-calendar-tablet {
+    width: 3vw;
+  }
+  #solar-calendar {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 40rem;
+    width: 11vw;
+  }
+  .desktop-graph {
+    display: block;
+  }
+  .bill-share-box {
+    height: 80vh;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border: solid 0.2rem rgb(209, 208, 208);
+    box-shadow: 0px 3px 3px rgb(179, 178, 178);
+    margin-bottom: 1rem;
+  }
+  #bill-img {
+    width: 15vw;
+  }
+  .bill-share {
+    font-size: 1.8rem;
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    overflow-y: hidden;
+    height: 15vh;
+    padding-left: 2rem;
+  }
+  .bill-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+  }
+  .bill-info-slide-one {
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    overflow-y: hidden;
+  }
+  .bill-info-saved {
+    margin-top: -13rem;
+  }
+  .bill-info-saved p {
+    font-size: 1.4rem;
+    color: rgb(100, 100, 100);
+    padding-left: 5rem;
+  }
+  .bill-info-price {
+    display: flex;
+    gap: 1rem;
+    padding-top: -2rem;
+  }
+  .bill-info-price p {
+    font-size: 1.9rem;
+    color: rgb(56, 55, 55);
+    padding-left: 6rem;
+    padding-top: rem;
+  }
+  .edit-img-div {
+    width: 6vw;
+    margin-top: 0.5rem;
+  }
+  #edit-img {
+    width: 1vw;
+    cursor: pointer;
+  }
+  .bill-info-details {
+    color: rgb(124, 94, 178);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .total {
+    font-size: 1.3rem;
+    color: rgb(14, 13, 13);
+  }
+  .total::before {
+    content: "";
+    background-color: rgb(124, 94, 178);
+    padding: 0.5rem;
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  .left {
+    font-size: 1.3rem;
+    color: rgb(14, 13, 13);
+  }
+  .left::before {
+    content: "";
+    background-color: rgb(124, 202, 141);
+    padding: 0.5rem;
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  .savings-trend-box {
+    height: 70vh;
+    width: 55%;
+    margin-top: -0.5rem;
+    background: rgb(255, 255, 255);
+    border-radius: 1.3rem;
+    border: solid 0.1rem rgb(209, 208, 208);
+    box-shadow: 0px 6px 2px rgb(179, 178, 178);
+    padding: 2.3rem 1.3rem 0rem 1.3rem;
+  }
+  .trend-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .save-trend-text {
+    font-size: 1.4rem;
+  }
+  .save-trend-fig {
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding-top: 0.7rem;
+  }
+  .text-edit {
+    display: flex;
+  }
+  .text-edit-div {
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+  }
+  .trend-control {
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 1.3rem;
+  }
+  .left-angle {
+    color: rgb(111, 66, 193);
+    padding: 0.3rem;
+    font-size: 2rem;
+    border-radius: 40rem;
+    border: solid 0.2rem rgb(111, 66, 193);
+    cursor: pointer;
+  }
+  .left-angle:active {
+    transform: scale(0.96);
+  }
+  .right-angle {
+    color: rgb(160, 160, 160);
+    padding: 0.3rem;
+    font-size: 2rem;
+    border-radius: 40rem;
+    border: solid 0.2rem rgb(160, 160, 160);
+    cursor: pointer;
+  }
+  .right-angle:active {
+    transform: scale(0.96);
+  }
+  .trend-chart {
+    height: 38vh;
+    margin-top: 10rem;
+  }
+  .bars {
+    position: relative;
+    width: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    padding-top: 20rem;
+    margin-left: -1.2rem;
+  }
+  .bar::after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    width: 3vw;
+    background: rgb(219, 207, 239);
+    border-radius: 0.4rem;
+  }
+  .bar:nth-child(1)::after {
+    height: calc((363px / 100) * 15);
+  }
+  .bar:nth-child(2)::after {
+    height: calc((363px / 100) * 35);
+  }
+  .bar:nth-child(3)::after {
+    height: calc((363px / 100) * 27);
+  }
+  .bar:nth-child(4)::after {
+    height: calc((363px / 100) * 70);
+  }
+  .bar:nth-child(5)::after {
+    height: calc((363px / 100) * 45);
+  }
+  .bar:nth-child(6)::after {
+    height: calc((363px / 100) * 38);
+  }
+  .bar:nth-child(7)::after {
+    height: calc((363px / 100) * 38);
+    background: rgb(111, 66, 193);
+  }
+  .savings-menu {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    padding: 2rem 2rem;
+    margin-bottom: 3rem;
+  }
+  .savings-menu-text p {
+    color: rgba(17, 17, 17, 0.8);
+    font-size: 1.9rem;
+    margin-right: 60rem;
+  }
+  .savings-add {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+    background: rgb(111, 66, 193);
+    border-radius: 1rem;
+    width: 17vw;
+    height: 7vh;
+    margin-top: -1rem;
+    margin-left: 2rem;
+  }
+  .plus {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+  }
+  .plus-text {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+  }
+  .savings-sub-menu {
+    margin-top: 3rem;
+    display: flex;
+    padding-left: 2rem;
+    gap: 2rem;
+  }
+  #filter {
+    width: 2vw;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  #sort {
+    width: 2vw;
+  }
+  .all {
+    font-size: 1.5rem;
+    background: rgb(217, 217, 217);
+    border-radius: 3rem;
+    padding: 0.7rem 2rem;
+  }
+  .Personal {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    color: rgb(73, 73, 73);
+  }
+  .savings-item {
+    height: 85vh;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-left: 0rem;
+  }
+  .car {
+    background: rgb(255, 255, 255);
+    width: 29%;
+    height: 38vh;
+    border-radius: 1rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .items-slide-one {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .item-text-one {
+    font-size: 1.4rem;
+  }
+  .item-icon-text-div {
+    display: flex;
+    padding-top: 1rem;
+  }
+  .item-icon {
+    font-size: 1.3rem;
+    color: rgb(54, 54, 54);
+  }
+  .item-icon-text-div p {
+    font-size: 1.1rem;
+    padding-left: 0.7rem;
+    padding-bottom: 0.4rem;
+    padding-top: 0rem;
+    color: rgb(36, 35, 35);
+  }
+  .saved-btn {
+    background: rgb(111, 66, 193);
+    color: rgb(221, 218, 218);
+    padding: 1.2rem 4rem;
+    border: none;
+    border-radius: 0.8rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+  .view {
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  .progress {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-right: 0.3rem;
+  }
+  .white-span {
+    background: rgb(226, 217, 243);
+    width: 14vw;
+    margin-left: 0.7rem;
+    border-radius: 0.4rem;
+    height: 1vh;
+    display: inline-block;
+  }
+  .purple-span {
+    background: rgb(111, 66, 193);
+    width: 2vw;
     height: 1vh;
     border-radius: 0.4rem;
     display: block;
