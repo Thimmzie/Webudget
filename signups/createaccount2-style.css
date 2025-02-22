@@ -394,6 +394,7 @@ option {
         padding-top: 3vh;
         z-index: 4;
         margin: auto;
+        margin-bottom: 2vh;
     }
     
     .create-row {
@@ -438,7 +439,7 @@ option {
         height: 3.7vh;
         width: 12vw;
         padding: 0.7vh;
-        border-radius: 10px;
+        border-radius: 8px;
     }
     
     .steps {
@@ -487,10 +488,10 @@ option {
     }
     
     #currency {
-        width: 44vw;
+        width: 30vw;
         height: 4vh;
         background-color: white;
-        margin: auto;
+        margin-left: 0vw;
         border-radius: 10px;
         padding-left: 1.2vw;
         padding-bottom: 0.3vh;
@@ -530,10 +531,10 @@ option {
     }
     
     #datemax {
-        width: 44vw;
+        width: 30vw;
         height: 4vh;
         background-color: white;
-        margin: auto;
+        margin-left: 0vw;
         border-radius: 10px;
         padding-left: 1.2vw;
         padding-bottom: 0.5vh;
@@ -626,12 +627,14 @@ option {
         width: 80vw;
         height: 92vh;
         margin: auto;
-        margin-left: 10vw;
-        margin-top: -120vh;
+        margin-left: 6vw;
+        margin-top: -66vh;
     }
     
     .img-sect-img {
-        height: 90vh;
+        height: 103vh;
+        object-fit: cover;
+        object-position: 100% 40%;
     }
     
 }
@@ -712,17 +715,18 @@ option {
     }
     
     .form-sectA {
-        width: 60vw;
+        width: 67vw;
         height: 76vh;
         background-color: rgb(255, 255, 255);
         border-radius: 3vh;
         padding-top: 3vh;
         z-index: 4;
         margin: auto;
+        margin-bottom: 2vh;
     }
     
     .create-row {
-        width: 45vw;
+        width: 52vw;
         height: 4.5vh;
         margin: auto;
         display: flex;
@@ -746,7 +750,7 @@ option {
     h3 {
         font-size: 1.6vh;
         font-weight: 500;
-        margin-left: -2vw;
+        margin-left: -5vw;
         color: black;
         margin-top: 0.9vh;
     }
@@ -763,7 +767,7 @@ option {
         height: 3.7vh;
         width: 13vw;
         padding: 0.7vh;
-        border-radius: 10px;
+        border-radius: 8px;
     }
     
     .steps {
@@ -783,7 +787,7 @@ option {
     .name-occ-inputBox {
         display: flex;
         flex-direction: column;
-        width: 45vw;
+        width: 51vw;
         height: 34vh;
         margin: auto;
         margin-top: 3vh;
@@ -799,7 +803,7 @@ option {
     }
       
     #fname, #occupation, #phone {
-        width: 45vw;
+        width: 51vw;
         height: 4vh;
         background-color: white;
         margin: auto;
@@ -812,7 +816,7 @@ option {
     }
     
     #currency {
-        width: 34vw;
+        width: 35vw;
         height: 4vh;
         background-color: white;
         margin-left: 0vw;
@@ -841,7 +845,7 @@ option {
     
     
     #income {
-        width: 44vw;
+        width: 51vw;
         height: 5vh;
         background-color: white;
         margin: auto;
@@ -855,10 +859,10 @@ option {
     }
     
     #datemax {
-        width: 44vw;
+        width: 35vw;
         height: 4vh;
         background-color: white;
-        margin: auto;
+        margin-left: 0vw;
         border-radius: 8px;
         padding-left: 1.2vw;
         padding-bottom: 0.4vh;
@@ -900,7 +904,7 @@ option {
     .proceedButton {
         background-color: #6f42c1;
         color: white;
-        width: 44vw;
+        width: 51vw;
         height: 4vh;
         display: flex;
         text-decoration: none;
@@ -921,7 +925,7 @@ option {
     .proceedButton:hover {
         background-color: #5d37a1;
         color: white;
-        width: 35vw;
+        width: 51vw;
         height: 8vh;
         display: flex;
         align-items: center;
@@ -952,11 +956,13 @@ option {
         width: 80vw;
         height: 92vh;
         margin: auto;
-        margin-left: 10vw;
-        margin-top: -120vh;
+        margin-left: 0vw;
+        margin-top: -100vh;
     }
     
     .img-sect-img {
         height: 90vh;
+        object-fit: cover;
+        object-position: 100% 40%;
     }
 }

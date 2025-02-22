@@ -514,6 +514,8 @@ a.signin-link:hover, a.signin-link:active {
     
     .img-sect-img {
         height: 100vh;
+        object-fit: cover;
+        object-position: 100% 40%;
     }
 }
 
@@ -783,6 +785,8 @@ a.signin-link:hover, a.signin-link:active {
     
     .img-sect-img {
         height: 70vh;
+        object-fit: cover;
+        object-position: 100% 40%;
     }
 }
 

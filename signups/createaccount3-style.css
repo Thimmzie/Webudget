@@ -457,6 +457,7 @@ a.Alink-skipButton:hover, a.Alink-skipButton:active {
         padding-top: 3vh;
         z-index: 4;
         margin: auto;
+        margin-bottom: 2vh;
     }
     
     .create-row {
@@ -658,7 +659,6 @@ a.Alink-skipButton:hover, a.Alink-skipButton:active {
         margin-top: 4vh;
     }
     
-    
     a.Alink-skipButton:link, a.Alink-skipButton:visited {
         background: none;
         color: black;
@@ -747,11 +747,13 @@ a.Alink-skipButton:hover, a.Alink-skipButton:active {
         height: 92vh;
         margin: auto;
         margin-left: 10vw;
-        margin-top: -120vh;
+        margin-top: -147vh;
     }
     
     .img-sect-img {
         height: 95vh;
+        object-fit: cover;
+        object-position: 100% 40%;
     }
 }
 
@@ -833,12 +835,13 @@ a.Alink-skipButton:hover, a.Alink-skipButton:active {
     
     .form-sectA {
         width: 65vw;
-        height: 53vh;
+        height: 50vh;
         background-color: rgb(255, 255, 255);
         border-radius: 3vh;
         padding-top: 3vh;
         z-index: 4;
         margin: auto;
+        margin-bottom: 2vh;
     }
     
     .create-row {
@@ -866,9 +869,9 @@ a.Alink-skipButton:hover, a.Alink-skipButton:active {
     h3 {
         font-size: 1.6vh;
         font-weight: 500;
-        margin-left: -4vw;
+        margin-left: -12vw;
         color: black;
-        margin-top: 0.8vh;
+        margin-top: 0.9vh;
     }
     
     .h3span {
@@ -883,7 +886,7 @@ a.Alink-skipButton:hover, a.Alink-skipButton:active {
         height: 3.7vh;
         width: 15vw;
         padding: 0.7vh;
-        border-radius: 10px;
+        border-radius: 8px;
     }
     
     .steps {
@@ -1128,10 +1131,12 @@ a.Alink-skipButton:hover, a.Alink-skipButton:active {
         height: 92vh;
         margin: auto;
         margin-left: 0vw;
-        margin-top: -100vh;
+        margin-top: -168vh;
     }
     
     .img-sect-img {
-        height: 98vh;
+        height: 90vh;
+        object-fit: cover;
+        object-position: 100% 40%;
     }
 }
