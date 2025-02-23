@@ -741,7 +741,7 @@ h1 {
 
 /* Mobile screen */
 
-@media (max-width: 850px), (max-width: 600px), (max-width: 412px), (max-width: 390px), (max-width: 375px), (max-width: 360px) { 
+@media (max-width: 932px), (max-width: 850px), (max-width: 600px), (max-width: 412px), (max-width: 390px), (max-width: 375px), (max-width: 360px) { 
 
     * {
         margin: 0;
@@ -761,6 +761,7 @@ h1 {
 
     .hero {
         height: 100vh;
+        width: 100%;
         background-image: url('images/landingpageimg/Rectangle\ 62\ \(1\).png');
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -972,38 +973,38 @@ h1 {
     }
     
     .hC-textbox {
-        width: 90vw;
-        height: 35vh;
+        width: 94vw;
+        height: 50vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         margin: auto;
-        margin-top: 3vh;
+        margin-top: 0vh;
     }
     
     h1 {
-        font-size: 4.7vh;
+        font-size: 4vh;
         line-height: 5.7vh;
         color: black;
         text-align: center;
     }
     
     .h1yellow {
-        font-size: 4.8vh;
+        font-size: 4vh;
         color: #fec107;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.402);
         font-weight: 600;
     }
     
     .h1purple {
-        font-size: 4.8vh;
+        font-size: 4vh;
         color: #8762cb;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.365);
         font-weight: 600;
     }
     
     .hCpara {
-        font-size: 1.9vh;
+        font-size: 1.5vh;
         color: black;
         text-align: center;
         margin-top: 3vh;
@@ -1082,7 +1083,7 @@ h1 {
     }
     
     .hCimg {
-        height: 40vh;
+        height: 38vh;
         z-index: 0;
     }
 
