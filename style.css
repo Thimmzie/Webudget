@@ -812,9 +812,9 @@ h1 {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        background-color: rgba(255, 255, 255, 0.82);
+        background-color: rgba(255, 255, 255, 0.952);
         height: 18vh;
-        width: 35vw;
+        width: 50vw;
         margin: auto;
         border-radius: 15px;
         box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.458);
@@ -831,12 +831,12 @@ h1 {
     }
     
     .wblogo {
-        height: 3.8vh;
+        height: 4vh;
     }
     
     .navBox {
         list-style: none;
-        width: 25vw;
+        width: 40vw;
         height: 12vh;
         margin: auto;
         display: flex;
@@ -846,13 +846,12 @@ h1 {
 
     nav.show {
         display: flex;
-        width: 35vw;
         transition: 1s ease-in-out;
     }
     
     .navul {
         list-style-type: none;
-        width: 35vw;
+        width: 40vw;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -863,7 +862,7 @@ h1 {
         font-size: 1.4vh;
         text-align: center;
         color: black;
-        height: 2.8vh;
+        line-height: 4vh;
     }
     
     a.Alink-nav:link,
@@ -886,17 +885,17 @@ h1 {
     a.Alink-nav:active,
     .active {
         color: #6f42c1;
-        font-weight: 500;
+        font-weight: 600;
         text-decoration: none;
         padding-bottom: 0.6vh;
-        border-bottom: 1.5px solid #6f42c1;
+        border: none;
     }
     
     .signupbuttonsBox {
         display: flex;
         justify-content: space-between;
         height: 4vh;
-        width: 29vw;
+        width: 40vw;
         margin-bottom: 0.5vh;
         margin: auto;
     }
@@ -904,13 +903,13 @@ h1 {
     a.Alink-signup:link, a.Alink-signup:visited {
         background: none;
         color: black;
-        width: 13vw;
+        width: 18vw;
         height: 3vh;
         text-decoration: none;
         align-content: center;
         text-align: center;
         font-family: "Poppins", serif;
-        font-size: 1vh;
+        font-size: 1.2vh;
         border: 1px solid #6f42c1;
         border-radius: 7px;
         font-weight: 400;
@@ -921,12 +920,12 @@ h1 {
     a.Alink-signup:hover, a.Alink-signup:active {
         background-color: black;
         color: white;
-        width: 13vw;
+        width: 18vw;
         height: 3vh;
         align-content: center;
         text-decoration: none;
         text-align: center;
-        font-size: 1vh;
+        font-size: 1.2vh;
         font-family: "Poppins", serif;
         font-weight: 400;
         border: none;
@@ -937,13 +936,13 @@ h1 {
     a.Alink-signin:link, a.Alink-signin:visited {
         background-color: #6f42c1;
         color: white;
-        width: 13vw;
+        width: 18vw;
         height: 3vh;
         text-decoration: none;
         align-content: center;
         text-align: center;
         font-family: "Poppins", serif;
-        font-size: 1vh;
+        font-size: 1.2vh;
         border-radius: 7px;
         font-weight: 400;
         font-style: normal;
@@ -954,12 +953,12 @@ h1 {
     a.Alink-signin:hover, a.Alink-signin:active {
         background-color: #5d37a1;
         color: white;
-        width: 13vw;
+        width: 18vw;
         height: 3vh;
         align-content: center;
         text-decoration: none;
         text-align: center;
-        font-size: 1vh;
+        font-size: 1.2vh;
         font-family: "Poppins", serif;
         font-weight: 400;
         border-radius: 7px;
