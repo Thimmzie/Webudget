@@ -39,6 +39,15 @@ nav {
     z-index: 1;
 }
 
+.iconsbox {
+    width: 2vw;
+    display: inline;
+}
+
+.barsicon, .logoicon {
+    display: none;
+}
+
 .logoBox {
     display: inline-block;
     margin-left: 2.2vw;
@@ -53,6 +62,7 @@ nav {
     width: 20vw;
     height: 4vh;
     margin: auto;
+    display: flex;
 }
 
 .navul {
@@ -285,19 +295,86 @@ h1 {
     height: 79vh;
 }
 
+.stats {
+    width: 100%;
+    height: 35vh;
+    align-content: center;
+    background-image: url('images/landingpageimg/Rectangle\ 108.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-size: cover;
+    background-origin: padding-box;
+    z-index: 0;
+    object-fit: cover;
+    object-position: 10% 100%;
+    position: relative;
+    filter: grayscale(100%, 100%);
+}
 
+.statoverlay {
+    width: 100%;
+    height: 35vh;
+    z-index: 1;
+    background-color: #a379f075;
+    position: absolute;
+    bottom: 0;
+}
 
+.statsBox {
+    width: 90vw;
+    height: 28vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+}
 
+.statBox1, .statBox2, .statBox3 {
+    width: 20vw;
+    height: 25vh;
+    align-content: center;
+    z-index: 2;
+}
 
+.statNo {
+    color: white;
+    font-size: 8.8vh;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px #fec00722;
+}
 
-
+.statPara {
+    color: white;
+    font-size: 2.5vh;
+    text-align: center;
+    font-weight: 300;
+    text-shadow: 1px 1px 5px #2d1a4e;
+}
 
 
 
 
 /* Tablet screen */
 
-@media (max-width: 1024px), (max-width: 820px), (max-width: 768px) { 
+@media (max-width: 1024px), (max-width: 1228px), (max-width: 820px), (max-width: 768px) { 
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        font-family: "Poppins", serif;
+    }
 
     /* hero section */
 
@@ -326,13 +403,22 @@ h1 {
         height: 6.6vh;
         width: 80vw;
         margin: auto;
-        border-radius: 15px;
+        border-radius: 18px;
         box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.458);
         position: fixed;
         top: 0;
         margin-top: 4vh;
         margin-left: 10vw;
         z-index: 1;
+    }
+
+    .iconsbox {
+        width: 2vw;
+        display: inline;
+    }
+    
+    .barsicon, .logoicon {
+        display: none;
     }
     
     .logoBox {
@@ -346,7 +432,7 @@ h1 {
     
     .navBox {
         list-style: none;
-        width: 28vw;
+        width: 26vw;
         height: 3vh;
         margin: auto;
     }
@@ -359,7 +445,7 @@ h1 {
     }
     
     .navli {
-        font-size: 1.3vh;
+        font-size: 1.1vh;
         text-align: center;
         color: black;
         height: 3vh;
@@ -588,18 +674,93 @@ h1 {
         height: 50vh;
         z-index: 0;
     }
+
+    .stats {
+        width: 100%;
+        height: 22vh;
+        align-content: center;
+        background-image: url('images/landingpageimg/Rectangle\ 108.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: 81.5%;
+        background-position-y: 10%;
+        background-size: cover;
+        background-origin: padding-box;
+        z-index: 0;
+        object-fit: cover;
+        object-position: 10% 10%;
+        position: relative;
+        filter: grayscale(100%, 100%);
+    }
+    
+    .statoverlay {
+        width: 100%;
+        height: 22vh;
+        z-index: 1;
+        background-color: #a379f075;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .statsBox {
+        width: 90vw;
+        height: 17vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 2;
+        
+    }
+    
+    .statBox1, .statBox2, .statBox3 {
+        width: 30vw;
+        height: 15vh;
+        align-content: center;
+        z-index: 2;
+    }
+    
+    .statNo {
+        color: white;
+        font-size: 3.6vh;
+        text-align: center;
+        font-weight: 600;
+        text-shadow: 1px 1px 5px #fec00722;
+    }
+    
+    .statPara {
+        color: white;
+        font-size: 1.5vh;
+        text-align: center;
+        font-weight: 300;
+        text-shadow: 1px 1px 5px #2d1a4e;
+    }
  }
 
 
 
 /* Mobile screen */
 
-@media (max-width: 600px), (max-width: 412px), (max-width: 390px), (max-width: 375px), (max-width: 360px) { 
+@media (max-width: 850px), (max-width: 600px), (max-width: 412px), (max-width: 390px), (max-width: 375px), (max-width: 360px) { 
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        font-family: "Poppins", serif;
+    }
     
     /* hero section */
 
     .hero {
-        height: 94vh;
+        height: 100vh;
         background-image: url('images/landingpageimg/Rectangle\ 62\ \(1\).png');
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -614,26 +775,54 @@ h1 {
         flex-direction: column;
         justify-content: space-around;
     }
-    
-    nav {
+
+    .iconsbox {
+        width: 100%;
+        height: 10vh;
+        margin-top: 2vh;
         display: flex;
         justify-content: space-between;
+        z-index: 100;
+    }
+
+    .barsicon, .logoicon {
+        display: inline;
+    }
+
+    .bars:hover, .bars:active {
+        height: 7vh;
+    }
+
+    .bars {
+        height: 8vh;
+    }
+
+    .wblogo2 {
+        height: 5.2vh;
+        margin-top: 2.2vh;
+        margin-left: 4vw;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        background-color: white;
-        height: 5.5vh;
-        width: 80vw;
+        background-color: rgba(255, 255, 255, 0.82);
+        height: 18vh;
+        width: 35vw;
         margin: auto;
         border-radius: 15px;
         box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.458);
-        position: fixed;
+        position: absolute;
         top: 0;
-        margin-top: 4vh;
-        margin-left: 10vw;
-        z-index: 1;
+        right: 4vw;
+        margin-top: 3.5vh;
+        z-index: 99;
     }
     
     .logoBox {
-        display: inline-block;
+        display: none;
         margin-left: 2.2vw;
     }
     
@@ -643,20 +832,30 @@ h1 {
     
     .navBox {
         list-style: none;
-        width: 28vw;
-        height: 2vh;
+        width: 25vw;
+        height: 12vh;
         margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    nav.show {
+        display: flex;
+        width: 35vw;
+        transition: 1s ease-in-out;
     }
     
     .navul {
         list-style-type: none;
         margin: auto;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     
     .navli {
-        font-size: 0.9vh;
+        font-size: 1.4vh;
         text-align: center;
         color: black;
         height: 2.8vh;
@@ -684,28 +883,29 @@ h1 {
         color: #6f42c1;
         font-weight: 500;
         text-decoration: none;
-        padding-bottom: 1vh;
+        padding-bottom: 0.6vh;
         border-bottom: 1.5px solid #6f42c1;
     }
     
     .signupbuttonsBox {
         display: flex;
         justify-content: space-between;
-        height: 3vh;
-        width: 17.7vw;
-        margin-right: 2.2vw;
+        height: 4vh;
+        width: 29vw;
+        margin-bottom: 0.5vh;
+        margin: auto;
     }
     
     a.Alink-signup:link, a.Alink-signup:visited {
         background: none;
         color: black;
-        width: 8vw;
+        width: 13vw;
         height: 3vh;
         text-decoration: none;
         align-content: center;
         text-align: center;
         font-family: "Poppins", serif;
-        font-size: 0.8vh;
+        font-size: 1vh;
         border: 1px solid #6f42c1;
         border-radius: 7px;
         font-weight: 400;
@@ -716,12 +916,12 @@ h1 {
     a.Alink-signup:hover, a.Alink-signup:active {
         background-color: black;
         color: white;
-        width: 8vw;
+        width: 13vw;
         height: 3vh;
         align-content: center;
         text-decoration: none;
         text-align: center;
-        font-size: 0.8vh;
+        font-size: 1vh;
         font-family: "Poppins", serif;
         font-weight: 400;
         border: none;
@@ -732,13 +932,13 @@ h1 {
     a.Alink-signin:link, a.Alink-signin:visited {
         background-color: #6f42c1;
         color: white;
-        width: 8vw;
+        width: 13vw;
         height: 3vh;
         text-decoration: none;
         align-content: center;
         text-align: center;
         font-family: "Poppins", serif;
-        font-size: 0.8vh;
+        font-size: 1vh;
         border-radius: 7px;
         font-weight: 400;
         font-style: normal;
@@ -749,12 +949,12 @@ h1 {
     a.Alink-signin:hover, a.Alink-signin:active {
         background-color: #5d37a1;
         color: white;
-        width: 8vw;
+        width: 13vw;
         height: 3vh;
         align-content: center;
         text-decoration: none;
         text-align: center;
-        font-size: 0.8vh;
+        font-size: 1vh;
         font-family: "Poppins", serif;
         font-weight: 400;
         border-radius: 7px;
@@ -764,7 +964,7 @@ h1 {
     
     .heroContent {
         width: 98vw;
-        height: 73vh;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -772,56 +972,56 @@ h1 {
     }
     
     .hC-textbox {
-        width: 75vw;
-        height: 25vh;
+        width: 90vw;
+        height: 35vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         margin: auto;
-        margin-top: 4vh;
+        margin-top: 3vh;
     }
     
     h1 {
-        font-size: 3.8vh;
-        line-height: 5vh;
+        font-size: 4.7vh;
+        line-height: 5.7vh;
         color: black;
         text-align: center;
     }
     
     .h1yellow {
-        font-size: 3.8vh;
+        font-size: 4.8vh;
         color: #fec107;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.402);
         font-weight: 600;
     }
     
     .h1purple {
-        font-size: 3.8vh;
+        font-size: 4.8vh;
         color: #8762cb;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.365);
         font-weight: 600;
     }
     
     .hCpara {
-        font-size: 1.2vh;
+        font-size: 1.9vh;
         color: black;
         text-align: center;
-        margin-top: 2vh;
-        margin-bottom: 2vh;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
     }
     
     .proceedButton {
         background-color: #6f42c1;
         color: white;
-        width: 30vw;
-        height: 4vh;
+        width: 55vw;
+        height: 5vh;
         display: flex;
         text-decoration: none;
         align-items: center;
         text-align: center;
         justify-content: center;
         font-family: "Poppins", serif;
-        font-size: 1.1vh;
+        font-size: 1.7vh;
         border-radius: 7px;
         font-weight: 400;
         font-style: normal;
@@ -861,7 +1061,7 @@ h1 {
     }
     
     .hC-imgbox {
-        margin-top: 2vh;
+        margin-top: 1vh;
         display: inline;
         position: relative;
         animation-name: hCani;
@@ -882,7 +1082,68 @@ h1 {
     }
     
     .hCimg {
-        height: 41vh;
+        height: 40vh;
         z-index: 0;
+    }
+
+    .stats {
+        width: 100%;
+        height: 38vh;
+        align-content: center;
+        background-image: url('images/landingpageimg/Rectangle\ 108.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: 78.8%;
+        background-position-y: 100%;
+        background-size: cover;
+        background-origin: padding-box;
+        z-index: 0;
+        object-fit: cover;
+        object-position: 10% 10%;
+        position: relative;
+        filter: grayscale(100%, 100%);
+    }
+    
+    .statoverlay {
+        width: 100%;
+        height: 38vh;
+        z-index: 1;
+        background-color: #a379f075;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .statsBox {
+        width: 80vw;
+        height: 30vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        z-index: 2;
+    }
+    
+    .statBox1, .statBox2, .statBox3, .statBox4 {
+        width: 30vw;
+        height: 15vh;
+        align-content: center;
+        z-index: 2;
+    }
+    
+    .statNo {
+        color: white;
+        font-size: 4vh;
+        text-align: center;
+        font-weight: 600;
+        text-shadow: 1px 1px 5px #fec00722;
+    }
+    
+    .statPara {
+        color: white;
+        font-size: 1.4vh;
+        text-align: center;
+        font-weight: 300;
+        text-shadow: 1px 1px 5px #2d1a4e;
     }
 }
