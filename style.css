@@ -54,15 +54,16 @@ nav {
 }
 
 .wblogo {
-    height: 9vh;
+    height: 8.8vh;
 }
 
 .navBox {
     list-style: none;
-    width: 20vw;
+    width: 24vw;
     height: 4vh;
     margin: auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .navul {
@@ -70,6 +71,7 @@ nav {
     margin: auto;
     display: flex;
     justify-content: space-between;
+    width: 22vw;
 }
 
 .navli {
@@ -440,6 +442,7 @@ h1 {
     .navul {
         list-style-type: none;
         margin: auto;
+        width: 25vw;
         display: flex;
         justify-content: space-between;
     }
@@ -849,6 +852,7 @@ h1 {
     
     .navul {
         list-style-type: none;
+        width: 35vw;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -1004,7 +1008,7 @@ h1 {
     }
     
     .hCpara {
-        font-size: 1.5vh;
+        font-size: 1.3vh;
         color: black;
         text-align: center;
         margin-top: 3vh;
