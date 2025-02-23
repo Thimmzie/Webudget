@@ -777,7 +777,7 @@ h1 {
         object-position: 100% 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .iconsbox {
@@ -896,7 +896,7 @@ h1 {
         justify-content: space-between;
         height: 4vh;
         width: 40vw;
-        margin-bottom: 0.5vh;
+        margin-bottom: 0.2vh;
         margin: auto;
     }
     
@@ -968,7 +968,7 @@ h1 {
     
     .heroContent {
         width: 98vw;
-        height: 80vh;
+        height: 75vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -977,7 +977,7 @@ h1 {
     
     .hC-textbox {
         width: 94vw;
-        height: 50vh;
+        height: 31vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1007,7 +1007,7 @@ h1 {
     }
     
     .hCpara {
-        font-size: 1.3vh;
+        font-size: 1.5vh;
         color: black;
         text-align: center;
         margin-top: 3vh;
@@ -1065,7 +1065,7 @@ h1 {
     }
     
     .hC-imgbox {
-        margin-top: 1vh;
+        margin-top: 0vh;
         display: inline;
         position: relative;
         animation-name: hCani;
@@ -1075,6 +1075,8 @@ h1 {
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
         margin: auto;
+        width: 95vw;
+        height: 42vh;
     }
     
     @keyframes hCani {
@@ -1086,7 +1088,7 @@ h1 {
     }
     
     .hCimg {
-        height: 38vh;
+        height: 32.5vh;
         z-index: 0;
     }
 
@@ -1145,7 +1147,7 @@ h1 {
     
     .statPara {
         color: white;
-        font-size: 1.4vh;
+        font-size: 1.5vh;
         text-align: center;
         font-weight: 300;
         text-shadow: 1px 1px 5px #2d1a4e;
