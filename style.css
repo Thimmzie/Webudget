@@ -36,7 +36,7 @@ nav {
     top: 0;
     margin-top: 4vh;
     margin-left: 14vw;
-    z-index: 1;
+    z-index: 99;
 }
 
 .iconsbox {
@@ -319,7 +319,7 @@ h1 {
     width: 100%;
     height: 35vh;
     z-index: 1;
-    background-color: #a379f075;
+    background-color: #5e37a197;
     position: absolute;
     bottom: 0;
 }
@@ -357,8 +357,197 @@ h1 {
     text-shadow: 1px 1px 5px #2d1a4e;
 }
 
+.offers {
+    height: 220vh;
+    padding-top: 10vh;
+    position: relative;
+}
 
+.offersShapes {
+    height: 218vh;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
 
+.offS1 {
+    position: absolute;
+    left: 42vw;
+}
+
+.offS1img {
+    height: 15vw;
+}
+
+.offS2 {
+    position: absolute;
+    top: 70vh;
+}
+
+.offS2img {
+    height: 30vw;
+}
+
+.offS3 {
+    position: absolute;
+    right: 0vw;
+    top: 140vh;
+}
+
+.offS3img {
+    height: 30vw;
+}
+
+h2 {
+    font-size: 7vh;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+}
+
+.h2purple {
+    font-size: 7.1vh;
+    color: #6f42c1;
+    font-weight: 700;
+}
+
+.h2yellow {
+    font-size: 7.1vh;
+    color: #fec107;
+    font-weight: 700;
+}
+
+.offersGrid {
+    height: 180vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.oG1, .oG2 {
+    height: 81vh;
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.oG1-expense, .oG1-budgets, .oG2-split, .oG1-savings {
+    background-color: white;
+    height: 79.7vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.oG-imgBox {
+    margin-top: 1.5vh;
+}
+
+.oG-img {
+    height: 40vh;
+}
+
+.oG-txtBox {
+    width: 27vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.oG-txth4 {
+    font-size: 4.5vh;
+    line-height: 5.5vh;
+    color: black;
+}
+
+.oG-txtpara {
+    font-size: 2.2vh;
+    color: black;
+}
+
+a.Alink-oGlearn:link, a.Alink-oGlearn:visited {
+    font-size: 2.3vh;
+    color: #6f42c1;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #5d37a1;
+    border-radius: 8px;
+    width: 10vw;
+    height: 7vh;
+    align-content: center;
+    text-align: center;
+}
+
+a.Alink-oGlearn:hover, a.Alink-oGlearn:active {
+    font-size: 2.3vh;
+    color: white;
+    background-color: #5d37a1;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    width: 15vw;
+    height: 7vh;
+    align-content: center;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+a.Alink-oGlearn2:link, a.Alink-oGlearn2:visited {
+    background-color: #6f42c1;
+    color: white;
+    width: 28vw;
+    height: 8.8vh;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "Poppins", serif;
+    font-size: 2.2vh;
+    border-radius: 10px;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 7vh;
+    left: 36vw;
+}
+
+a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
+    background-color: #5d37a1;
+    color: white;
+    width: 28vw;
+    height: 8.8vh;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.2vh;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-left: 0vw;
+    margin-top: 0vh;
+    border: none;
+    transition: 0.3s ease-in;
+    position: absolute;
+    margin-top: 7vh;
+}
 
 /* Tablet screen */
 
@@ -411,7 +600,7 @@ h1 {
         top: 0;
         margin-top: 4vh;
         margin-left: 10vw;
-        z-index: 1;
+        z-index: 99;
     }
 
     .iconsbox {
@@ -700,7 +889,7 @@ h1 {
         width: 100%;
         height: 22vh;
         z-index: 1;
-        background-color: #a379f075;
+        background-color: #5e37a197;
         position: absolute;
         bottom: 0;
     }
@@ -738,7 +927,198 @@ h1 {
         font-weight: 300;
         text-shadow: 1px 1px 5px #2d1a4e;
     }
- }
+    
+    .offers {
+        height: 133vh;
+        padding-top: 5vh;
+        position: relative;
+    }
+
+    .offersShapes {
+        height: 113vh;
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .offS1 {
+        position: absolute;
+        left: 42vw;
+    }
+
+    .offS1img {
+        height: 15vw;
+    }
+
+    .offS2 {
+        position: absolute;
+        top: 48vh;
+    }
+
+    .offS2img {
+        height: 30vw;
+    }
+
+    .offS3 {
+        position: absolute;
+        right: 0vw;
+        top: 90vh;
+    }
+
+    .offS3img {
+        height: 30vw;
+    }
+
+    h2 {
+        font-size: 3.8vh;
+        color: black;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .h2purple {
+        font-size: 3.8vh;
+        color: #6f42c1;
+        font-weight: 700;
+    }
+
+    .h2yellow {
+        font-size: 3.8vh;
+        color: #fec107;
+        font-weight: 700;
+    }
+
+    .offersGrid {
+        height: 104vh;
+        width: 90vw;
+        margin: auto;
+        margin-top: 4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .oG1, .oG2 {
+        height: 48vh;
+        width: 85vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 1;
+    }
+
+    .oG1-expense, .oG1-budgets, .oG2-split, .oG1-savings {
+        background-color: white;
+        height: 47vh;
+        width: 38vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: 1px 1px 2px black;
+    }
+
+    .oG-imgBox {
+        margin-top: 1.5vh;
+    }
+
+    .oG-img {
+        height: 17vh;
+    }
+
+    .oG-txtBox {
+        width: 33vw;
+        height: 26vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .oG-txth4 {
+        font-size: 2.6vh;
+        line-height: 3vh;
+        color: black;
+    }
+
+    .oG-txtpara {
+        font-size: 1.3vh;
+        color: black;
+    }
+
+    a.Alink-oGlearn:link, a.Alink-oGlearn:visited {
+        font-size: 1.2vh;
+        color: #6f42c1;
+        text-decoration: none;
+        font-weight: 500;
+        cursor: pointer;
+        border: 1px solid #5d37a1;
+        border-radius: 8px;
+        width: 14vw;
+        height: 3.3vh;
+        align-content: center;
+        text-align: center;
+    }
+
+    a.Alink-oGlearn:hover, a.Alink-oGlearn:active {
+        font-size: 1.2vh;
+        color: white;
+        background-color: #5d37a1;
+        text-decoration: none;
+        font-weight: 500;
+        border: none;
+        border-radius: 8px;
+        width: 14vw;
+        height: 3.3vh;
+        align-content: center;
+        text-align: center;
+        transition: 0.5s ease-in-out;
+    }
+
+    a.Alink-oGlearn2:link, a.Alink-oGlearn2:visited {
+        background-color: #6f42c1;
+        color: white;
+        width: 50vw;
+        height: 4vh;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-family: "Poppins", serif;
+        font-size: 1.5vh;
+        border-radius: 15px;
+        font-weight: 400;
+        font-style: normal;
+        margin: auto;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 5vh;
+        left: 24vw;
+    }
+
+    a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
+        background-color: #5d37a1;
+        color: white;
+        width: 50vw;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.5vh;
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        border-radius: 15px;
+        border: none;
+        transition: 0.3s ease-in;
+        position: absolute;
+        margin-top: 5vh;
+    }
+    
+}
 
 
 
@@ -1056,12 +1436,12 @@ h1 {
     }
     
     .proceedarrow {
-        margin-top: 0.4vh;
+        margin-top: 0.5vh;
         margin-left: 1vw;
     }
     
     .arrowforward {
-        height: 1.6vh;
+        height: 1.8vh;
     }
     
     .hC-imgbox {
@@ -1094,13 +1474,13 @@ h1 {
 
     .stats {
         width: 100%;
-        height: 38vh;
+        height: 30vh;
         align-content: center;
         background-image: url('images/landingpageimg/Rectangle\ 108.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position-x: 78.8%;
-        background-position-y: 100%;
+        background-position-y: 10%;
         background-size: cover;
         background-origin: padding-box;
         z-index: 0;
@@ -1112,16 +1492,16 @@ h1 {
     
     .statoverlay {
         width: 100%;
-        height: 38vh;
+        height: 30vh;
         z-index: 1;
-        background-color: #a379f075;
+        background-color: #5e37a197;
         position: absolute;
         bottom: 0;
     }
     
     .statsBox {
         width: 80vw;
-        height: 30vh;
+        height: 28vh;
         margin: auto;
         display: flex;
         justify-content: space-evenly;
@@ -1131,15 +1511,15 @@ h1 {
     }
     
     .statBox1, .statBox2, .statBox3, .statBox4 {
-        width: 30vw;
-        height: 15vh;
+        width: 31vw;
+        height: 11vh;
         align-content: center;
         z-index: 2;
     }
     
     .statNo {
         color: white;
-        font-size: 4vh;
+        font-size: 3.8vh;
         text-align: center;
         font-weight: 600;
         text-shadow: 1px 1px 5px #fec00722;
@@ -1151,5 +1531,212 @@ h1 {
         text-align: center;
         font-weight: 300;
         text-shadow: 1px 1px 5px #2d1a4e;
+    }
+
+    .offers {
+        height: 220vh;
+        padding-top: 5vh;
+        position: relative;
+    }
+
+    .offersShapes {
+        height: 218vh;
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .offS1 {
+        position: absolute;
+        left: 42vw;
+    }
+
+    .offS1img {
+        height: 25vw;
+    }
+
+    .offS2 {
+        position: absolute;
+        top: 95vh;
+    }
+
+    .offS2img {
+        height: 45vw;
+    }
+
+    .offS3 {
+        position: absolute;
+        right: 0vw;
+        top: 190vh;
+    }
+
+    .offS3img {
+        height: 40vw;
+    }
+
+    h2 {
+        font-size: 3.6vh;
+        color: black;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .h2purple {
+        font-size: 3.6vh;
+        color: #6f42c1;
+        font-weight: 700;
+    }
+
+    .h2yellow {
+        font-size: 3.6vh;
+        color: #fec107;
+        font-weight: 700;
+    }
+
+    .offersGrid {
+        height: 200vh;
+        width: 90vw;
+        margin: auto;
+        margin-top: 4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .oG1, .oG2 {
+        height: 94vh;
+        width: 72vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 1;
+    }
+
+    .oG-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 45vh;
+        width: 70vw;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+    }
+
+    .oG1-expense, .oG1-budgets, .oG2-split, .oG1-savings {
+        background-color: white;
+        height: 45vh;
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: 1px 1px 2px black;
+    }
+
+    .oG-imgBox {
+        margin-top: 1.5vh;
+    }
+
+    .oG-img {
+        height: 20vh;
+    }
+
+    .oG-txtBox {
+        width: 60vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: auto;
+    }
+
+    .oG-txth4 {
+        font-size: 2.5vh;
+        line-height: 2.5vh;
+        color: black;
+        text-align: center;
+    }
+
+    .oG-txtpara {
+        font-size: 1.4vh;
+        color: black;
+        text-align: justify;
+        word-wrap: break-word;
+    }
+
+    a.Alink-oGlearn:link, a.Alink-oGlearn:visited {
+        font-size: 1.3vh;
+        color: #6f42c1;
+        text-decoration: none;
+        font-weight: 500;
+        cursor: pointer;
+        border: 1px solid #5d37a1;
+        border-radius: 8px;
+        width: 20vw;
+        height: 4vh;
+        align-content: center;
+        text-align: center;
+    }
+
+    a.Alink-oGlearn:hover, a.Alink-oGlearn:active {
+        font-size: 1.3vh;
+        color: white;
+        background-color: #5d37a1;
+        text-decoration: none;
+        font-weight: 500;
+        border: none;
+        border-radius: 8px;
+        width: 20vw;
+        height: 4vh;
+        align-content: center;
+        text-align: center;
+        transition: 0.5s ease-in-out;
+    }
+
+    a.Alink-oGlearn2:link, a.Alink-oGlearn2:visited {
+        background-color: #6f42c1;
+        color: white;
+        width: 68vw;
+        height: 5vh;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-family: "Poppins", serif;
+        font-size: 1.6vh;
+        border-radius: 10px;
+        font-weight: 400;
+        font-style: normal;
+        margin: auto;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 5vh;
+        left: 15.5vw;
+    }
+
+    a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
+        background-color: #5d37a1;
+        color: white;
+        width: 50vw;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.6vh;
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        border-radius: 10px;
+        border: none;
+        transition: 0.3s ease-in;
+        position: absolute;
+        margin-top: 5vh;
     }
 }
