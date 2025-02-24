@@ -437,6 +437,71 @@ h2 {
     z-index: 1;
 }
 
+ /* the div */
+ #myModal {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20px; /* Location of the box */
+    top: 8vw;
+    margin: auto;
+    height: 65vh;
+    width: 50vw;
+    overflow: auto;
+    background-color: black; /* Fallback color */
+    background-color: #ebebeb; /* Black w/ opacity */
+    border-radius: 3vw;
+    border: 3px solid #5d37a1;
+}
+
+/* the image */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: justify;
+    color: black;
+    padding-top: 3vh;
+    height: 50px;
+    font-size: 2vh;
+}
+
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 1vh;
+    right: 3vw;
+    color: black;
+    font-size: 5vh;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #6f42c1;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
 .oG1-expense, .oG1-budgets, .oG2-split, .oG1-savings {
     background-color: white;
     height: 79.7vh;
@@ -452,9 +517,14 @@ h2 {
     margin-top: 1.5vh;
 }
 
-.oG-img {
+.oG-img,  #myImg {
     height: 40vh;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 }
+
+#myImg:hover {opacity: 0.7;}
 
 .oG-txtBox {
     width: 27vw;
@@ -1008,6 +1078,70 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         z-index: 1;
     }
 
+     /* the div */
+     #myModal {
+        display: none; /* Hidden by default */
+        position: absolute; 
+        z-index: 1; /* Sit on top */
+        padding-top: 20px; /* Location of the box */
+        top: 8vw;
+        margin: auto;
+        height: 60vh;
+        width: 50vw;
+        overflow: auto;
+        background-color: black; /* Fallback color */
+        background-color: #f2f2f2; /* Black w/ opacity */
+        border-radius: 6vw;
+        box-shadow: 1px 1px 2px #fec107;
+    }
+
+    /* the image */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+    }
+
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: justify;
+        color: black;
+        padding-top: 3vh;
+        height: 50px;
+        font-size: 1.8vh;
+    }
+
+    .modal-content, #caption {
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+      
+    @keyframes zoom {
+        from {transform:scale(0)}
+        to {transform:scale(1)}
+    }
+
+    .close {
+        position: absolute;
+        top: 1vh;
+        right: 3vw;
+        color: black;
+        font-size: 5vh;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #6f42c1;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
     .oG1-expense, .oG1-budgets, .oG2-split, .oG1-savings {
         background-color: white;
         height: 47vh;
@@ -1023,9 +1157,14 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         margin-top: 1.5vh;
     }
 
-    .oG-img {
+    .oG-img, #myImg {
         height: 17vh;
-    }
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    } 
+
+    #myImg:hover {opacity: 0.7;}
 
     .oG-txtBox {
         width: 33vw;
@@ -1613,18 +1752,69 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         z-index: 1;
     }
 
-    .oG-overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 45vh;
-        width: 70vw;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #008CBA;
+
+    /* the div */
+    #myModal {
+        display: none; /* Hidden by default */
+        position: absolute; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 20px; /* Location of the box */
+        top: 8vw;
+        margin: auto;
+        height: auto;
+        width: 90vw;
+        overflow: auto;
+        background-color: black; /* Fallback color */
+        background-color: #f2f2f2; /* Black w/ opacity */
+        border-radius: 8vw;
+        box-shadow: 1px 1px 2px #fec107;
     }
+
+    /* the image */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+    }
+
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: justify;
+        color: black;
+        padding-top: 3vh;
+        height: 50px;
+    }
+
+    .modal-content, #caption {
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+      
+    @keyframes zoom {
+        from {transform:scale(0)}
+        to {transform:scale(1)}
+    }
+
+    .close {
+        position: absolute;
+        top: 1vh;
+        right: 3vw;
+        color: black;
+        font-size: 4.3vh;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #6f42c1;
+        text-decoration: none;
+        cursor: pointer;
+      }
 
     .oG1-expense, .oG1-budgets, .oG2-split, .oG1-savings {
         background-color: white;
@@ -1641,9 +1831,14 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         margin-top: 1.5vh;
     }
 
-    .oG-img {
-        height: 20vh;
-    }
+    .oG-img, #myImg {
+        height: 18vh;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    } 
+
+    #myImg:hover {opacity: 0.7;}
 
     .oG-txtBox {
         width: 60vw;
@@ -1680,6 +1875,7 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         height: 4vh;
         align-content: center;
         text-align: center;
+        cursor: pointer;
     }
 
     a.Alink-oGlearn:hover, a.Alink-oGlearn:active {
