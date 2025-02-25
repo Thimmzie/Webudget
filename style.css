@@ -17,6 +17,8 @@ body {
 .hero {
     height: 120vh;
     background: url('images/landingpageimg/Rectangle\ 62\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -191,7 +193,7 @@ a.Alink-signin:hover, a.Alink-signin:active {
 
 .hC-textbox {
     width: 45vw;
-    height: 45vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -200,7 +202,7 @@ a.Alink-signin:hover, a.Alink-signin:active {
 }
 
 h1 {
-    font-size: 8.8vh;
+    font-size: 8.7vh;
     line-height: 10vh;
     color: black;
 }
@@ -438,7 +440,7 @@ h2 {
 }
 
  /* the div */
- #myModal {
+ #myModal, #myModalB {
     display: none; /* Hidden by default */
     position: absolute; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -450,7 +452,23 @@ h2 {
     overflow: auto;
     background-color: black; /* Fallback color */
     background-color: #ebebeb; /* Black w/ opacity */
-    border-radius: 3vw;
+    border-radius: 2vw;
+    border: 3px solid #5d37a1;
+}
+
+#myModalC, #myModalD {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    top: 121vh;
+    margin: auto;
+    height: 65vh;
+    width: 50vw;
+    overflow: auto;
+    background-color: black;
+    background-color: #ebebeb;
+    border-radius: 2vw;
     border: 3px solid #5d37a1;
 }
 
@@ -462,7 +480,11 @@ h2 {
     max-width: 700px;
 }
 
-#caption {
+#img01, #img01B, #img01C, #img01D {
+    
+}
+
+#caption, #captionB, #captionC, #captionD {
     margin: auto;
     display: block;
     width: 80%;
@@ -471,10 +493,10 @@ h2 {
     color: black;
     padding-top: 3vh;
     height: 50px;
-    font-size: 2vh;
+    font-size: 2.3vh;
 }
 
-.modal-content, #caption {
+.modal-content, #caption, #captionB, #captionC, #captionD {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
@@ -484,7 +506,7 @@ h2 {
     to {transform:scale(1)}
 }
 
-.close {
+.close, .closeB, .closeC, .closeD {
     position: absolute;
     top: 1vh;
     right: 3vw;
@@ -494,12 +516,15 @@ h2 {
     transition: 0.3s;
   }
   
-  .close:hover,
-  .close:focus {
+.close:hover,
+.close:focus, .closeB:hover,
+.closeB:focus, .closeC:hover,
+.closeC:focus, .closeD:hover,
+.closeD:focus   {
     color: #6f42c1;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
 
 .oG1-expense, .oG1-budgets, .oG2-split, .oG1-savings {
@@ -517,14 +542,16 @@ h2 {
     margin-top: 1.5vh;
 }
 
-.oG-img,  #myImg {
+.oG-img, #myImg, #myImgB, #myImgC, #myImgD {
     height: 40vh;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover, #myImgB:hover, #myImgC:hover, #myImgD:hover {
+    opacity: 0.7;
+}
 
 .oG-txtBox {
     width: 27vw;
@@ -545,40 +572,23 @@ h2 {
     color: black;
 }
 
-a.Alink-oGlearn:link, a.Alink-oGlearn:visited {
-    font-size: 2.3vh;
+.oGlearn {
+    font-size: 2.1vh;
     color: #6f42c1;
     text-decoration: none;
     font-weight: 500;
     cursor: pointer;
-    border: 1px solid #5d37a1;
-    border-radius: 8px;
-    width: 10vw;
-    height: 7vh;
-    align-content: center;
-    text-align: center;
-}
-
-a.Alink-oGlearn:hover, a.Alink-oGlearn:active {
-    font-size: 2.3vh;
-    color: white;
-    background-color: #5d37a1;
-    text-decoration: none;
-    font-weight: 500;
-    border: none;
-    border-radius: 8px;
     width: 15vw;
     height: 7vh;
     align-content: center;
-    text-align: center;
-    transition: 0.5s ease-in-out;
+    text-align: left;
 }
 
 a.Alink-oGlearn2:link, a.Alink-oGlearn2:visited {
     background-color: #6f42c1;
     color: white;
     width: 28vw;
-    height: 8.8vh;
+    height: 9vh;
     display: flex;
     text-decoration: none;
     align-items: center;
@@ -586,7 +596,7 @@ a.Alink-oGlearn2:link, a.Alink-oGlearn2:visited {
     justify-content: center;
     font-family: "Poppins", serif;
     font-size: 2.2vh;
-    border-radius: 10px;
+    border-radius: 9px;
     font-weight: 400;
     font-style: normal;
     margin: auto;
@@ -601,7 +611,7 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
     background-color: #5d37a1;
     color: white;
     width: 28vw;
-    height: 8.8vh;
+    height: 9vh;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -610,7 +620,7 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
     font-size: 2.2vh;
     font-family: "Poppins", serif;
     font-weight: 400;
-    border-radius: 10px;
+    border-radius: 9px;
     margin-left: 0vw;
     margin-top: 0vh;
     border: none;
@@ -618,6 +628,8 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
     position: absolute;
     margin-top: 7vh;
 }
+
+
 
 /* Tablet screen */
 
@@ -1084,14 +1096,62 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         position: absolute; 
         z-index: 1; /* Sit on top */
         padding-top: 20px; /* Location of the box */
-        top: 8vw;
+        top: 18vh;
         margin: auto;
-        height: 60vh;
-        width: 50vw;
+        height: 35vh;
+        width: 45vw;
         overflow: auto;
         background-color: black; /* Fallback color */
         background-color: #f2f2f2; /* Black w/ opacity */
-        border-radius: 6vw;
+        border-radius: 5vw;
+        box-shadow: 1px 1px 2px #fec107;
+    }
+
+    #myModalB {
+        display: none;
+        position: absolute; 
+        z-index: 1;
+        padding-top: 20px;
+        top: 18vh;
+        margin: auto;
+        height: 35vh;
+        width: 45vw;
+        overflow: auto;
+        background-color: black;
+        background-color: #f2f2f2;
+        border-radius: 5vw;
+        box-shadow: 1px 1px 2px #fec107;
+    }
+
+    #myModalC {
+        display: none;
+        position: absolute; 
+        z-index: 1;
+        padding-top: 20px;
+        top: 70vh;
+        margin: auto;
+        height: 35vh;
+        width: 45vw;
+        overflow: auto;
+        background-color: black; 
+        background-color: #f2f2f2;
+        border-radius: 5vw;
+        box-shadow: 1px 1px 2px #fec107;
+    }
+
+    #myModalD {
+        display: none;
+        position: absolute; 
+        z-index: 1;
+        padding-top: 20px;
+        top: 70vh;
+        margin: auto;
+        height: 35vh;
+        width: 45vw;
+        overflow: auto;
+        background-color: black; 
+        background-color: #f2f2f2;
+        border-radius: 5vw;
         box-shadow: 1px 1px 2px #fec107;
     }
 
@@ -1103,7 +1163,7 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         max-width: 700px;
     }
 
-    #caption {
+    #caption, #captionB, #captionC, #captionD {
         margin: auto;
         display: block;
         width: 80%;
@@ -1112,10 +1172,10 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         color: black;
         padding-top: 3vh;
         height: 50px;
-        font-size: 1.8vh;
+        font-size: 1.5vh;
     }
 
-    .modal-content, #caption {
+    .modal-content, #caption, #captionB, #captionC, #captionD {
         animation-name: zoom;
         animation-duration: 0.6s;
     }
@@ -1125,7 +1185,7 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         to {transform:scale(1)}
     }
 
-    .close {
+    .close, .closeB, .closeC, .closeD {
         position: absolute;
         top: 1vh;
         right: 3vw;
@@ -1136,7 +1196,10 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
       }
       
       .close:hover,
-      .close:focus {
+      .close:focus, .closeB:hover,
+      .closeB:focus, .closeC:hover,
+      .closeC:focus, .closeD:hover,
+      .closeD:focus  {
         color: #6f42c1;
         text-decoration: none;
         cursor: pointer;
@@ -1157,14 +1220,18 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         margin-top: 1.5vh;
     }
 
-    .oG-img, #myImg {
+    #img01, #img01B, #img01C, #img01D {
+
+    }
+
+    .oG-img, #myImg, #myImgB, #myImgC, #myImgD {
         height: 17vh;
         border-radius: 5px;
         cursor: pointer;
         transition: 0.3s;
     } 
 
-    #myImg:hover {opacity: 0.7;}
+    #myImg:hover, #myImgB:hover, #myImgC:hover, #myImgD:hover {opacity: 0.7;}
 
     .oG-txtBox {
         width: 33vw;
@@ -1185,33 +1252,16 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         color: black;
     }
 
-    a.Alink-oGlearn:link, a.Alink-oGlearn:visited {
+    .oGlearn {
         font-size: 1.2vh;
         color: #6f42c1;
         text-decoration: none;
         font-weight: 500;
         cursor: pointer;
-        border: 1px solid #5d37a1;
-        border-radius: 8px;
         width: 14vw;
         height: 3.3vh;
         align-content: center;
-        text-align: center;
-    }
-
-    a.Alink-oGlearn:hover, a.Alink-oGlearn:active {
-        font-size: 1.2vh;
-        color: white;
-        background-color: #5d37a1;
-        text-decoration: none;
-        font-weight: 500;
-        border: none;
-        border-radius: 8px;
-        width: 14vw;
-        height: 3.3vh;
-        align-content: center;
-        text-align: center;
-        transition: 0.5s ease-in-out;
+        text-align: left;
     }
 
     a.Alink-oGlearn2:link, a.Alink-oGlearn2:visited {
@@ -1759,13 +1809,61 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         position: absolute; /* Stay in place */
         z-index: 1; /* Sit on top */
         padding-top: 20px; /* Location of the box */
-        top: 8vw;
+        top: 39vw;
         margin: auto;
         height: auto;
         width: 90vw;
         overflow: auto;
         background-color: black; /* Fallback color */
         background-color: #f2f2f2; /* Black w/ opacity */
+        border-radius: 8vw;
+        box-shadow: 1px 1px 2px #fec107;
+    }
+
+    #myModalB {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        padding-top: 20px;
+        top: 67vh;
+        margin: auto;
+        height: auto;
+        width: 90vw;
+        overflow: auto;
+        background-color: black; 
+        background-color: #f2f2f2; 
+        border-radius: 8vw;
+        box-shadow: 1px 1px 2px #fec107;
+    }
+
+    #myModalC {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        padding-top: 20px;
+        top: 118vh;
+        margin: auto;
+        height: auto;
+        width: 90vw;
+        overflow: auto;
+        background-color: black; 
+        background-color: #f2f2f2; 
+        border-radius: 8vw;
+        box-shadow: 1px 1px 2px #fec107;
+    }
+
+    #myModalD {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        padding-top: 20px;
+        top: 167vh;
+        margin: auto;
+        height: auto;
+        width: 90vw;
+        overflow: auto;
+        background-color: black; 
+        background-color: #f2f2f2; 
         border-radius: 8vw;
         box-shadow: 1px 1px 2px #fec107;
     }
@@ -1778,7 +1876,11 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         max-width: 700px;
     }
 
-    #caption {
+    .img01, .img01B, .img01C {
+        
+    }
+
+    #caption, #captionB, #captionC {
         margin: auto;
         display: block;
         width: 80%;
@@ -1787,9 +1889,10 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         color: black;
         padding-top: 3vh;
         height: 50px;
+        font-size: 1.6vh;
     }
 
-    .modal-content, #caption {
+    .modal-content, #caption, #captionB, #captionC {
         animation-name: zoom;
         animation-duration: 0.6s;
     }
@@ -1799,7 +1902,7 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         to {transform:scale(1)}
     }
 
-    .close {
+    .close, .closeB, .closeC {
         position: absolute;
         top: 1vh;
         right: 3vw;
@@ -1810,7 +1913,9 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
       }
       
       .close:hover,
-      .close:focus {
+      .close:focus, .closeB:hover,
+      .closeB:focus, .closeC:hover,
+      .closeC:focus  {
         color: #6f42c1;
         text-decoration: none;
         cursor: pointer;
@@ -1831,18 +1936,20 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         margin-top: 1.5vh;
     }
 
-    .oG-img, #myImg {
+    .oG-img, #myImg, #myImgB, #myImgC {
         height: 18vh;
         border-radius: 5px;
         cursor: pointer;
         transition: 0.3s;
     } 
 
-    #myImg:hover {opacity: 0.7;}
+    #myImg:hover , #myImgB:hover, #myImgC:hover {
+        opacity: 0.7;
+    }
 
     .oG-txtBox {
         width: 60vw;
-        height: 20vh;
+        height: 22vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1850,53 +1957,36 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
     }
 
     .oG-txth4 {
-        font-size: 2.5vh;
+        font-size: 2.3vh;
         line-height: 2.5vh;
         color: black;
         text-align: center;
     }
 
     .oG-txtpara {
-        font-size: 1.4vh;
+        font-size: 1.3vh;
         color: black;
-        text-align: justify;
+        text-align: left;
         word-wrap: break-word;
     }
 
-    a.Alink-oGlearn:link, a.Alink-oGlearn:visited {
+    .oGlearn {
         font-size: 1.3vh;
         color: #6f42c1;
         text-decoration: none;
         font-weight: 500;
         cursor: pointer;
-        border: 1px solid #5d37a1;
-        border-radius: 8px;
         width: 20vw;
         height: 4vh;
         align-content: center;
-        text-align: center;
+        text-align: left;
         cursor: pointer;
-    }
-
-    a.Alink-oGlearn:hover, a.Alink-oGlearn:active {
-        font-size: 1.3vh;
-        color: white;
-        background-color: #5d37a1;
-        text-decoration: none;
-        font-weight: 500;
-        border: none;
-        border-radius: 8px;
-        width: 20vw;
-        height: 4vh;
-        align-content: center;
-        text-align: center;
-        transition: 0.5s ease-in-out;
     }
 
     a.Alink-oGlearn2:link, a.Alink-oGlearn2:visited {
         background-color: #6f42c1;
         color: white;
-        width: 68vw;
+        width: 80vw;
         height: 5vh;
         display: flex;
         text-decoration: none;
@@ -1904,7 +1994,7 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         text-align: center;
         justify-content: center;
         font-family: "Poppins", serif;
-        font-size: 1.6vh;
+        font-size: 1.5vh;
         border-radius: 10px;
         font-weight: 400;
         font-style: normal;
@@ -1913,20 +2003,20 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         cursor: pointer;
         position: absolute;
         margin-top: 5vh;
-        left: 15.5vw;
+        left: 10vw;
     }
 
     a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
         background-color: #5d37a1;
         color: white;
-        width: 50vw;
+        width: 80vw;
         height: 4vh;
         display: flex;
         align-items: center;
         text-decoration: none;
         text-align: center;
         justify-content: center;
-        font-size: 1.6vh;
+        font-size: 1.5vh;
         font-family: "Poppins", serif;
         font-weight: 400;
         border-radius: 10px;
