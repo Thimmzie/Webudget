@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <title>Savings</title>
-    <link rel="stylesheet" href="savingstype.css" />
+    <link rel="stylesheet" href="savingslink.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,36 +18,40 @@
     <section>
         <div class="general">
             <div class="savings-arrow">
-                <div><a href="../savings/savings.html"><ion-icon class="arrow-left"
-                            name="arrow-back-outline"></ion-icon></a></div>
+                <div><a href="../savings/savingstype.html"><ion-icon class="arrow-left"
+                            name="arrow-back-outline"></ion-icon></a>
+                </div>
                 <div class="savings-text">
                     <p>Create a new savings plan</p>
                 </div>
             </div>
             <div class="savings-type-box">
-                <p class="savings-one">Savings Type</p>
-                <p class="choose">Please choose what type of savings</p>
+                <p class="savings-one">Link partner</p>
+                <p class="choose">Send invite to your partner, by linking <br> accounts, both partners can
+                    collaboratively <br>
+                    track expenses, manage budgets, and <br>
+                    achieve financial goals together.</p>
                 <div class="personal-shared">
                     <button class="people">
-                        <ion-icon class="people-icon" name="people-outline"></ion-icon>
-                        <p>Personal</p>
+                        <ion-icon class="person-icon" name="people-outline"></ion-icon>
+                        James
                     </button>
-                    <button class="people">
-                        <ion-icon class="people-icon" name="people-outline"></ion-icon>
-                        <p>Shared</p>
+                    <button id="dashed" class="people">
+                        <ion-icon class="people-icon" name="add-outline"></ion-icon>
+                        Add Partner
                     </button>
                 </div>
             </div>
             <div class="site-buttons">
-                <div><a href="./savings.html"><button class="previous-btn">Back</button></a></div>
-                <div><a id="btn-link" href="./savingslink.html"><button class="next-btn">
+                <div><a href="./savingstype.html"><button class="previous-btn">Back</button></a></div>
+                <div><a id="btn-link" href="./savingsbudget.html"><button class="next-btn">
                             <div>Proceed</div>
                             <div><ion-icon class="right-arrow" name="arrow-back-outline"></ion-icon></div>
                         </button></a></div>
             </div>
             <div class="page-footer-like">
                 <div class="fraction">
-                    <p>Step <sup>1</sup>/<sub>4</sub></p>
+                    <p>Step <sup>2</sup>/<sub>4</sub></p>
                 </div>
                 <div class="choose-footer">
                     <p>Choose Saving Type</p>
@@ -55,6 +59,7 @@
             </div>
         </div>
     </section>
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="savingstype.js"></script>
