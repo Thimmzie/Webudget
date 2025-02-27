@@ -96,12 +96,13 @@ spanCloseD.onclick = function() {
   modalD.style.display = "none";
 }
 
+
+
 // Accomplish scroll
 
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// from B VID
 const autoSlide = () => plusSlides(1);
 setInterval(autoSlide, 6000);
 
@@ -113,27 +114,12 @@ function showSlides(n) {
     const slides = document.querySelectorAll(".mySlides");
     const dots = document.querySelectorAll(".dot");
 
-    // commented out from B Vid:
-    /*
-    if (n > slides.length) {
-        slideIndex = 1;
-    } else if (n < 1) {
-        slideIndex = slides.length;
-    } else {
-        slideIndex = n;
-    }*/
-
-   // and replaced with:
    slideIndex = n > slides.length ? 1 : n < 1 ? slides.length : n;
-
-    // cant loop over htmlcollection w for each method
-    // as an alternative, Array.from() is used to convert an html collection into an array
 
     slides.forEach((slide)=> (
         slide.style.display = "none"
     ));
 
-    // array.from removed from B vid
     dots.forEach((dot) =>
         dot.classList.remove(".dActive"));
 
