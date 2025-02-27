@@ -194,18 +194,18 @@ a.Alink-signin:hover, a.Alink-signin:active {
  
 
 .hC-textbox {
-    width: 41vw;
+    width: 40vw;
     height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 2vw;
     margin-top: 8vh;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 h1 {
-    font-size: 12vh;
+    font-size: 11.5vh;
     line-height: 11vh;
     color: black;
     font-weight: 500;
@@ -213,7 +213,7 @@ h1 {
 }
 
 .h1yellow {
-    font-size: 12vh;
+    font-size: 11.8vh;
     color: #fec107;
     text-shadow: 1px 1px 2px black;
     font-weight: 700;
@@ -221,7 +221,7 @@ h1 {
 }
 
 .h1purple {
-    font-size: 12vh;
+    font-size: 11.8vh;
     color: #8762cb;
     text-shadow: 1px 1px 2px black;
     font-weight: 700;
@@ -284,7 +284,7 @@ h1 {
 }
 
 .hC-imgbox {
-    width: 50vw;
+    width: 55vw;
     margin-top: 3vh;
     display: inline;
     position: relative;
@@ -305,7 +305,7 @@ h1 {
 }
 
 .hCimg {
-    height: 79vh;
+    height: 87vh;
 }
 
 .stats {
@@ -918,7 +918,9 @@ a.Alink-accG:hover, a.Alink-accG:active {
 }
 
 .subscription {
-
+    border: 2px solid red;
+    height: 130vh;
+    width: 100%;
 }
 
 .subShape {
@@ -928,15 +930,47 @@ a.Alink-accG:hover, a.Alink-accG:active {
 
 .subShape-img {
     position: absolute;
+    top: 30vh;
+    height: 90vh;
 }
 
 .subsGrid {
-
+    border: 2px solid black;
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 5;
+    
 }
 
-.subsG1 {
-
+.subsG1, .subsG2, .subsG3 {
+    width: 25vw;
+    height: 80vh;
+    z-index: 6;
+    background-color: linear-gradient(#e8e1f5, #e8e1f5);
+    border-radius: 30px;
+    border: 1px solid #6f42c1;
 }
+
+/*
+.subs-ani {
+    animation-name: subs-ani;
+  animation-duration: 20s;
+  animation-delay: 2s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes subs-ani {
+    0% {background-color: #ac95d6;}
+    50% {background-color: #e8e1f5;}
+    100% {background-color: #ac95d6;}
+  } 
+*/
 
 .subsG1-imgbox {
 
@@ -995,7 +1029,7 @@ a.Alink-subsG:link, a.Alink-subsG:visited {
 }
 
 a.Alink-subsG:hover, a.Alink-subsG:active {
-    
+
 }
 
 
