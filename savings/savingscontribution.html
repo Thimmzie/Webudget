@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savings</title>
+    <link rel="stylesheet" href="savingscontribution.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="general">
+            <div class="savings-arrow">
+                <div><a href="../savings/savingsbudget.html"><ion-icon class="arrow-left"
+                            name="arrow-back-outline"></ion-icon></a>
+                </div>
+                <div class="savings-text">
+                    <p>Create a new savings plan</p>
+                </div>
+            </div>
+            <div class="savings-box">
+                <div class="details-head">
+                    <h5>Contribution Type</h5>
+                    <p>Please fill in the necessary information</p>
+                </div>
+                <div class="frequency-div">
+                    <p class="contribution">Contribution Frequency</p>
+                    <div class="frequency-buttons">
+                        <button class="typebtn">Daily</button>
+                        <button class="typebtn">Weekly</button>
+                        <button class="typebtn">Monthly</button>
+                        <!-- <button class="typebtn">Yearly</button> -->
+                    </div>
+                    <div class="advise">
+                        <div><img src="../images/gridicons_notice-outline.png"></div>
+                        <p>We recommend you contribute #5,000 per month <br> to reach your target</p>
+                    </div>
+                </div>
+                <div class="frequency-div">
+                    <p class="contribution">Contribution Plan</p>
+                    <div class="frequency-buttons-two">
+                        <button id="custom" class="choicebtn">Custom Contribution</button>
+                        <button id="non-custom" class="choicebtn">% of Monthly Income</button>
+                    </div>
+                </div>
+                <div class="input-contribution">
+                    <p class="contribution">Input contribution</p>
+                    <input type="text" id="ic" name="sname" placeholder="&#8358 0.00">
+                    <div>
+                        <p class="prompt"><span class="warning">⚠</span> With this amount, you won't be able to reach
+                            your target</p>
+                    </div>
+                </div>
+            </div>
+            <div class="site-buttons">
+                <div><a href="./savingsbudget.html"><button class="previous-btn">Back</button></a></div>
+                <div><a id="btn-link" href="./savingscontribution.html"><button class="next-btn">
+                            <div>Proceed</div>
+                            <div><ion-icon class="right-arrow" name="arrow-back-outline"></ion-icon></div>
+                        </button></a></div>
+            </div>
+            <div class="page-footer-like">
+                <div class="fraction">
+                    <p>Step <sup>4</sup>/<sub>4</sub></p>
+                </div>
+                <div class="choose-footer">
+                    <p>Set contribution rate</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="savingsbudget.js"></script>
+</body>
+
+</html>

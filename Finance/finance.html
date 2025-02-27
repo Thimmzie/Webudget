@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Finance</title>
+    <link rel="stylesheet" href="finance.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <aside>
+        <div class="side-menu">
+            <div><img id="site-logo" src="../images/site-logo.png"></div>
+            <div>
+                <p class="menu">Menu</p>
+            </div>
+            <div class="dashboard-menu">
+                <ul>
+                    <div class="original-abstract">
+                        <div class="menu-icon-div"><img id="menu-icon-abstract" src="../images/financewhite.png" />
+                        </div>
+                        <div class="menu-text-abstract">
+                            <p><a id="link-abstract" href="../Finance/finance.html">Overview</a></p>
+                        </div>
+                    </div>
+                    <div class="original">
+                        <div class="menu-icon-div"><img id="menu-icon" src="../images/calculator.png" /></div>
+                        <div class="menu-text">
+                            <p><a href="#">Budgets</a></p>
+                        </div>
+                    </div>
+                    <div class="original">
+                        <div class="menu-icon-div"><img id="menu-icon" src="../images/piggyblack.png" /></div>
+                        <div class="menu-text">
+                            <p><a href="../savings/savings.html">Savings</a></p>
+                        </div>
+                    </div>
+                    <div class="original">
+                        <div class="menu-icon-div"><img id="menu-icon" src="../images/divider.png" /></div>
+                        <div class="menu-text">
+                            <p><a href="#">Split & Settle</a></p>
+                        </div>
+                    </div>
+                    <div class="original">
+                        <div class="menu-icon-div"><img id="menu-icon" src="../images/chat.png" /></div>
+                        <div class="menu-text">
+                            <p><a href="#">Chat Forum</a></p>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div>
+                <p class="menu">General</p>
+                <div class="dashboard-menu">
+                    <ul>
+                        <div class="original">
+                            <div class="menu-icon-div"><img id="menu-icon" src="../images/suit.png" /></div>
+                            <div class="menu-text">
+                                <p><a href="#">Ask an Expert</a></p>
+                            </div>
+                        </div>
+                        <div class="original">
+                            <div class="menu-icon-div"><img id="menu-icon" src="../images/customer.png" /></div>
+                            <div class="menu-text">
+                                <p><a href="#">Support</a></p>
+                            </div>
+                        </div>
+                        <div class="original">
+                            <div class="menu-icon-div"><img id="menu-icon" src="../images/hugeicons_user-account.png" />
+                            </div>
+                            <div class="menu-text">
+                                <p><a href="#">Account</a></p>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <section class="main-page">
+        <header>
+            <div class="header-menu">
+                <div class="hamburger">
+                    <span id="burger" class="burger-span-one"></span>
+                    <span id="burger" class="burger-span-two"></span>
+                    <span id="burger" class="burger-span-three"></span>
+                </div>
+                <div class="desktop-avatar"> <img src="../images/Ellipse 47.png"> </div>
+                <div class="menu-text-two">
+                    <h3>Ade Bakare</h3>
+                    <p>Welcome, Good morning!</p>
+                </div>
+                <div class="mobile-search">
+                    <ion-icon class="mobile-search-icon" name="search-outline"></ion-icon>
+                </div>
+                <div class="search-month">
+                    <ion-icon class="search-icon" name="search-outline"></ion-icon>
+                    <input type="search" id="gsearch" name="gsearch" placeholder="Search">
+                </div>
+                <div class="tablet-chat"><img id="message-notif" src="../images/hugeicons_message-notification-01.png">
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="savings-container-one">
+                <div class="savings-container-one-header">
+                    <div class="savings-container-one-text">
+                        <h2>Finance Overview</h2>
+                    </div>
+                    <div class="tablet-drop-down">
+                        <div class="solar-calendar-tablet-div"><img class="calend" id="solar-calendar-tablet"
+                                src="../images/solar_calendar-date-broken.png" /></div>
+                        <select id="months" name="months">
+                            <option value="november">November</option>
+                            <option value="december">December</option>
+                            <option value="january">January</option>
+                            <option value="feb">February</option>
+                            <option value="march">March</option>
+                            <option value="april">April</option>
+                            <option value="may">May</option>
+                        </select>
+                    </div>
+                    <div class="download-tablet">
+                        <div><ion-icon class="download-icon" name="download-outline"></ion-icon></div>
+                        <div class="download-comm">
+                            <p>Download</p>
+                        </div>
+                    </div>
+                    <div class="calendar-img"><img id="solar-calendar" src="../images/solar_calendar-date-broken.png" />
+                    </div>
+                    <div class="desktop-graph"><img src="../images/Group.png"></div>
+                </div>
+                <div class="site-widget-one">
+                    <div class="expense-box">
+                        <div class="expense-box-top">
+                            <div>
+                                <p class="expense-one">Cash Expense Today</p>
+                                <p class="expense-two">Total Amount</p>
+                                <p class="expense-three">N10,000</p>
+                            </div>
+                            <div class="trend-control">
+                                <ion-icon class="left-angle" name="caret-back-outline"></ion-icon>
+                                <ion-icon class="right-angle" name="caret-forward-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="trend-chart">
+                            <div class="bars">
+                                <span class="month">20</span>
+                                <span class="month">21</span>
+                                <span class="month">22</span>
+                                <span class="month">23</span>
+                                <span class="month">24</span>
+                                <span class="month">25</span>
+                                <span class="month">26</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="monthly-income">
+                        <div class="expense-box-top">
+                            <div>
+                                <p class="income">This month's income</p>
+                                <div class="money-div">
+                                    <p class="expense-three">N150,000</p>
+                                    <div class="edit"><img src="../images/mage_edit.png"></div>
+                                </div>
+                            </div>
+                            <div class="trend-control">
+                                <ion-icon class="left-angle" name="caret-back-outline"></ion-icon>
+                                <ion-icon class="right-angle" name="caret-forward-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="months">
+                                <span class="month">Nov</span>
+                                <span class="month">Dec</span>
+                                <span class="month">Jan</span>
+                                <span class="month">Feb</span>
+                                <span class="month">Mar</span>
+                                <span class="month">Apr</span>
+                                <span class="month">May</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="monthly-income">
+                        <div class="expense-box-top">
+                            <div>
+                                <p class="income">Monthly"s Expense</p>
+                                <div class="money-div">
+                                    <p class="expense-three">N10,000</p>
+                                    <div class="edit"><img src="../images/mage_edit.png"></div>
+                                </div>
+                            </div>
+                            <div class="trend-control">
+                                <ion-icon class="left-angle" name="caret-back-outline"></ion-icon>
+                                <ion-icon class="right-angle" name="caret-forward-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="months">
+                                <span class="month">Nov</span>
+                                <span class="month">Dec</span>
+                                <span class="month">Jan</span>
+                                <span class="month">Feb</span>
+                                <span class="month">Mar</span>
+                                <span class="month">Apr</span>
+                                <span class="month">May</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spending">
+                        <div class="spending-top">
+                            <p>Spending Limit</p>
+                            <ion-icon class="infinity" name="ellipsis-horizontal-outline"></ion-icon>
+                        </div>
+                        <p class="amount-left">N140,000<span class="amount-left-span">out of N150,000 available to
+                                spend</span></p>
+                        <p class="percent">90%</p>
+                        <p class="white-smoke"><span class="purple"></span></p>
+                    </div>
+                </div>
+                <div class="site-widget-two">
+                    <div class="sub-widget-two-one">
+                        <div class="quick-action">
+                            <p class="quick">Quick Action</p>
+                            <div class="site-navigation">
+                                <a id="iconic-link" href="#">
+                                    <div class="iconic">
+                                        <img src="../images/solar-blue.png">
+                                        <p>Budget</p>
+                                    </div>
+                                </a>
+                                <a id="iconic-link" href="#">
+                                    <div class="iconic">
+                                        <img src="../images/piggy-blue.png">
+                                        <p>Savings</p>
+                                    </div>
+                                </a>
+                                <a id="iconic-link" href="#">
+                                    <div class="iconic">
+                                        <img src="../images/user-blue.png">
+                                        <p>Split & Settle</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-widget-two-one">
+                        <div class="recent-box">
+                            <div class="recent-top">
+                                <p class="recent">Recent Transaction</p>
+                                <p>See more <ion-icon name="arrow-forward-outline"></ion-icon></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="finance.js"></script>
+</body>
+
+</html>
