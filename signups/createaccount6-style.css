@@ -175,7 +175,7 @@ a.Alink-privacy:hover, a.Alink-privacy:active {
     font-weight: 600;
 }
 
-.proceedButton {
+a.Alink-proceedButton:link, a.Alink-proceedButton:visited {
     background-color: #6f42c1;
     color: white;
     width: 35vw;
@@ -196,7 +196,7 @@ a.Alink-privacy:hover, a.Alink-privacy:active {
     cursor: pointer;
 }
   
-.proceedButton:hover {
+a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
     background-color: #5d37a1;
     color: white;
     width: 35vw;
@@ -409,7 +409,7 @@ a.Alink-privacy:hover, a.Alink-privacy:active {
         font-weight: 600;
     }
     
-    .proceedButton {
+    a.Alink-proceedButton:link, a.Alink-proceedButton:visited {
         background-color: #6f42c1;
         color: white;
         width: 68vw;
@@ -430,7 +430,7 @@ a.Alink-privacy:hover, a.Alink-privacy:active {
         cursor: pointer;
     }
       
-    .proceedButton:hover {
+    a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
         background-color: #5d37a1;
         color: white;
         width: 68vw;
@@ -644,7 +644,7 @@ a.Alink-privacy:hover, a.Alink-privacy:active {
         font-weight: 600;
     }
     
-    .proceedButton {
+    a.Alink-proceedButton:link, a.Alink-proceedButton:visited {
         background-color: #6f42c1;
         color: white;
         width: 68vw;
@@ -665,7 +665,7 @@ a.Alink-privacy:hover, a.Alink-privacy:active {
         cursor: pointer;
     }
       
-    .proceedButton:hover {
+    a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
         background-color: #5d37a1;
         color: white;
         width: 68vw;

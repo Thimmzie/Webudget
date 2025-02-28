@@ -233,7 +233,7 @@ h1 {
     color: black;
 }
 
-.proceedButton {
+a.Alink-proceedButton:link, a.Alink-proceedButton:visited {
     background-color: #6f42c1;
     color: white;
     width: 28vw;
@@ -254,7 +254,7 @@ h1 {
     cursor: pointer;
 }
   
-.proceedButton:hover {
+a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
     background-color: #5d37a1;
     color: white;
     width: 29vw;
@@ -862,18 +862,39 @@ a.Alink-accG:hover, a.Alink-accG:active {
     position: relative;
 }
 
-.pG1, .pG2, .pG3 {
+.pG2a, .pG2, .pG3 {
     height: 60vh;
     width: 24vw;
     background-color: white;
     z-index: 2;
     box-shadow: 1px 1px 10px 1px black;
     border-radius: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
     padding: 2vw;
     color: black;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-name: fadeup;
 }
 
-.pG1:hover, .pG2:hover, .pG3:hover {
+/*
+
+@keyframes pGani {
+    0% {top:20px; bottom:0px;}
+    25% {top:0px; bottom:20px;}
+    50% {top:20px; bottom:0px;}
+    75% {top:0px; bottom:20px;}
+    100% {top:20px; bottom:0px;}
+}
+    */
+
+.pG2a:hover, .pG2:hover, .pG3:hover {
     height: 60vh;
     width: 24vw;
     background-color: rgb(255, 255, 255);
@@ -881,17 +902,14 @@ a.Alink-accG:hover, a.Alink-accG:active {
     color: white;
     box-shadow: 1px 1px 10px 1px #5d37a1;
     border-radius: 4vh;
-    padding: 2vw;
     transition: 0.5s ease-in-out;
-    transform: scale(1.1,1.1);
+    /* transform: scale(1.1,1.1); */
 }
 
 .pGimg {
-    height: 20vh;
-    margin-bottom: 4vh;
+    height: 10vh;
     margin: auto;
-    display: inline-block;
-    margin-left: 5vw;
+    display: inline;
 }
 
 .pGName {
@@ -900,7 +918,7 @@ a.Alink-accG:hover, a.Alink-accG:active {
 }
 
 .pGtext {
-    font-size: 2.2vh;
+    font-size: 2vh;
     color: black;
 }
 
@@ -918,9 +936,9 @@ a.Alink-accG:hover, a.Alink-accG:active {
 }
 
 .subscription {
-    border: 2px solid red;
-    height: 130vh;
+    height: 120vh;
     width: 100%;
+    padding-top: 10vh;
 }
 
 .subShape {
@@ -930,29 +948,30 @@ a.Alink-accG:hover, a.Alink-accG:active {
 
 .subShape-img {
     position: absolute;
-    top: 30vh;
-    height: 90vh;
+    top: 18vh;
+    height: 80vh;
 }
 
 .subsGrid {
-    border: 2px solid black;
     width: 80vw;
-    height: 100vh;
+    height: 90vh;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     z-index: 5;
-    
+    margin-top: 3vh;
+    align-items: center;
 }
 
 .subsG1, .subsG2, .subsG3 {
     width: 25vw;
     height: 80vh;
     z-index: 6;
-    background-color: linear-gradient(#e8e1f5, #e8e1f5);
+    background: linear-gradient(#e8e1f5, #e8e1f5, #e8e1f5, #e8e1f5,#bfafdb);
     border-radius: 30px;
     border: 1px solid #6f42c1;
+    padding: 2vw;
 }
 
 /*
@@ -973,15 +992,21 @@ a.Alink-accG:hover, a.Alink-accG:active {
 */
 
 .subsG1-imgbox {
-
+    width: 22vw;
+    margin: auto;
+    margin-bottom: 1vh;
+    padding-bottom: 2vh;
 }
 
 .subsG-img {
-
+    height: 14vh;
+    margin: auto;
+    margin-left: 6.5vw;
 }
 
 .subsG-label {
-
+    font-size: 2.2vh;
+    color: black;
 }
 
 .subsG1-textbox {
@@ -993,7 +1018,8 @@ a.Alink-accG:hover, a.Alink-accG:active {
 }
 
 .subsG-para {
-
+    color: black;
+    font-size: 2vh;
 }
 
 .subsG-label {
@@ -1001,15 +1027,18 @@ a.Alink-accG:hover, a.Alink-accG:active {
 }
 
 .subsG-ulli {
-
+    width: 21vw;
 }
 
 .subsG-ul {
-
+    list-style-type: none;
 }
 
 .subsG-li {
-
+    color: black;
+    font-size: 2vh;
+    display: flex;
+    line-height: 3.5vh;
 }
 
 .subsG-li-bullet {
@@ -1017,19 +1046,36 @@ a.Alink-accG:hover, a.Alink-accG:active {
 }
 
 .bullet {
-
+    height: 2.2vh;
+    padding-top: 0.5vh;
 }
 
 .subsG-button {
-
+    width: 20vw;
+    height: 10vh;
+    margin-top: 2vh;
+    display: flex;
 }
 
 a.Alink-subsG:link, a.Alink-subsG:visited {
-
-}
+    background-color: #6f42c1;
+    text-decoration: none;
+    height: 8.5vh;
+    color: white;
+    padding: 1.3vw;
+    border-radius: 10px;
+    font-size: 1.8vh;
+}   
 
 a.Alink-subsG:hover, a.Alink-subsG:active {
-
+    background-color:#5d37a1;
+    text-decoration: none;
+    height: 8.5vh;
+    color: white;
+    padding: 1.3vw;
+    border-radius: 10px;
+    font-size: 1.8vh;
+    transition: 0.5s ease-in-out;
 }
 
 
@@ -1275,7 +1321,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         margin-bottom: 2vh;
     }
     
-    .proceedButton {
+    a.Alink-proceedButton:link, a.Alink-proceedButton:visited {
         background-color: #6f42c1;
         color: white;
         width: 28vw;
@@ -1296,7 +1342,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         cursor: pointer;
     }
       
-    .proceedButton:hover {
+    a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
         background-color: #5d37a1;
         color: white;
         width: 28vw;
@@ -1934,7 +1980,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         position: relative;
     }
     
-    .pG1, .pG2, .pG3 {
+    .pG2a, .pG2, .pG3 {
         height: 37vh;
         width: 27vw;
         background-color: white;
@@ -1943,9 +1989,15 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         border-radius: 3vh;
         padding: 2vw;
         color: black;
+        animation-duration: 10s;
+        animation-delay: 0s;
+        animation-iteration-count: 10;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        animation-name: fadeup;
     }
     
-    .pG1:hover, .pG2:hover, .pG3:hover {
+    .pG2a:hover, .pG2:hover, .pG3:hover {
         height: 37vh;
         width: 27vw;
         background-color: rgb(255, 255, 255);
@@ -1955,8 +2007,24 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         border-radius: 3vh;
         padding: 2vw;
         transition: 0.5s ease-in-out;
-        transform: scale(1.1,1.1);
+        /* transform: scale(1.1,1.1); */
     }
+
+    /*
+    @keyframes pGani {
+        0% {top:20px; bottom:0px;}
+        25% {top:0px; bottom:20px;}
+        50% {top:20px; bottom:0px;}
+        75% {top:0px; bottom:20px;}
+        100% {top:20px; bottom:0px;}
+    }
+    */
+}
+
+    @keyframes fadeup {
+        0% {top: -50px; display: block;}
+        100% {top: 0px; display: none;}
+}
     
     .pGimg {
         height: 8vh;
@@ -2269,10 +2337,10 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         margin-bottom: 3vh;
     }
     
-    .proceedButton {
+    a.Alink-proceedButton:link, a.Alink-proceedButton:visited {
         background-color: #6f42c1;
         color: white;
-        width: 55vw;
+        width: 50vw;
         height: 5vh;
         display: flex;
         text-decoration: none;
@@ -2290,11 +2358,11 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         cursor: pointer;
     }
       
-    .proceedButton:hover {
+    a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
         background-color: #5d37a1;
         color: white;
-        width: 30vw;
-        height: 4vh;
+        width: 55vw;
+        height: 5vh;
         display: flex;
         align-items: center;
         text-decoration: none;
@@ -2330,8 +2398,8 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
         margin: auto;
-        width: 95vw;
-        height: 42vh;
+        width: 70vw;
+        height: 32vh;
     }
     
     @keyframes hCani {
@@ -2914,30 +2982,31 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     }
 
     .people {
-        height: 80vh;
+        height: 90vh;
         width: 100%;
         padding-top: 5vh;
         background-color: #fec107;
     }
     
     .pshape {
-        height: 40vh;
+        height: 35vh;
         position: absolute;
         z-index: 0;
-        margin-top: 10vh;
+        margin-top: 40vh;
     }
     
     .peopleGrid {
-        height: 55vh;
-        width: 90vw;
+        height: 77vh;
+        width: 95vw;
+        margin-top: 2vh;
         display: flex;
         margin: auto;
         justify-content: space-between;
         position: relative;
-        padding-left: 9vw;
+        border: 2px solid red;
     }
     
-    .pG1 {
+    .pG2a {
         height: 37vh;
         width: 70vw;
         background-color: white;
@@ -2946,8 +3015,16 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         padding: 5vw;
         color: black;
         position: absolute;
-        margin: auto;
+        margin-top: 4vh;
         z-index: 3;
+        animation-name: pGani;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        animation-iteration-count: 10;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        margin-left: 10vw;
+        animation-name: fadeup;
     }
 
     .pG2 {
@@ -2959,7 +3036,15 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         padding: 5vw;
         color: black;
         position: absolute;
-        z-index: 2;
+        margin-top: 30vh;
+        margin-left: 10vw;
+        z-index: 1;
+        animation-name: pGani;
+        animation-duration: 10s;
+        animation-delay: 0s;
+        animation-iteration-count: 10;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
     }
 
     .pG3 {
@@ -2971,10 +3056,18 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         padding: 5vw;
         color: black;
         position: absolute;
+        margin-top: 17vh;
+        margin-left: 10vw;
         z-index: 1;
+        animation-name: pGani;
+        animation-duration: 10s;
+        animation-delay: 0s;
+        animation-iteration-count: 10;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
     }
     
-    .pG1:hover, .pG2:hover, .pG3:hover {
+    .pG2a:hover, .pG2:hover, .pG3:hover {
         height: 37vh;
         width: 70vw;
         background-color: rgb(255, 255, 255);
@@ -2982,8 +3075,22 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         box-shadow: 1px 1px 10px 1px #5d37a1;
         border-radius: 3vh;
         padding: 2vw;
-        transition: 0.5s ease-in-out;
-        transform: scale(1.1,1.1);
+        /* transform: scale(1.1,1.1); */
+    }
+    
+    /*
+    @keyframes pGani {
+        0% {top:20px; bottom:0px;}
+        25% {top:0px; bottom:20px;}
+        50% {top:20px; bottom:0px;}
+        75% {top:0px; bottom:20px;}
+        100% {top:20px; bottom:0px;}
+    }
+    */
+
+    @keyframes fadeup {
+        0% {top: -50px; display: block;}
+        100% {top: 0px; display: none;}
     }
     
     .pGimg {
