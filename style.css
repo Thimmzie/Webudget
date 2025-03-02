@@ -669,16 +669,17 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
 .accG1, .accG2, .accG3, .accG4, .accG5, .accG6 {
     background-color: #ffffff;
     height: 44vh;
-    width: 33vw;
+    width: 50vw;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    border-radius: 3vh;
-    border-bottom: 3px solid #ac95d6;
+    border-radius: 4vh;
+    border-bottom: 4px solid #ac95d6;
     padding: 2vw;
+    box-shadow: 2px 2px 5px #8762cb;
 }
 
 .mySlides {
@@ -687,70 +688,72 @@ a.Alink-oGlearn2:hover, a.Alink-oGlearn2:active {
 
 .accG-img1 {
     height: 7.7vh;
-    margin-left: 12.2vw;
+    margin: auto;
+    margin-left: 21vw;
     margin-bottom: 6vh;
 }
 
 .accG-img2 {
     height: 10vh;
-    margin-left: 12.2vw;
+    margin-left: 21vw;
     margin-bottom: 6vh;
 }
 
 .accG-img3 {
     height: 10.2vh;
-    margin-left: 12.2vw;
+    margin-left: 21vw;
     margin-bottom: 6vh;
 }
 
 .accG-img4 {
     height: 9.5vh;
-    margin-left: 12.2vw;
+    margin-left: 21vw;
     margin-bottom: 6vh;
 }
 
 .accG-img5 {
-    height: 9.5vh;
-    margin-left: 12.2vw;
+    height: 10vh;
+    margin-left: 21vw;
     margin-bottom: 6vh;
 }
 
 .accG-img6 {
-    height: 9vh;
-    margin-left: 12.2vw;
+    height: 9.6vh;
+    margin-left: 21vw;
     margin-bottom: 6vh;
 }
 
 .accG-para {
     color: black;
-    font-size: 3vh;
+    font-size: 4vh;
     font-weight: 600;
     text-align: center;
     line-height: 4vh;
     transform: translateY(-50%);
+    margin-bottom: 2vh;
 }
 
 a.Alink-accG:link, a.Alink-accG:visited {
-    font-size: 2.2vh;
+    font-size: 2.8vh;
     color: black;
     text-decoration: none;
     display: flex;
     height: 4vh;
-    width: 12vw;
+    width: 16vw;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
-    justify-content: space-between;
     margin: auto;
 }
 
 a.Alink-accG:hover, a.Alink-accG:active {
-    font-size: 2.2vh;
+    font-size: 2.8vh;
     color: #5d37a1;
     text-decoration: none;
     display: flex;
     height: 4vh;
-    width: 16vw;
-    font-weight: 600;
+    width: 18vw;
+    font-weight: 500;
     align-items: center;
     transition: 0.5s ease-out;
 }
@@ -814,7 +817,7 @@ a.Alink-accG:hover, a.Alink-accG:active {
     height: 12px;
     width: 12px;
     margin: 0 2px;
-    background-color: #e0e0e0;
+    background-color: #ac95d6;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -852,9 +855,13 @@ a.Alink-accG:hover, a.Alink-accG:active {
     margin-top: 20vh;
 }
 
+.peopleSliderHint {
+    display: none;
+}
+
 .peopleGrid {
     height: 82vh;
-    width: 83vw;
+    width: 90vw;
     display: flex;
     margin: auto;
     align-items: center;
@@ -863,8 +870,8 @@ a.Alink-accG:hover, a.Alink-accG:active {
 }
 
 .pG2a, .pG2, .pG3 {
-    height: 60vh;
-    width: 24vw;
+    height: 70vh;
+    width: 20vw;
     background-color: white;
     z-index: 2;
     box-shadow: 1px 1px 10px 1px black;
@@ -895,26 +902,27 @@ a.Alink-accG:hover, a.Alink-accG:active {
     */
 
 .pG2a:hover, .pG2:hover, .pG3:hover {
-    height: 60vh;
-    width: 24vw;
+    height: 65vh;
+    width: 20vw;
     background-color: rgb(255, 255, 255);
     z-index: 2;
     color: white;
     box-shadow: 1px 1px 10px 1px #5d37a1;
     border-radius: 4vh;
     transition: 0.5s ease-in-out;
-    /* transform: scale(1.1,1.1); */
+    transform: scale(1.1,1.1);
 }
 
 .pGimg {
-    height: 10vh;
+    height: 18vh;
     margin: auto;
     display: inline;
 }
 
 .pGName {
-    font-size: 3vh;
+    font-size: 4vh;
     color: black;
+    line-height: 4vh;
 }
 
 .pGtext {
@@ -1004,9 +1012,10 @@ a.Alink-accG:hover, a.Alink-accG:active {
     margin-left: 6.5vw;
 }
 
-.subsG-label {
+.subsG-label-main {
     font-size: 2.2vh;
     color: black;
+    text-align: center;
 }
 
 .subsG1-textbox {
@@ -1014,7 +1023,9 @@ a.Alink-accG:hover, a.Alink-accG:active {
 }
 
 .subsG-label {
-
+    font-size: 2.2vh;
+    color: black;
+    text-align: left;
 }
 
 .subsG-para {
@@ -1293,28 +1304,28 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     }
     
     h1 {
-        font-size: 5vh;
+        font-size: 5.1vh;
         line-height: 6.6vh;
         color: black;
         text-align: center;
     }
     
     .h1yellow {
-        font-size: 5vh;
+        font-size: 5.2vh;
         color: #fec107;
         text-shadow: 1px 1px 2px black;
         font-weight: 600;
     }
     
     .h1purple {
-        font-size: 5vh;
+        font-size: 5.2vh;
         color: #8762cb;
         text-shadow: 1px 1px 2px black;
         font-weight: 600;
     }
     
     .hCpara {
-        font-size: 1.4vh;
+        font-size: 1.6vh;
         color: black;
         text-align: center;
         margin-top: 2vh;
@@ -1324,15 +1335,15 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     a.Alink-proceedButton:link, a.Alink-proceedButton:visited {
         background-color: #6f42c1;
         color: white;
-        width: 28vw;
-        height: 4vh;
+        width: 30vw;
+        height: 5vh;
         display: flex;
         text-decoration: none;
         align-items: center;
         text-align: center;
         justify-content: center;
         font-family: "Poppins", serif;
-        font-size: 1.3vh;
+        font-size: 1.5vh;
         border-radius: 8px;
         font-weight: 400;
         font-style: normal;
@@ -1345,14 +1356,14 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
         background-color: #5d37a1;
         color: white;
-        width: 28vw;
-        height: 4vh;
+        width: 30vw;
+        height: 5vh;
         display: flex;
         align-items: center;
         text-decoration: none;
         text-align: center;
         justify-content: center;
-        font-size: 1.3vh;
+        font-size: 1.5vh;
         font-family: "Poppins", serif;
         font-weight: 400;
         border-radius: 8px;
@@ -1382,6 +1393,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
         margin: auto;
+        width: 90vw;
     }
     
     @keyframes hCani {
@@ -1425,14 +1437,13 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     }
     
     .statsBox {
-        width: 90vw;
+        width: 97vw;
         height: 17vh;
         margin: auto;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         z-index: 2;
-        
     }
     
     .statBox1, .statBox2, .statBox3 {
@@ -1444,7 +1455,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     
     .statNo {
         color: white;
-        font-size: 3.6vh;
+        font-size: 3.5vh;
         text-align: center;
         font-weight: 600;
         text-shadow: 1px 1px 5px #fec00722;
@@ -1452,7 +1463,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     
     .statPara {
         color: white;
-        font-size: 1.5vh;
+        font-size: 1.3vh;
         text-align: center;
         font-weight: 300;
         text-shadow: 1px 1px 5px #2d1a4e;
@@ -1500,7 +1511,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     }
 
     h2 {
-        font-size: 3.8vh;
+        font-size: 3vh;
         color: black;
         text-align: center;
         font-weight: 500;
@@ -1508,13 +1519,13 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     }
 
     .h2purple {
-        font-size: 3.8vh;
+        font-size: 3vh;
         color: #6f42c1;
         font-weight: 700;
     }
 
     .h2yellow {
-        font-size: 3.8vh;
+        font-size: 3vh;
         color: #fec107;
         font-weight: 700;
     }
@@ -1691,13 +1702,14 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     }
 
     .oG-txth4 {
-        font-size: 2.6vh;
+        font-size: 2.5vh;
         line-height: 3vh;
         color: black;
+        margin-top: 1vh;
     }
 
     .oG-txtpara {
-        font-size: 1.3vh;
+        font-size: 1.4vh;
         color: black;
     }
 
@@ -1717,7 +1729,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         background-color: #6f42c1;
         color: white;
         width: 50vw;
-        height: 4vh;
+        height: 5vh;
         display: flex;
         text-decoration: none;
         align-items: center;
@@ -1740,7 +1752,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         background-color: #5d37a1;
         color: white;
         width: 50vw;
-        height: 4vh;
+        height: 5vh;
         display: flex;
         align-items: center;
         text-decoration: none;
@@ -1757,7 +1769,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     }
 
     .accomplish {
-        height: 85vh;
+        height: 72vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -1787,16 +1799,17 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     .accG1, .accG2, .accG3, .accG4, .accG5, .accG6 {
         background-color: #ffffff;
         height: 30vh;
-        width: 55vw;
+        width: 60vw;
         margin: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         align-content: center;
         justify-content: space-between;
-        border-radius: 3vh;
-        border-bottom: 3px solid #ac95d6;
-        padding: 2vw;
+        border-radius: 4vh;
+        border-bottom: 4px solid #ac95d6;
+        padding: 2.2vw;
+        box-shadow: 2px 2px 5px #8762cb;
     }
     
     .mySlides {
@@ -1804,38 +1817,38 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     }
     
     .accG-img1 {
-        height: 7vh;
-        margin-left: 20vw;
+        height: 6vh;
+        margin-left: 23vw;
         margin-bottom: 6vh;
     }
     
     .accG-img2 {
-        height: 10vh;
-        margin-left: 20vw;
+        height: 8vh;
+        margin-left: 23vw;
         margin-bottom: 6vh;
     }
     
     .accG-img3 {
-        height: 10vh;
-        margin-left: 20vw;
+        height: 8vh;
+        margin-left: 22vw;
         margin-bottom: 6vh;
     }
     
     .accG-img4 {
-        height: 9.5vh;
-        margin-left: 20vw;
+        height: 9vh;
+        margin-left: 23vw;
         margin-bottom: 6vh;
     }
     
     .accG-img5 {
-        height: 10vh;
-        margin-left: 20vw;
+        height: 9.2vh;
+        margin-left: 22vw;
         margin-bottom: 6vh;
     }
     
     .accG-img6 {
-        height: 9vh;
-        margin-left: 20vw;
+        height: 7vh;
+        margin-left: 24vw;
         margin-bottom: 6vh;
     }
     
@@ -1854,11 +1867,13 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         text-decoration: none;
         display: flex;
         height: 4vh;
-        width: 30vw;
+        width: 29vw;
         text-align: left;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-left: 2vw;
+        margin: auto;
+        margin-top: -2vh;
     }
     
     a.Alink-accG:hover, a.Alink-accG:active {
@@ -1867,18 +1882,19 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         text-decoration: none;
         display: flex;
         height: 4vh;
-        width: 35vw;
+        width: 33vw;
         font-weight: 600;
         align-items: center;
         transition: 0.5s ease-out;
+        
     }
     
     .accG-proceedarrow {
-        margin-top: 0.5vh;
+        margin-top: 0.6vh;
     }
     
     .yellowarrowforward {
-        height: 3.3vh;
+        height: 3vh;
     }
     
     .prev {
@@ -1891,7 +1907,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         margin-top: 0px;
         color: black;
         font-weight: bold;
-        font-size: 5vh;
+        font-size: 4vh;
         transition: 0.6s ease;
         border-radius: 1vw;
         user-select: none;
@@ -1969,10 +1985,14 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         z-index: 0;
         margin-top: 10vh;
     }
+
+    .peopleSliderHint {
+        display: none;
+    }
     
     .peopleGrid {
         height: 60vh;
-        width: 90vw;
+        width: 96vw;
         display: flex;
         margin: auto;
         align-items: center;
@@ -1981,8 +2001,8 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     }
     
     .pG2a, .pG2, .pG3 {
-        height: 37vh;
-        width: 27vw;
+        height: 45vh;
+        width: 25vw;
         background-color: white;
         z-index: 2;
         box-shadow: 1px 1px 10px 1px black;
@@ -1995,19 +2015,22 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
         animation-name: fadeup;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     
     .pG2a:hover, .pG2:hover, .pG3:hover {
-        height: 37vh;
-        width: 27vw;
+        height: 45vh;
+        width: 25vw;
         background-color: rgb(255, 255, 255);
         z-index: 2;
         color: white;
         box-shadow: 1px 1px 10px 1px #5d37a1;
         border-radius: 3vh;
         padding: 2vw;
-        transition: 0.5s ease-in-out;
-        /* transform: scale(1.1,1.1); */
+        transition: 0.4s ease-in-out;
+        transform: scale(1.1,1.1);
     }
 
     /*
@@ -2019,15 +2042,15 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         100% {top:20px; bottom:0px;}
     }
     */
-}
 
     @keyframes fadeup {
         0% {top: -50px; display: block;}
         100% {top: 0px; display: none;}
-}
+
+    }
     
     .pGimg {
-        height: 8vh;
+        height: 6vh;
         margin-bottom: 4vh;
         margin: auto;
         display: inline-block;
@@ -2038,10 +2061,11 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         font-size: 2vh;
         color: black;
         text-align: center;
+        line-height: 2vh;
     }
     
     .pGtext {
-        font-size: 1.2vh;
+        font-size: 1.3vh;
         color: black;
         text-align: justify;
     }
@@ -2060,6 +2084,156 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         background-color: #757575;
     }
 
+    .subscription {
+        height: 274vh;
+        width: 100%;
+        padding-top: 6vh;
+    }
+    
+    .subShape {
+        position: relative;
+        z-index: 0;
+    }
+    
+    .subShape-img {
+        position: absolute;
+        top: 0vh;
+        height: 50vh;
+    }
+    
+    .subsGrid {
+        width: 90vw;
+        height: 250vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 5;
+        margin-top: 7vh;
+        align-items: center;
+    }
+    
+    .subsG1, .subsG2, .subsG3 {
+        width: 70vw;
+        height: 77vh;
+        z-index: 6;
+        background: linear-gradient(#e8e1f5, #e8e1f5, #e8e1f5, #e8e1f5,#bfafdb);
+        border-radius: 3vh;
+        border: 1px solid #6f42c1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    /*
+    .subs-ani {
+        animation-name: subs-ani;
+      animation-duration: 20s;
+      animation-delay: 2s;
+      animation-iteration-count: 5;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes subs-ani {
+        0% {background-color: #ac95d6;}
+        50% {background-color: #e8e1f5;}
+        100% {background-color: #ac95d6;}
+      } 
+    */
+    
+    .subsG1-imgbox {
+        width: 55vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid black;
+    }
+    
+    .subsG-img {
+        height: 12vh;
+        margin: auto;
+    }
+
+    .subsG-label-main {
+        font-size: 2.5vh;
+        color: black;
+        text-align: center;
+    }
+    
+    .subsG1-textbox {
+        width: 60vw;
+        margin: auto;
+        margin-left: 3vw;
+    }
+
+    .subsG-label {
+        font-size: 2.5vh;
+        color: black;
+        text-align: left;
+    }
+    
+    .subsG-para {
+        color: black;
+        font-size: 2vh;
+    }
+    
+    .subsG-ulli {
+        width: 55vw;
+    }
+    
+    .subsG-ul {
+        list-style-type: none;
+    }
+    
+    .subsG-li {
+        color: black;
+        font-size: 2vh;
+        display: flex;
+        line-height: 3.5vh;
+    }
+    
+    .subsG-li-bullet {
+    
+    }
+    
+    .bullet {
+        height: 2.2vh;
+        padding-top: 0.5vh;
+    }
+    
+    .subsG-button {
+        width: 50vw;
+        height: 10vh;
+        margin-top: 2vh;
+        display: flex;
+       margin: auto;
+    }
+    
+    a.Alink-subsG:link, a.Alink-subsG:visited {
+        background-color: #6f42c1;
+        text-decoration: none;
+        height: 8vh;
+        width: 45vw;
+        color: white;
+        border-radius: 1.8vh;
+        font-size: 1.9vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }   
+    
+    a.Alink-subsG:hover, a.Alink-subsG:active {
+        background-color:#5d37a1;
+        text-decoration: none;
+        height: 8vh;
+        width: 46vw;
+        color: white;
+        border-radius: 2vh;
+        font-size: 1.9vh;
+        transition: 0.5s ease-in-out;
+        text-align: center;
+    }
     
 }
 
@@ -2982,7 +3156,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     }
 
     .people {
-        height: 90vh;
+        height: 100vh;
         width: 100%;
         padding-top: 5vh;
         background-color: #fec107;
@@ -2994,16 +3168,28 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         z-index: 0;
         margin-top: 40vh;
     }
+
+    .peopleSliderHint {
+        margin: auto;
+        position: absolute;
+        text-align: center;
+        display: flex;
+        border: 2px solid red;
+        font-size: 1.3vh;
+        color: #fff0c3;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.356);
+        left: 30vw;
+        top: 6vh;
+        z-index: 0;
+    }
     
     .peopleGrid {
         height: 77vh;
-        width: 95vw;
-        margin-top: 2vh;
+        width: 90vw;
         display: flex;
         margin: auto;
         justify-content: space-between;
         position: relative;
-        border: 2px solid red;
     }
     
     .pG2a {
@@ -3025,6 +3211,9 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         animation-timing-function: ease-in-out;
         margin-left: 10vw;
         animation-name: fadeup;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     .pG2 {
@@ -3045,6 +3234,9 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         animation-iteration-count: 10;
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     .pG3 {
@@ -3065,6 +3257,9 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         animation-iteration-count: 10;
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     
     .pG2a:hover, .pG2:hover, .pG3:hover {
@@ -3089,22 +3284,21 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     */
 
     @keyframes fadeup {
-        0% {top: -50px; display: block;}
+        0% {top: -20px; display: block;}
         100% {top: 0px; display: none;}
     }
     
     .pGimg {
-        height: 9vh;
-        margin-bottom: 4vh;
+        height: 8vh;
         margin: auto;
-        display: inline-block;
-        margin-left: 5vw;
+        display: flex;
     }
     
     .pGName {
         font-size: 2.2vh;
         color: black;
         text-align: center;
+        margin-top: 2vh;
     }
     
     .pGtext {
@@ -3125,6 +3319,165 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     
     .pdot {
         background-color: #757575;
+    }
+
+    .subscription {
+        height: 290vh;
+        width: 100%;
+        padding-top: 6vh;
+    }
+    
+    .subShape {
+        position: relative;
+        z-index: 0;
+    }
+    
+    .subShape-img {
+        position: absolute;
+        top: 55vh;
+        height: 50vh;
+        z-index: 0;
+    }
+    
+    .subsGrid {
+        width: 90vw;
+        height: 270vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 5;
+        margin-top: 5vh;
+        align-items: center;
+    }
+    
+    .subsG1, .subsG2, .subsG3 {
+        width: 82vw;
+        height: 86vh;
+        z-index: 6;
+        background: linear-gradient(#e8e1f5, #e8e1f5, #e8e1f5, #e8e1f5,#bfafdb);
+        border-radius: 4vh;
+        border: 1px solid #6f42c1;
+        padding: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    /*
+    .subs-ani {
+        animation-name: subs-ani;
+      animation-duration: 20s;
+      animation-delay: 2s;
+      animation-iteration-count: 5;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes subs-ani {
+        0% {background-color: #ac95d6;}
+        50% {background-color: #e8e1f5;}
+        100% {background-color: #ac95d6;}
+      } 
+    */
+    
+    .subsG1-imgbox {
+        width: 70vw;
+        margin: auto;
+        margin-bottom: 1vh;
+        padding-bottom: 2vh;
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .subsG-img {
+        height: 13vh;
+        margin: auto;
+    }
+
+    .subsG-label-main {
+        font-size: 2.5vh;
+        color: black;
+        text-align: center;
+        line-height: 3vh;
+        margin-top: 1vh;
+    }
+    
+    .subsG1-textbox {
+        width: 70vw;
+        margin: auto;
+    }
+
+    .subsG-label {
+        font-size: 2.4vh;
+        color: black;
+        text-align: left;
+        line-height: 3vh;
+    }
+    
+    .subsG-para {
+        color: black;
+        font-size: 2vh;
+    }
+    
+    .subsG-ulli {
+        width: 63vw;
+    }
+    
+    .subsG-ul {
+        list-style-type: none;
+    }
+    
+    .subsG-li {
+        color: black;
+        font-size: 2vh;
+        display: flex;
+        line-height: 3.5vh;
+    }
+    
+    .subsG-li-bullet {
+    
+    }
+    
+    .bullet {
+        height: 2.2vh;
+        padding-top: 0.5vh;
+    }
+    
+    .subsG-button {
+        width: 60vw;
+        height: 10vh;
+        margin-top: 2vh;
+        display: flex;
+       margin: auto;
+    }
+    
+    a.Alink-subsG:link, a.Alink-subsG:visited {
+        background-color: #6f42c1;
+        text-decoration: none;
+        height: 7vh;
+        width: 55vw;
+        color: white;
+        border-radius: 1.8vh;
+        font-size: 2vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-left: 15vw;
+    }   
+    
+    a.Alink-subsG:hover, a.Alink-subsG:active {
+        background-color:#5d37a1;
+        text-decoration: none;
+        height: 8vh;
+        width: 46vw;
+        color: white;
+        border-radius: 2vh;
+        font-size: 2vh;
+        transition: 0.5s ease-in-out;
+        text-align: center;
+        padding-left: 15vw;
     }
 
     

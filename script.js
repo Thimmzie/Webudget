@@ -104,7 +104,7 @@ let slideIndex = 1;
 showSlides(slideIndex);
 
 const autoSlide = () => plusSlides(1);
-setInterval(autoSlide, 6000);
+setInterval(autoSlide, 10000);
 
 const plusSlides = (n) => showSlides((slideIndex += n));
 
