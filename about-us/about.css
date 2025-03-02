@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Poppins", serif;
+  background: rgb(255, 255, 255);
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+.site-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+#our-logo {
+  width: 37vw;
+}
+.hamburger {
+  background-color: rgb(255, 255, 255);
+  padding: 0.3rem;
+  border-radius: 40rem;
+  box-shadow: 0px 3px 3px rgb(190, 190, 190);
+  z-index: 1000;
+  display: block;
+}
+#burger {
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.hamburger.active {
+  margin-left: 31rem;
+  position: fixed;
+  margin-top: -0.2rem;
+  box-shadow: none;
+  padding: 0rem;
+}
+.hamburger.active #burger:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active #burger:nth-child(1) {
+  transform: translateY(12px) rotate(45deg);
+  width: 1.5rem;
+  background-color: rgb(111, 66, 193);
+}
+.hamburger.active #burger:nth-child(3) {
+  transform: translateY(-12px) rotate(-45deg);
+  width: 1.5rem;
+  background-color: rgb(111, 66, 193);
+}
+.burger-span-one {
+  display: block;
+  width: 1.8rem;
+  height: 0.2rem;
+  margin: 1rem;
+  -webkit-transition: all 0, 3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(111, 66, 193);
+}
+.burger-span-two {
+  display: block;
+  width: 2.5rem;
+  padding-right: 1rem;
+  height: 0.2rem;
+  margin: 1rem;
+  -webkit-transition: all 0, 3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(111, 66, 193);
+}
+.burger-span-three {
+  display: block;
+  width: 1.5rem;
+  height: 0.2rem;
+  margin: 1rem;
+  -webkit-transition: all 0, 3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(111, 66, 193);
+}
+.site-logo {
+  z-index: 10;
+}
+.box-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+}
+.box-overlay.active {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(29, 29, 29, 0.9);
+  z-index: 999;
+}
+.unscroll {
+  position: fixed;
+  height: 100vh;
+}
+.site-navigations {
+  opacity: 0;
+  display: none;
+  z-index: 1000;
+  width: 80vw;
+  height: 40vh;
+  border-radius: 0.9rem;
+  flex-direction: column;
+  align-items: center;
+  border: solid 0.1rem rgb(238, 234, 234);
+  padding-top: 1rem;
+  background: rgb(255, 255, 255);
+  position: fixed;
+}
+.site-navigations.active {
+  opacity: 1;
+  display: flex;
+  margin-top: -0.5rem;
+  margin-left: 5.6rem;
+}
+#our-logo-mobile {
+  width: 28vw;
+  margin: auto;
+}
+.nav-menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  z-index: 1000;
+}
+.nav-menu ul a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: "poppins", serif;
+  color: rgb(58, 56, 56);
+  cursor: pointer;
+  transition: 0.3s;
+  line-height: 4rem;
+  z-index: 1000;
+}
+#clicked {
+  color: rgb(140, 104, 205);
+  border-bottom: solid 0.1rem rgb(140, 104, 205);
+  padding-bottom: 0.7rem;
+}
+.site-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 3rem;
+}
+.btn1 {
+  width: 22vw;
+  height: 6vh;
+  border: none;
+  border: solid 0.1rem rgb(140, 104, 205);
+  border-radius: 0.8rem;
+  font-family: "poppins", serif;
+  background: rgb(245, 245, 245);
+}
+.btn2 {
+  width: 22vw;
+  height: 6vh;
+  border: none;
+  border: solid 0.1rem rgb(140, 104, 205);
+  border-radius: 0.8rem;
+  font-family: "poppins", serif;
+  background: rgb(111, 66, 193);
+  color: rgb(255, 255, 255);
+}
+.about-container-one {
+  background: url("../images/hands-mobile.png");
+  background-repeat: no-repeat;
+  height: 65vh;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.about-container-one h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+.about-container-one p {
+  font-size: 1.4rem;
+  color: rgb(235, 234, 237);
+  width: 80%;
+  text-align: center;
+}
+.whatis-box {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  height: vh;
+}
+.whatis-polygon {
+  margin-left: 30rem;
+  margin-top: 10rem;
+  z-index: 1;
+  position: absolute;
+}
+.whatis-images {
+  display: flex;
+  gap: 1.3rem;
+  z-index: 2;
+  margin-top: 4rem;
+}
+.whatis-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  z-index: 2;
+  margin-top: 4rem;
+}
+.whatis-text h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(24, 23, 23);
+}
+.whatis-text h4 span {
+  color: rgb(111, 66, 193);
+}
+.whatis-text p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(24, 23, 23);
+  width: 70%;
+  text-align: justify;
+}
+.btn3 {
+  width: 55vw;
+  height: 7.5vh;
+  background: rgb(111, 66, 193);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+}
+.mission-box {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+.backgroundpoly {
+  z-index: 1;
+  margin-right: 30rem;
+  margin-top: -30rem;
+}
+.mission-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5.8rem;
+  z-index: 2;
+}
+#WeBudget-banner {
+  z-index: 2;
+}
