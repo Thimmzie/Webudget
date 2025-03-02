@@ -1059,6 +1059,7 @@ a.Alink-accG:hover, a.Alink-accG:active {
     margin: auto;
     margin-bottom: 1vh;
     padding-bottom: 2vh;
+    border-bottom: 1px solid black;
 }
 
 .subsG-img {
@@ -2399,12 +2400,12 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.952);
-    height: 18vh;
-    width: 50vw;
+    background-color: rgb(255, 255, 255);
+    height: 39vh;
+    width: 93vw;
     margin: auto;
     border-radius: 15px;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.458);
+    box-shadow: 1px 1px 60px 60px rgba(0, 0, 0, 0.458);
     position: absolute;
     top: 0;
     right: 4vw;
@@ -2414,21 +2415,23 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
 
   .logoBox {
     display: none;
-    margin-left: 2.2vw;
+    margin-left: 0vw;
+
   }
 
   .wblogo {
-    height: 4vh;
+    height: 4.4vh;
   }
 
   .navBox {
     list-style: none;
     width: 40vw;
-    height: 12vh;
+    height: 16vh;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 4vh;
   }
 
     nav.show {
@@ -2438,7 +2441,8 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     
     .navul {
         list-style-type: none;
-        width: 40vw;
+        width: 30vw;
+        height: 13vh;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -2446,10 +2450,9 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     }
     
     .navli {
-        font-size: 1.4vh;
+        font-size: 1.8vh;
         text-align: center;
         color: black;
-        line-height: 4vh;
     }
     
     a.Alink-nav:link,
@@ -2480,9 +2483,10 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     
     .signupbuttonsBox {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
-        height: 4vh;
-        width: 40vw;
+        height: 13vh;
+        width: 77vw;
         margin-bottom: 0.2vh;
         margin: auto;
     }
@@ -2490,29 +2494,30 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     a.Alink-signup:link, a.Alink-signup:visited {
         background: none;
         color: black;
-        width: 18vw;
-        height: 3vh;
+        width: 75vw;
+        height: 5vh;
         text-decoration: none;
         align-content: center;
         text-align: center;
         font-family: "Poppins", serif;
-        font-size: 1.2vh;
+        font-size: 2vh;
         border: 1px solid #6f42c1;
         border-radius: 7px;
         font-weight: 400;
         font-style: normal;
         cursor: pointer;
+        margin: auto;
     }
       
     a.Alink-signup:hover, a.Alink-signup:active {
         background-color: black;
         color: white;
-        width: 18vw;
-        height: 3vh;
+        width: 75vw;
+        height: 5vh;
         align-content: center;
         text-decoration: none;
         text-align: center;
-        font-size: 1.2vh;
+        font-size: 2vh;
         font-family: "Poppins", serif;
         font-weight: 400;
         border: none;
@@ -2523,29 +2528,30 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     a.Alink-signin:link, a.Alink-signin:visited {
         background-color: #6f42c1;
         color: white;
-        width: 18vw;
-        height: 3vh;
+        width: 75vw;
+        height: 5vh;
         text-decoration: none;
         align-content: center;
         text-align: center;
         font-family: "Poppins", serif;
-        font-size: 1.2vh;
+        font-size: 2vh;
         border-radius: 7px;
         font-weight: 400;
         font-style: normal;
         border: none;
         cursor: pointer;
+        margin: auto;
     }
       
     a.Alink-signin:hover, a.Alink-signin:active {
         background-color: #5d37a1;
         color: white;
-        width: 18vw;
-        height: 3vh;
+        width: 75vw;
+        height: 5vh;
         align-content: center;
         text-decoration: none;
         text-align: center;
-        font-size: 1.2vh;
+        font-size: 2vh;
         font-family: "Poppins", serif;
         font-weight: 400;
         border-radius: 7px;
@@ -2662,8 +2668,8 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
         margin: auto;
-        width: 70vw;
-        height: 32vh;
+        width: 95vw;
+        height: 40vh;
     }
     
     @keyframes hCani {
@@ -3296,16 +3302,17 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
 
     .peopleSliderHint {
         margin: auto;
-        position: absolute;
+        position: relative;
         text-align: center;
         display: flex;
-        border: 2px solid red;
+        font-weight: 100;
         font-size: 1.3vh;
         color: #fff0c3;
         text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.356);
-        left: 30vw;
+        left: 7vw;
         top: 6vh;
         z-index: 0;
+        width: 40vw;
     }
     
     .peopleGrid {
@@ -3575,13 +3582,13 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         height: 10vh;
         margin-top: 2vh;
         display: flex;
-       margin: auto;
+        margin: auto;
     }
     
     a.Alink-subsG:link, a.Alink-subsG:visited {
         background-color: #6f42c1;
         text-decoration: none;
-        height: 7vh;
+        height: 8vh;
         width: 55vw;
         color: white;
         border-radius: 1.8vh;
@@ -3590,6 +3597,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         align-items: center;
         text-align: center;
         padding-left: 15vw;
+        margin: auto;
     }   
     
     a.Alink-subsG:hover, a.Alink-subsG:active {
