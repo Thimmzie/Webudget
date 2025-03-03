@@ -442,18 +442,18 @@ html {
   font-family: "poppins", serif;
   cursor: pointer;
 }
-@media (min-width: 640px) {
+@media (min-width: 414px) {
   .site-menu {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
   }
   #our-logo {
-    width: 17vw;
+    width: 40vw;
   }
   .hamburger {
     background-color: rgb(255, 255, 255);
-    padding: 0.3rem;
+    padding: 0.7rem;
     border-radius: 40rem;
     box-shadow: 0px 3px 3px rgb(190, 190, 190);
     z-index: 1000;
@@ -463,7 +463,7 @@ html {
     -webkit-transition: all 0.3s ease-in-out;
   }
   .hamburger.active {
-    margin-left: 31rem;
+    margin-left: 34rem;
     position: fixed;
     margin-top: -0.2rem;
     box-shadow: none;
@@ -474,12 +474,12 @@ html {
   }
   .hamburger.active #burger:nth-child(1) {
     transform: translateY(12px) rotate(45deg);
-    width: 1.5rem;
+    width: 2rem;
     background-color: rgb(111, 66, 193);
   }
   .hamburger.active #burger:nth-child(3) {
     transform: translateY(-12px) rotate(-45deg);
-    width: 1.5rem;
+    width: 2rem;
     background-color: rgb(111, 66, 193);
   }
   .burger-span-one {
@@ -558,7 +558,7 @@ html {
     margin-left: 5.6rem;
   }
   #our-logo-mobile {
-    width: 28vw;
+    width: 40vw;
     margin: auto;
   }
   .nav-menu ul {
@@ -570,7 +570,7 @@ html {
   }
   .nav-menu ul a {
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-family: "poppins", serif;
     color: rgb(58, 56, 56);
     cursor: pointer;
@@ -584,21 +584,22 @@ html {
     padding-bottom: 0.7rem;
   }
   .site-buttons {
-    margin-top: 2rem;
+    margin-top: 5rem;
     display: flex;
-    gap: 3rem;
+    gap: 7rem;
   }
   .btn1 {
-    width: 22vw;
+    width: 25vw;
     height: 6vh;
     border: none;
     border: solid 0.1rem rgb(140, 104, 205);
     border-radius: 0.8rem;
     font-family: "poppins", serif;
     background: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
   }
   .btn2 {
-    width: 22vw;
+    width: 25vw;
     height: 6vh;
     border: none;
     border: solid 0.1rem rgb(140, 104, 205);
@@ -610,8 +611,10 @@ html {
   .about-container-one {
     background: url("../images/hands-mobile.png");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     height: 65vh;
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -619,18 +622,18 @@ html {
     gap: 3rem;
   }
   .about-container-one h4 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 500;
     color: rgb(255, 255, 255);
   }
   .about-container-one p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: rgb(235, 234, 237);
     width: 80%;
     text-align: center;
   }
   .whatis-box {
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -658,7 +661,7 @@ html {
     margin-top: 4rem;
   }
   .whatis-text h4 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 500;
     color: rgb(24, 23, 23);
   }
@@ -666,7 +669,7 @@ html {
     color: rgb(111, 66, 193);
   }
   .whatis-text p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 500;
     color: rgb(24, 23, 23);
     width: 70%;
@@ -721,7 +724,7 @@ html {
     gap: 3rem;
   }
   .statement-head {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     background: rgb(255, 255, 255);
     border-radius: 2rem;
     padding: 1rem;
@@ -748,12 +751,13 @@ html {
     align-items: center;
   }
   .team-head {
-    font-size: 1.9rem;
+    font-size: 2rem;
     color: rgb(111, 66, 193);
     font-weight: 600;
   }
   .team-body {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    text-align: justify;
   }
   .team-archive {
     flex-wrap: wrap;
@@ -766,7 +770,7 @@ html {
   .team-slides {
     background: rgb(241, 241, 241);
     width: 40vw;
-    height: 30vh;
+    height: 27vh;
     border-radius: 1.5rem;
     padding: 1rem;
     display: flex;
@@ -796,7 +800,7 @@ html {
     align-items: center;
   }
   .control-head {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: rgb(36, 35, 35);
     text-align: center;
     font-weight: 600;
@@ -857,7 +861,7 @@ html {
     margin-top: 1.5rem;
   }
   .footer-links p {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     color: rgb(255, 255, 255);
   }
   .footer-links ul {
@@ -865,7 +869,7 @@ html {
     display: flex;
     flex-direction: column;
     gap: 1.4rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .footer-links ul li {
     font-size: 1.4rem;
