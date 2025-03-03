@@ -1088,6 +1088,11 @@ a.Alink-accG:hover, a.Alink-accG:active {
     font-size: 2vh;
 }
 
+.subsG-pSpan {
+  color: #e8e1f5;
+  font-size: 1.2vh;
+}
+
 .subsG-label {
 }
 
@@ -1141,6 +1146,91 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     font-size: 1.8vh;
     transition: 0.5s ease-in-out;
 }
+
+.faqs {
+  height: 180vh;
+  width: 100%;
+  position: relative;
+  background-color: #382161;
+}
+
+.faqShapes {
+  width: 100%;
+  height: 180vh;
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+}
+
+.faqShape1 {
+  position: absolute;
+  height: 80vh;
+  bottom: 0vh;
+  z-index: 1;
+}
+
+.faqShape2 {
+  position: absolute;
+  height: 50vh;
+  right: 0vw;
+  z-index: 1;
+}
+
+.faqBox {
+  border: 2px solid white;
+  width: 50vw;
+  height: 150vh;
+  border-radius: 4vh;
+  margin: auto;
+  z-index: 3;
+  position: absolute;
+  background-color: #160d27;
+  box-shadow: 2px 2px 16px 6px #160d27;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 4vh;
+  top: 14vh;
+  left: 23.4vw;
+}
+
+.faqTextBox {
+  z-index: 3;
+  /* border: 2px solid yellow; */
+  width: 45vw;
+  height: 120vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.faq-h2 {
+  color: white;
+  font-size: 6vh;
+  text-align: center;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.fTB {
+  /* border: 2px solid plum; */
+  width: 42vw;
+}
+
+.faqHeading {
+  color: white;
+  font-size: 2.8vh;
+  font-weight: 400;
+}
+
+.faqPara {
+  color: white;
+  font-size: 1.7vh;
+  font-weight: 300;
+}
+
+
 
 /* Tablet screen */
 
@@ -2262,6 +2352,11 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     .subsG-para {
         color: black;
         font-size: 2vh;
+    }
+
+    .subsG-pSpan {
+      color: #e8e1f5;
+      font-size: 1.2vh;
     }
     
     .subsG-ulli {
@@ -3551,6 +3646,11 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     .subsG-para {
         color: black;
         font-size: 2vh;
+    }
+
+    .subsG-pSpan {
+      color: #e8e1f5;
+      font-size: 1.2vh;
     }
     
     .subsG-ulli {
