@@ -1133,7 +1133,7 @@ a.Alink-subsG:link, a.Alink-subsG:visited {
     color: white;
     padding: 1.3vw;
     border-radius: 10px;
-    font-size: 1.8vh;
+    font-size: 2.2vh;
 }   
 
 a.Alink-subsG:hover, a.Alink-subsG:active {
@@ -1143,7 +1143,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     color: white;
     padding: 1.3vw;
     border-radius: 10px;
-    font-size: 1.8vh;
+    font-size: 2.2vh;
     transition: 0.5s ease-in-out;
 }
 
