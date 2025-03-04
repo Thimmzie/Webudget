@@ -198,7 +198,7 @@ a.Alink-signin:active {
 }
 
 .hC-textbox {
-  width: 40vw;
+  width: 35vw;
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -1191,7 +1191,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
   justify-content: space-around;
   padding-top: 4vh;
   top: 14vh;
-  left: 23.4vw;
+  left: 25vw;
 }
 
 .faqTextBox {
@@ -1224,10 +1224,28 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
   font-weight: 400;
 }
 
-.faqPara {
-  color: white;
-  font-size: 1.7vh;
-  font-weight: 300;
+#faqPara, #faqPara1, #faqPara2, #faqPara3, #faqPara4, #faqPara5, #faqPara6, #faqPara7, #faqPara8, #faqPara9, #faqPara10, #faqPara11 {
+  color: #160d27;
+  font-size: 1.9vh;
+  font-weight: 400;
+  display: none;
+  background-color: white;
+  padding: 1vw;
+  border-radius: 1vw;
+}
+
+a.Alink-why:link, a.Alink-why:visited {
+  text-decoration: none;
+  display: flex;
+  cursor: pointer;
+}
+
+a.Alink-why:hover, .whyiconimg:hover {
+  color: #6f42c1;
+}
+
+a.Alink-why:active, .whyiconimg:active {
+  color: #5d37a1;
 }
 
 
@@ -2398,10 +2416,11 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         width: 45vw;
         color: white;
         border-radius: 1.8vh;
-        font-size: 1.9vh;
+        font-size: 2vh;
         display: flex;
         align-items: center;
         text-align: center;
+        padding-left: 15vw;
     }   
     
     a.Alink-subsG:hover, a.Alink-subsG:active {
@@ -2411,9 +2430,111 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         width: 46vw;
         color: white;
         border-radius: 2vh;
-        font-size: 1.9vh;
+        font-size: 2vh;
         transition: 0.5s ease-in-out;
         text-align: center;
+    }
+
+    .faqs {
+      height: 160vh;
+      width: 100%;
+      position: relative;
+      background-color: #382161;
+    }
+    
+    .faqShapes {
+      width: 100%;
+      height: 160vh;
+      position: absolute;
+      z-index: 1;
+      display: inline-block;
+    }
+    
+    .faqShape1 {
+      position: absolute;
+      height: 50vh;
+      bottom: 0vh;
+      z-index: 1;
+    }
+    
+    .faqShape2 {
+      position: absolute;
+      height: 30vh;
+      right: 0vw;
+      z-index: 1;
+    }
+    
+    .faqBox {
+      border: 2px solid white;
+      width: 80vw;
+      height: 140vh;
+      border-radius: 4vh;
+      margin: auto;
+      z-index: 3;
+      position: absolute;
+      background-color: #160d27;
+      box-shadow: 2px 2px 16px 6px #160d27;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-top: 4vh;
+      top: 10vh;
+      left: 9.8vw;
+    }
+    
+    .faqTextBox {
+      z-index: 3;
+      /* border: 2px solid yellow; */
+      width: 70vw;
+      height: 120vh;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    
+    .faq-h2 {
+      color: white;
+      font-size: 3.3vh;
+      text-align: center;
+      font-weight: 500;
+      display: inline-block;
+    }
+    
+    .fTB {
+      /* border: 2px solid plum; */
+      width: 62vw;
+      margin: auto;
+    }
+    
+    .faqHeading {
+      color: white;
+      font-size: 2vh;
+      font-weight: 400;
+    }
+    
+    #faqPara, #faqPara1, #faqPara2, #faqPara3, #faqPara4, #faqPara5, #faqPara6, #faqPara7, #faqPara8, #faqPara9, #faqPara10, #faqPara11 {
+      color: #160d27;
+      font-size: 1.2vh;
+      font-weight: 300;
+      display: none;
+      background-color: white;
+      padding: 1vw;
+      border-radius: 1vw;
+    }
+    
+    a.Alink-why:link, a.Alink-why:visited {
+      text-decoration: none;
+      display: flex;
+      cursor: pointer;
+    }
+    
+    a.Alink-why:hover, .whyiconimg:hover {
+      color: #6f42c1;
+    }
+    
+    a.Alink-why:active, .whyiconimg:active {
+      color: #5d37a1;
     }
     
 }
@@ -2487,7 +2608,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
   .wblogo2 {
     height: 5.2vh;
     margin-top: 2.2vh;
-    margin-left: 4vw;
+    margin-left: 7.7vw;
   }
 
   nav {
@@ -2503,15 +2624,14 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     box-shadow: 1px 1px 60px 60px rgba(0, 0, 0, 0.458);
     position: absolute;
     top: 0;
-    right: 4vw;
+    right: 1vw;
     margin-top: 3.5vh;
     z-index: 99;
   }
 
   .logoBox {
     display: none;
-    margin-left: 0vw;
-
+    margin-left: 3vw;
   }
 
   .wblogo {
@@ -2655,16 +2775,17 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
     }
     
     .heroContent {
-        width: 98vw;
+        width: 95vw;
         height: 75vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         margin: auto;
+        margin-top: 5vw;
     }
     
     .hC-textbox {
-        width: 94vw;
+        width: 91vw;
         height: 31vh;
         display: flex;
         flex-direction: column;
@@ -3404,7 +3525,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         font-size: 1.3vh;
         color: #fff0c3;
         text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.356);
-        left: 7vw;
+        left: 6vw;
         top: 6vh;
         z-index: 0;
         width: 40vw;
@@ -3711,6 +3832,108 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
         transition: 0.5s ease-in-out;
         text-align: center;
         padding-left: 15vw;
+    }
+
+    .faqs {
+      height: 160vh;
+      width: 100%;
+      position: relative;
+      background-color: #382161;
+    }
+    
+    .faqShapes {
+      width: 100%;
+      height: 160vh;
+      position: absolute;
+      z-index: 1;
+      display: inline-block;
+    }
+    
+    .faqShape1 {
+      position: absolute;
+      height: 30vh;
+      bottom: 0vh;
+      z-index: 1;
+    }
+    
+    .faqShape2 {
+      position: absolute;
+      height: 20vh;
+      right: 0vw;
+      z-index: 1;
+    }
+    
+    .faqBox {
+      border: 2px solid white;
+      width: 80vw;
+      height: 140vh;
+      border-radius: 4vh;
+      margin: auto;
+      z-index: 3;
+      position: absolute;
+      background-color: #160d27;
+      box-shadow: 2px 2px 16px 6px #160d27;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-top: 4vh;
+      top: 10vh;
+      left: 9.8vw;
+    }
+    
+    .faqTextBox {
+      z-index: 3;
+      /* border: 2px solid yellow; */
+      width: 70vw;
+      height: 120vh;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    
+    .faq-h2 {
+      color: white;
+      font-size: 2.8vh;
+      text-align: center;
+      font-weight: 500;
+      display: inline-block;
+    }
+    
+    .fTB {
+      /* border: 2px solid plum; */
+      width: 62vw;
+      margin: auto;
+    }
+    
+    .faqHeading {
+      color: white;
+      font-size: 1.9vh;
+      font-weight: 400;
+    }
+    
+    #faqPara, #faqPara1, #faqPara2, #faqPara3, #faqPara4, #faqPara5, #faqPara6, #faqPara7, #faqPara8, #faqPara9, #faqPara10, #faqPara11 {
+      color: #160d27;
+      font-size: 1.1vh;
+      font-weight: 300;
+      display: none;
+      background-color: white;
+      padding: 1vw;
+      border-radius: 1vw;
+    }
+    
+    a.Alink-why:link, a.Alink-why:visited {
+      text-decoration: none;
+      display: flex;
+      cursor: pointer;
+    }
+    
+    a.Alink-why:hover, .whyiconimg:hover {
+      color: #6f42c1;
+    }
+    
+    a.Alink-why:active, .whyiconimg:active {
+      color: #5d37a1;
     }
 
     
