@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 body {
   font-family: "Poppins", serif;
@@ -461,7 +461,7 @@ html {
   font-family: "poppins", serif;
   cursor: pointer;
 }
-@media (min-width: 414px) {
+/* @media (min-width: 414px) {
   .site-menu {
     padding: 1rem;
   }
@@ -895,7 +895,7 @@ html {
     font-family: "poppins", serif;
     cursor: pointer;
   }
-}
+} */
 @media (min-width: 640px) {
   .site-menu {
     padding: 1rem;
