@@ -15,30 +15,35 @@
 </head>
 
 <body>
-    <header>
+    <header id="top">
         <div class="site-menu">
-            <div class="site-logo"><img id="our-logo" src="../images/site-logo.png"></div>
-            <div class="site-navigations">
-                <div class="nav-menu">
-                    <div class="site-logo-mobile"><img id="our-logo-mobile" src="../images/site-logo.png"></div>
-                    <ul>
-                        <li><a href="#" class="nav-link">Home</a></li>
-                        <li><a id="clicked" href="#" class="nav-link">About Us</a></li>
-                        <li><a href="#" class="nav-link">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="site-buttons">
-                    <a href="#" target="_blank"><button class="btn1"> Sign Up</button></a>
-                    <a href="#" target="_blank"><button class="btn2"> Sign In</button></a>
-                </div>
-            </div>
-            <div class="hamburger">
-                <span id="burger" class="burger-span-one"></span>
-                <span id="burger" class="burger-span-two"></span>
-                <span id="burger" class="burger-span-three"></span>
-            </div>
         </div>
     </header>
+    <div class="site-navigations">
+        <div class="nav-menu">
+            <div class="site-logo-mobile"><img id="our-logo-mobile" src="../images/site-logo.png"></div>
+            <div>
+                <ul>
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a id="clicked" href="#" class="nav-link">About Us</a></li>
+                    <li><a href="#" class="nav-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="site-buttons">
+                <a href="#" target="_blank"><button class="btn1"> Sign Up</button></a>
+                <a href="#" target="_blank"><button class="btn2"> Sign In</button></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="mobile-head">
+        <div class="site-logo"><img id="our-logo" src="../images/site-logo.png"></div>
+        <div class="hamburger">
+            <span id="burger" class="burger-span-one"></span>
+            <span id="burger" class="burger-span-two"></span>
+            <span id="burger" class="burger-span-three"></span>
+        </div>
+    </div>
     <section>
         <div class="about-container-one">
             <h4>About WeBudget</h4>
@@ -50,7 +55,7 @@
     </section>
     <section>
         <div class="whatis-box">
-            <div class="whatis-polygon"><img src="../images/Group 70.png"></div>
+            <div class="whatis-polygon"><img src="../images/tabletpolygon.png"></div>
             <div class="whatis-images">
                 <img src="../images/Rectangle 110.png">
                 <img id="appropraite" src="../images/Rectangle 111.png">
@@ -106,56 +111,56 @@
             </div>
             <div class="team-archive">
                 <div class="team-slides">
-                    <img src="../images/Frame 1437255740.png">
+                    <img id="team-img" src="../images/Frame 1437255740.png">
                     <div class="team-post">
                         <p class="title">CEO/Founder</p>
                         <p class="name">Alex Carter</p>
                     </div>
                 </div>
                 <div class="team-slides">
-                    <img src="../images/Frame 1437255740 (1).png">
+                    <img id="team-img" src="../images/Frame 1437255740 (1).png">
                     <div class="team-post">
                         <p class="title">Product Managerr</p>
                         <p class="name">Samantha Lee</p>
                     </div>
                 </div>
                 <div class="team-slides">
-                    <img src="../images/Frame 1437255740 (2).png">
+                    <img id="team-img" src="../images/Frame 1437255740 (2).png">
                     <div class="team-post">
                         <p class="title">Product Designer</p>
                         <p class="name">James Okwu</p>
                     </div>
                 </div>
                 <div class="team-slides">
-                    <img src="../images/Frame 1437255740 (3).png">
+                    <img id="team-img" src="../images/Frame 1437255740 (3).png">
                     <div class="team-post">
                         <p class="title">Product Designer</p>
                         <p class="name">Maria Gomez</p>
                     </div>
                 </div>
                 <div class="team-slides">
-                    <img src="../images/Frame 1437255740 (4).png">
+                    <img id="team-img" src="../images/Frame 1437255740 (4).png">
                     <div class="team-post">
                         <p class="title">Developer</p>
                         <p class="name">Daniel Singh</p>
                     </div>
                 </div>
                 <div class="team-slides">
-                    <img src="../images/Frame 1437255740 (5).png">
+                    <img id="team-img" src="../images/Frame 1437255740 (5).png">
                     <div class="team-post">
                         <p class="title">Data Analyst</p>
                         <p class="name">Sophia Wang</p>
                     </div>
                 </div>
                 <div class="team-slides">
-                    <img src="../images/Frame 1437255740 (6).png">
+                    <img id="team-img" src="../images/Frame 1437255740 (6).png">
                     <div class="team-post">
                         <p class="title">Developer</p>
                         <p class="name">Micheal Adeyemi</p>
                     </div>
                 </div>
                 <div class="team-slides">
-                    <img src="../images/Frame 1437255740 (7).png">
+                    <img id="team-img" src="../images/Frame 1437255740 (7).png">
                     <div class="team-post">
                         <p class="title">Data Analyst</p>
                         <p class="name">David Nwosu</p>
@@ -166,7 +171,7 @@
     </section>
     <section>
         <div class="control-box">
-            <div><img src="../images/Group 83 1.png"></div>
+            <div class="control-img"><img src="../images/Group 83 1.png"></div>
             <div class="control-text">
                 <p class="control-head">Take Control of Your Money—<br>Starting Today</p>
                 <p class="control-body">WeBudget helps you save smarter, track effortlessly, and hit your goals faster.
@@ -176,6 +181,7 @@
             </div>
         </div>
     </section>
+    <div class="scroll"><a href="#top"><ion-icon class="scroll-to-top" name="chevron-up-outline"></ion-icon></a></div>
     <footer>
         <div class="footer-container">
             <div class="contact">
