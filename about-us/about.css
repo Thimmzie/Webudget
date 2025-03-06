@@ -473,6 +473,7 @@ html {
   }
   #our-logo {
     width: 42vw;
+    display: none;
   }
   .hamburger {
     background-color: rgb(255, 255, 255);
