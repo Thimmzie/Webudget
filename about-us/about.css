@@ -21,9 +21,6 @@ html {
   justify-content: space-between;
   padding: 0rem 1rem;
 }
-.site-logo {
-  position: absolute;
-}
 #our-logo {
   width: 37vw;
 }
@@ -473,7 +470,6 @@ html {
   }
   #our-logo {
     width: 42vw;
-    display: none;
   }
   .hamburger {
     background-color: rgb(255, 255, 255);
