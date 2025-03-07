@@ -2,14 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 body {
   font-family: "Poppins", serif;
   background: rgb(255, 255, 255);
 }
 html {
-  overflow-x: hidden;
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
@@ -22,25 +21,27 @@ html {
   justify-content: space-between;
   padding: 0rem 1rem;
 }
+.site-logo {
+  z-index: 10;
+}
 #our-logo {
   width: 37vw;
 }
 .hamburger {
   background-color: rgb(255, 255, 255);
-  padding: 1rem;
+  padding: 1.4rem;
   border-radius: 100rem;
   box-shadow: 0px 3px 3px rgb(190, 190, 190);
   z-index: 1000;
   display: block;
-  margin-left: 31rem;
 }
 #burger {
   -webkit-transition: all 0.3s ease-in-out;
 }
 .hamburger.active {
-  margin-left: 32rem;
+  margin-left: 30.5rem;
   position: fixed;
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
   box-shadow: none;
   padding: 0rem;
 }
@@ -86,9 +87,6 @@ html {
   -webkit-transition: all 0, 3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: rgb(111, 66, 193);
-}
-.site-logo {
-  z-index: 10;
 }
 .box-overlay {
   display: none;
@@ -221,10 +219,9 @@ html {
   gap: 2rem;
 }
 .whatis-polygon {
-  margin-left: 45rem;
+  margin-left: 5rem;
   margin-top: 2rem;
   z-index: 1;
-  position: absolute;
 }
 .whatis-images {
   display: flex;
@@ -464,7 +461,7 @@ html {
   .mobile-head {
     display: flex;
     justify-content: space-between;
-    padding: 0rem 1rem;
+    padding: 2rem 1rem;
   }
   .site-menu {
     padding: 1rem;
@@ -474,12 +471,11 @@ html {
   }
   .hamburger {
     background-color: rgb(255, 255, 255);
-    padding: 0.7rem;
+    padding: 1rem;
     border-radius: 40rem;
     box-shadow: 0px 3px 3px rgb(190, 190, 190);
     z-index: 1000;
     display: block;
-    margin-left: 33rem;
   }
   #burger {
     -webkit-transition: all 0.3s ease-in-out;
@@ -487,7 +483,7 @@ html {
   .hamburger.active {
     margin-left: 34rem;
     position: fixed;
-    margin-top: -0.2rem;
+    margin-top: -2rem;
     box-shadow: none;
     padding: 0rem;
   }
@@ -663,10 +659,9 @@ html {
     gap: 2rem;
   }
   .whatis-polygon {
-    margin-left: 48rem;
+    margin-left: 2rem;
     margin-top: 8rem;
     z-index: 1;
-    position: absolute;
   }
   .whatis-images {
     display: flex;
@@ -901,6 +896,11 @@ html {
   }
 }
 @media (min-width: 640px) {
+  .mobile-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+  }
   .site-menu {
     padding: 1rem;
   }
@@ -914,7 +914,6 @@ html {
     box-shadow: 0px 3px 3px rgb(190, 190, 190);
     z-index: 1000;
     display: block;
-    margin-left: 55rem;
   }
   #burger {
     -webkit-transition: all 0.3s ease-in-out;
@@ -1338,6 +1337,11 @@ html {
 }
 @media (min-width: 768px) {
   .site-menu {
+    .mobile-head {
+      display: flex;
+      justify-content: space-between;
+      padding: 0rem 1rem;
+    }
     padding: 1rem;
   }
   #our-logo {
@@ -1345,12 +1349,11 @@ html {
   }
   .hamburger {
     background-color: rgb(255, 255, 255);
-    padding: 0.8rem;
+    padding: 1rem;
     border-radius: 40rem;
     box-shadow: 0px 3px 3px rgb(190, 190, 190);
     z-index: 1000;
     display: block;
-    margin-left: 67rem;
   }
   #burger {
     -webkit-transition: all 0.3s ease-in-out;
@@ -1359,6 +1362,7 @@ html {
     margin-left: 68rem;
     position: fixed;
     margin-top: -0.2rem;
+    margin-bottom: 0.5rem;
     box-shadow: none;
     padding: 0rem;
   }
@@ -2552,7 +2556,7 @@ html {
     gap: 3rem;
   }
   .whatis-polygon {
-    margin-left: 110rem;
+    margin-left: 80rem;
     margin-top: 8rem;
     z-index: 1;
     position: absolute;
