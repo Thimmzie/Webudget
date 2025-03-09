@@ -196,6 +196,7 @@ html {
 .contact-major {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin-top: -20.7rem;
 }
@@ -312,7 +313,7 @@ html {
     padding: 3rem 1rem;
     background-image: url("../images/Rectangle\ 89.png");
     background-repeat: no-repeat;
-    height: 43vh;
+    height: 45vh;
     background-position: right;
     background-size: contain;
   }
@@ -334,9 +335,9 @@ html {
     -webkit-transition: all 0.3s ease-in-out;
   }
   .hamburger.active {
-    margin-left: -4rem;
+    margin-left: -5.5rem;
     position: fixed;
-    margin-top: 0.5rem;
+    margin-top: -0.7rem;
     box-shadow: none;
     padding: 0rem;
     display: block;
@@ -413,24 +414,25 @@ html {
     display: none;
     z-index: 1000;
     width: 80vw;
-    height: 40vh;
+    height: 35vh;
     border-radius: 0.9rem;
     flex-direction: column;
     align-items: center;
     border: solid 0.1rem rgb(238, 234, 234);
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     background: rgb(255, 255, 255);
     position: fixed;
   }
   .site-navigations.active {
     opacity: 1;
     display: flex;
-    margin-top: -0.5rem;
+    margin-top: 0.5rem;
     margin-left: 5.6rem;
   }
   .site-logo-mobile {
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
   }
   #our-logo-mobile {
     width: 28vw;
@@ -445,7 +447,7 @@ html {
   }
   .nav-menu ul a {
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-family: "poppins", serif;
     color: rgb(58, 56, 56);
     cursor: pointer;
@@ -459,12 +461,12 @@ html {
     padding-bottom: 0.7rem;
   }
   .site-buttons {
-    margin-top: 2rem;
+    margin-top: 2.7rem;
     display: flex;
-    gap: 3rem;
+    gap: 5rem;
   }
   .btn1 {
-    width: 22vw;
+    width: 27vw;
     height: 6vh;
     border: none;
     border: solid 0.1rem rgb(140, 104, 205);
@@ -473,7 +475,7 @@ html {
     background: rgb(245, 245, 245);
   }
   .btn2 {
-    width: 22vw;
+    width: 27vw;
     height: 6vh;
     border: none;
     border: solid 0.1rem rgb(140, 104, 205);
@@ -585,6 +587,1244 @@ html {
   }
   .footer-links ul li {
     font-size: 1.4rem;
+    color: rgb(230, 229, 229);
+    font-family: "poppins", serif;
+    cursor: pointer;
+  }
+}
+@media (min-width: 640px) {
+  .site-menu {
+    padding: 0rem;
+    margin-top: 0rem;
+  }
+  .mobile-head {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+    background-image: url("../images/Rectangle\ 89.png");
+    background-repeat: no-repeat;
+    height: 66vh;
+    background-position: right;
+    background-size: contain;
+  }
+  .site-logo {
+    z-index: 10;
+  }
+  #our-logo {
+    width: 27vw;
+  }
+  .hamburger {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 100rem;
+    box-shadow: 0px 3px 3px rgb(190, 190, 190);
+    z-index: 1000;
+    display: block;
+  }
+  #burger {
+    -webkit-transition: all 0.3s ease-in-out;
+  }
+  .hamburger.active {
+    margin-left: -3rem;
+    position: fixed;
+    margin-top: -0.3rem;
+    box-shadow: none;
+    padding: 0rem;
+    display: block;
+  }
+  .hamburger.active #burger:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active #burger:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+    width: 2rem;
+    background-color: rgb(111, 66, 193);
+  }
+  .hamburger.active #burger:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+    width: 2rem;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-one {
+    display: block;
+    width: 1.5rem;
+    height: 0.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-two {
+    display: block;
+    width: 2.2rem;
+    height: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-three {
+    display: block;
+    width: 1.2rem;
+    height: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .box-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+  }
+  .box-overlay.active {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 29, 29, 0.9);
+    z-index: 999;
+  }
+  .unscroll {
+    position: fixed;
+    height: 100vh;
+  }
+  .site-navigations {
+    opacity: 0;
+    display: none;
+    z-index: 1000;
+    width: 68vw;
+    height: 45vh;
+    border-radius: 0.9rem;
+    flex-direction: column;
+    align-items: center;
+    border: solid 0.1rem rgb(238, 234, 234);
+    padding-top: 1.5rem;
+    background: rgb(255, 255, 255);
+    position: fixed;
+  }
+  .site-navigations.active {
+    opacity: 1;
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 20rem;
+  }
+  .site-logo-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  #our-logo-mobile {
+    width: 28vw;
+    margin: auto;
+  }
+  .nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    z-index: 1000;
+  }
+  .nav-menu ul a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "poppins", serif;
+    color: rgb(58, 56, 56);
+    cursor: pointer;
+    transition: 0.3s;
+    line-height: 4rem;
+    z-index: 1000;
+  }
+  #clicked {
+    color: rgb(140, 104, 205);
+    border-bottom: solid 0.1rem rgb(140, 104, 205);
+    padding-bottom: 0.7rem;
+  }
+  .site-buttons {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 5rem;
+  }
+  .btn1 {
+    width: 24vw;
+    height: 7vh;
+    border: none;
+    border: solid 0.1rem rgb(140, 104, 205);
+    border-radius: 0.8rem;
+    font-family: "poppins", serif;
+    background: rgb(245, 245, 245);
+  }
+  .btn2 {
+    width: 24vw;
+    height: 7vh;
+    border: none;
+    border: solid 0.1rem rgb(140, 104, 205);
+    border-radius: 0.8rem;
+    font-family: "poppins", serif;
+    background: rgb(111, 66, 193);
+    color: rgb(255, 255, 255);
+  }
+  .contact-major {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -24rem;
+  }
+  .section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .major-head {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: rgb(22, 22, 22);
+  }
+  .major-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+    width: 76%;
+    text-align: center;
+  }
+  .section-contact {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  .section-contact p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+    margin-right: 35rem;
+  }
+  .section-contact-icon {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+  }
+  #media {
+    width: 8vw;
+    cursor: pointer;
+  }
+  .bg-below {
+    background-image: url("../images/Rectangle\ 88.png");
+    height: 10vh;
+    background-repeat: no-repeat;
+    margin-top: -1.4rem;
+  }
+  .footer-container {
+    background: rgb(22, 13, 39);
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+  }
+  .contact {
+    margin: auto;
+  }
+  #footer-logo {
+    width: 30vw;
+  }
+  .contact p {
+    color: rgb(245, 245, 245);
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+    text-align: center;
+  }
+  .social-media {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+  }
+  #media-icon {
+    width: 6vw;
+  }
+  .footer-links-menu {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20rem;
+    padding-left: 5rem;
+  }
+  .footer-links {
+    margin-top: 1.5rem;
+  }
+  .footer-links p {
+    font-size: 1.9rem;
+    color: rgb(255, 255, 255);
+  }
+  .footer-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-top: 2rem;
+  }
+  .footer-links ul li {
+    font-size: 1.5rem;
+    color: rgb(230, 229, 229);
+    font-family: "poppins", serif;
+    cursor: pointer;
+  }
+}
+@media (min-width: 768px) {
+  .site-menu {
+    padding: 0rem;
+    margin-top: 0rem;
+  }
+  .mobile-head {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+    background-image: url("../images/tabrectangle.png");
+    background-repeat: no-repeat;
+    height: 38vh;
+    background-position: center;
+    background-size: contain;
+  }
+  .site-logo {
+    z-index: 10;
+  }
+  #our-logo {
+    width: 28vw;
+  }
+  .hamburger {
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    border-radius: 100rem;
+    box-shadow: 0px 3px 3px rgb(190, 190, 190);
+    z-index: 1000;
+    display: block;
+  }
+  #burger {
+    -webkit-transition: all 0.3s ease-in-out;
+  }
+  .hamburger.active {
+    margin-left: -3rem;
+    position: fixed;
+    margin-top: -0.3rem;
+    box-shadow: none;
+    padding: 0rem;
+    display: block;
+  }
+  .hamburger.active #burger:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active #burger:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+    width: 2rem;
+    background-color: rgb(111, 66, 193);
+  }
+  .hamburger.active #burger:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+    width: 2rem;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-one {
+    display: block;
+    width: 1.5rem;
+    height: 0.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-two {
+    display: block;
+    width: 2.2rem;
+    height: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-three {
+    display: block;
+    width: 1.2rem;
+    height: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .box-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+  }
+  .box-overlay.active {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 29, 29, 0.9);
+    z-index: 999;
+  }
+  .unscroll {
+    position: fixed;
+    height: 100vh;
+  }
+  .site-navigations {
+    opacity: 0;
+    display: none;
+    z-index: 1000;
+    width: 68vw;
+    height: 45vh;
+    border-radius: 0.9rem;
+    flex-direction: column;
+    align-items: center;
+    border: solid 0.1rem rgb(238, 234, 234);
+    padding-top: 1.5rem;
+    background: rgb(255, 255, 255);
+    position: fixed;
+  }
+  .site-navigations.active {
+    opacity: 1;
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 23rem;
+  }
+  .site-logo-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  #our-logo-mobile {
+    width: 28vw;
+    margin: auto;
+  }
+  .nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    z-index: 1000;
+  }
+  .nav-menu ul a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: "poppins", serif;
+    color: rgb(58, 56, 56);
+    cursor: pointer;
+    transition: 0.3s;
+    line-height: 4rem;
+    z-index: 1000;
+  }
+  #clicked {
+    color: rgb(140, 104, 205);
+    border-bottom: solid 0.1rem rgb(140, 104, 205);
+    padding-bottom: 0.7rem;
+  }
+  .site-buttons {
+    margin-top: 6rem;
+    display: flex;
+    gap: 5rem;
+  }
+  .btn1 {
+    width: 24vw;
+    height: 7vh;
+    border: none;
+    border: solid 0.1rem rgb(140, 104, 205);
+    border-radius: 0.8rem;
+    font-family: "poppins", serif;
+    background: rgb(245, 245, 245);
+  }
+  .btn2 {
+    width: 24vw;
+    height: 7vh;
+    border: none;
+    border: solid 0.1rem rgb(140, 104, 205);
+    border-radius: 0.8rem;
+    font-family: "poppins", serif;
+    background: rgb(111, 66, 193);
+    color: rgb(255, 255, 255);
+  }
+  .contact-major {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -16rem;
+  }
+  #hero-img {
+    width: 55vw;
+  }
+  .section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .major-head {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: rgb(22, 22, 22);
+  }
+  .major-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+    width: 76%;
+    text-align: center;
+  }
+  .section-contact {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  .section-contact p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+    margin-right: 37rem;
+  }
+  .section-contact-icon {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+  }
+  #media {
+    width: 8vw;
+    cursor: pointer;
+  }
+  .bg-below {
+    background-image: url("../images/footertabimg.png");
+    height: 10vh;
+    background-repeat: no-repeat;
+    margin-top: -1.4rem;
+  }
+  .footer-container {
+    background: rgb(22, 13, 39);
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .contact {
+    margin: 7rem auto;
+  }
+  #footer-logo {
+    width: 20vw;
+  }
+  .contact p {
+    color: rgb(245, 245, 245);
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+    text-align: center;
+  }
+  .social-media {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+  }
+  #media-icon {
+    width: 3vw;
+  }
+  .footer-links-menu {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5rem;
+    padding-left: 5rem;
+  }
+  .footer-links {
+    margin-top: 1.5rem;
+  }
+  .footer-links p {
+    font-size: 1.9rem;
+    color: rgb(255, 255, 255);
+  }
+  .footer-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-top: 2rem;
+  }
+  .footer-links ul li {
+    font-size: 1.3rem;
+    color: rgb(230, 229, 229);
+    font-family: "poppins", serif;
+    cursor: pointer;
+  }
+}
+@media (min-width: 1024px) {
+  .mobile-head {
+    display: block;
+    background-image: url("../images/tabrectangle.png");
+    background-repeat: no-repeat;
+    height: 38vh;
+    background-position: left;
+    background-size: contain;
+    margin-top: -10rem;
+    margin-left: 30rem;
+  }
+  .site-logo {
+    position: relative;
+  }
+  #our-logo {
+    width: 25vw;
+    display: none;
+  }
+  .hamburger {
+    background-color: rgb(255, 255, 255);
+    padding: 0.8rem;
+    border-radius: 40rem;
+    box-shadow: 0px 3px 3px rgb(190, 190, 190);
+    z-index: 1000;
+    display: none;
+    margin-left: 67rem;
+  }
+  #burger {
+    -webkit-transition: all 0.3s ease-in-out;
+  }
+  .hamburger.active {
+    margin-left: 68rem;
+    position: fixed;
+    margin-top: -0.2rem;
+    box-shadow: none;
+    padding: 0rem;
+  }
+  .hamburger.active #burger:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active #burger:nth-child(1) {
+    transform: translateY(13px) rotate(45deg);
+    width: 2.8rem;
+    background-color: rgb(111, 66, 193);
+  }
+  .hamburger.active #burger:nth-child(3) {
+    transform: translateY(-13px) rotate(-45deg);
+    width: 2.8rem;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-one {
+    display: block;
+    width: 2rem;
+    height: 0.3rem;
+    margin: 1rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-two {
+    display: block;
+    width: 2.7rem;
+    padding-right: 1rem;
+    height: 0.3rem;
+    margin: 1rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-three {
+    display: block;
+    width: 1.7rem;
+    height: 0.3rem;
+    margin: 1rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .site-logo {
+    z-index: 10;
+  }
+  .box-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+  }
+  .box-overlay.active {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 29, 29, 0.9);
+    z-index: 999;
+  }
+  .unscroll {
+    position: fixed;
+    height: 100vh;
+  }
+  .site-menu {
+    padding: 1rem;
+    min-height: 1rem;
+  }
+  .site-navigations {
+    opacity: 1;
+    display: block;
+    z-index: 999;
+    width: 80%;
+    height: 12vh;
+    border-radius: 1.7rem;
+    flex-direction: row;
+    align-self: flex-start;
+    border: none;
+    padding: 0.5rem 2rem;
+    background: rgb(247, 247, 247);
+    position: sticky;
+    top: 0;
+    /* left: 50%;
+    transform: translateX(-9%); */
+    margin: auto;
+    box-shadow: 0px 3px 3px rgb(185, 184, 184);
+  }
+  .site-navigations.active {
+    opacity: 1;
+    display: flex;
+    margin-top: 0rem;
+    margin-left: 21rem;
+  }
+  #our-logo-mobile {
+    width: 14vw;
+    margin: auto;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    list-style: none;
+    z-index: 1000;
+    padding-top: 0rem;
+    margin-top: 0rem;
+  }
+  .nav-menu ul a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: "poppins", serif;
+    color: rgb(58, 56, 56);
+    cursor: pointer;
+    transition: 0.3s;
+    line-height: 5rem;
+    z-index: 1000;
+  }
+  .nav-menu ul a:hover {
+    color: rgb(111, 66, 193);
+  }
+  #clicked {
+    color: rgb(140, 104, 205);
+    border-bottom: solid 0.1rem rgb(140, 104, 205);
+    padding-bottom: 0.7rem;
+  }
+  .site-buttons {
+    margin-top: 0;
+    display: flex;
+    gap: 2rem;
+  }
+  .btn1 {
+    width: 8vw;
+    height: 6vh;
+    border: none;
+    border: solid 0.1rem rgb(140, 104, 205);
+    border-radius: 0.8rem;
+    font-family: "poppins", serif;
+    background: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btn1:hover {
+    background: rgb(111, 66, 193);
+    color: rgb(255, 255, 255);
+  }
+  .btn2 {
+    width: 8vw;
+    height: 6vh;
+    border: none;
+    border: solid 0.1rem rgb(140, 104, 205);
+    border-radius: 0.8rem;
+    font-family: "poppins", serif;
+    background: rgb(111, 66, 193);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btn2:hover {
+    background: rgb(255, 255, 255);
+    color: rgba(0, 0, 0);
+  }
+  .contact-major {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: -14rem;
+    width: 90%;
+  }
+  #hero-img {
+    width: 32vw;
+  }
+  .section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: start;
+    margin-top: 5rem;
+    margin-left: 18rem;
+  }
+  .major-head {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(53, 52, 52);
+    text-align: start;
+  }
+  .major-body {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(75, 75, 75);
+    width: 90%;
+    text-align: justify;
+  }
+  .section-contact {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  .section-contact p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+    margin-right: 0rem;
+  }
+  .section-contact-icon {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: left;
+    gap: 3rem;
+  }
+  #media {
+    width: 3vw;
+    cursor: pointer;
+  }
+  .bg-below {
+    background-image: url("../images/footertabimg.png");
+    height: 10vh;
+    background-repeat: no-repeat;
+    margin-top: -1.4rem;
+  }
+  .footer-container {
+    background: rgb(22, 13, 39);
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .contact {
+    margin: 7rem 7rem;
+  }
+  #footer-logo {
+    width: 13vw;
+  }
+  .contact p {
+    color: rgb(245, 245, 245);
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+    text-align: start;
+  }
+  .social-media {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+  }
+  #media-icon {
+    width: 2vw;
+  }
+  .footer-links-menu {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20rem;
+    padding-left: 5rem;
+  }
+  .footer-links {
+    margin-top: 1.5rem;
+  }
+  .footer-links p {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+  }
+  .footer-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-top: 2rem;
+  }
+  .footer-links ul li {
+    font-size: 1.3rem;
+    color: rgb(230, 229, 229);
+    font-family: "poppins", serif;
+    cursor: pointer;
+  }
+}
+@media (min-width: 1280px) {
+  .mobile-head {
+    display: block;
+  }
+  .site-logo {
+    position: relative;
+  }
+  #our-logo {
+    width: 25vw;
+    display: none;
+  }
+  .hamburger {
+    background-color: rgb(255, 255, 255);
+    padding: 0.8rem;
+    border-radius: 40rem;
+    box-shadow: 0px 3px 3px rgb(190, 190, 190);
+    z-index: 1000;
+    display: none;
+    margin-left: 67rem;
+  }
+  #burger {
+    -webkit-transition: all 0.3s ease-in-out;
+  }
+  .hamburger.active {
+    margin-left: 68rem;
+    position: fixed;
+    margin-top: -0.2rem;
+    box-shadow: none;
+    padding: 0rem;
+  }
+  .hamburger.active #burger:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active #burger:nth-child(1) {
+    transform: translateY(13px) rotate(45deg);
+    width: 2.8rem;
+    background-color: rgb(111, 66, 193);
+  }
+  .hamburger.active #burger:nth-child(3) {
+    transform: translateY(-13px) rotate(-45deg);
+    width: 2.8rem;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-one {
+    display: block;
+    width: 2rem;
+    height: 0.3rem;
+    margin: 1rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-two {
+    display: block;
+    width: 2.7rem;
+    padding-right: 1rem;
+    height: 0.3rem;
+    margin: 1rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .burger-span-three {
+    display: block;
+    width: 1.7rem;
+    height: 0.3rem;
+    margin: 1rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+  .site-logo {
+    z-index: 10;
+  }
+  .box-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+  }
+  .box-overlay.active {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 29, 29, 0.9);
+    z-index: 999;
+  }
+  .unscroll {
+    position: fixed;
+    height: 100vh;
+  }
+  .site-menu {
+    padding: 1rem;
+    min-height: 1rem;
+  }
+  .site-navigations {
+    opacity: 1;
+    display: block;
+    z-index: 999;
+    width: 78%;
+    height: 12vh;
+    border-radius: 1.7rem;
+    flex-direction: row;
+    align-self: flex-start;
+    border: none;
+    padding: 0.5rem 2rem;
+    background: rgb(247, 247, 247);
+    position: sticky;
+    top: 0;
+    /* left: 50%;
+    transform: translateX(-9%); */
+    margin: auto;
+    box-shadow: 0px 3px 3px rgb(185, 184, 184);
+  }
+  .site-navigations.active {
+    opacity: 1;
+    display: flex;
+    margin-top: 0rem;
+    margin-left: 21rem;
+  }
+  #our-logo-mobile {
+    width: 12vw;
+    margin: auto;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    list-style: none;
+    z-index: 1000;
+    padding-top: 0rem;
+    margin-top: 0rem;
+  }
+  .nav-menu ul a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: "poppins", serif;
+    color: rgb(58, 56, 56);
+    cursor: pointer;
+    transition: 0.3s;
+    line-height: 5rem;
+    z-index: 1000;
+  }
+  .nav-menu ul a:hover {
+    color: rgb(111, 66, 193);
+  }
+  #clicked {
+    color: rgb(140, 104, 205);
+    border-bottom: solid 0.1rem rgb(140, 104, 205);
+    padding-bottom: 0.7rem;
+  }
+  .site-buttons {
+    margin-top: 0;
+    display: flex;
+    gap: 2rem;
+  }
+  .btn1 {
+    width: 8vw;
+    height: 6vh;
+    border: none;
+    border: solid 0.1rem rgb(140, 104, 205);
+    border-radius: 0.8rem;
+    font-family: "poppins", serif;
+    background: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btn1:hover {
+    background: rgb(111, 66, 193);
+    color: rgb(255, 255, 255);
+  }
+  .btn2 {
+    width: 8vw;
+    height: 6vh;
+    border: none;
+    border: solid 0.1rem rgb(140, 104, 205);
+    border-radius: 0.8rem;
+    font-family: "poppins", serif;
+    background: rgb(111, 66, 193);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btn2:hover {
+    background: rgb(255, 255, 255);
+    color: rgba(0, 0, 0);
+  }
+  .contact-major {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: -14rem;
+    width: 90%;
+  }
+  #hero-img {
+    width: 30vw;
+  }
+  .section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: start;
+    margin-top: 5rem;
+    margin-left: 18rem;
+  }
+  .major-head {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(53, 52, 52);
+    text-align: start;
+  }
+  .major-body {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(75, 75, 75);
+    width: 90%;
+    text-align: justify;
+  }
+  .section-contact {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  .section-contact p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+    margin-right: 0rem;
+  }
+  .section-contact-icon {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: left;
+    gap: 3rem;
+  }
+  #media {
+    width: 3vw;
+    cursor: pointer;
+  }
+  .bg-below {
+    background-image: url("../images/footertabimg.png");
+    height: 10vh;
+    background-repeat: no-repeat;
+    margin-top: -1.4rem;
+  }
+  .footer-container {
+    background: rgb(22, 13, 39);
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .contact {
+    margin: 7rem 8.2rem;
+  }
+  #footer-logo {
+    width: 13vw;
+  }
+  .contact p {
+    color: rgb(245, 245, 245);
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+    text-align: start;
+  }
+  .social-media {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+  }
+  #media-icon {
+    width: 2vw;
+  }
+  .footer-links-menu {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20rem;
+    padding-left: 5rem;
+  }
+  .footer-links {
+    margin-top: 1.5rem;
+  }
+  .footer-links p {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+  }
+  .footer-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-top: 2rem;
+  }
+  .footer-links ul li {
+    font-size: 1.3rem;
     color: rgb(230, 229, 229);
     font-family: "poppins", serif;
     cursor: pointer;
