@@ -1237,7 +1237,7 @@ html {
     padding-left: 5rem;
     border: none;
     background: rgb(255, 255, 255);
-    height: 5vh;
+    height: 3.5vh;
     width: 35vw;
   }
   #gsearch::placeholder {
@@ -1247,7 +1247,7 @@ html {
   .search-icon {
     color: rgb(120, 78, 197);
     position: relative;
-    left: 5.7vh;
+    left: 4vh;
     top: 0.5rem;
     font-size: 2rem;
   }
@@ -1303,7 +1303,7 @@ html {
     display: block;
     display: flex;
     background: rgb(255, 255, 255);
-    height: 6vh;
+    height: 4vh;
     border-radius: 1rem;
     padding-right: 0.8rem;
     margin-right: 2rem;
@@ -1330,7 +1330,7 @@ html {
     background: rgb(255, 255, 255);
     display: flex;
     gap: 1rem;
-    height: 6vh;
+    height: 4vh;
     padding-left: 1rem;
     padding-right: 1.6rem;
     border-radius: 1rem;
@@ -1357,7 +1357,7 @@ html {
     width: 11vw;
   }
   .bill-share-box {
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     border-radius: 1.5rem;
     background-color: rgb(255, 255, 255);
@@ -1371,6 +1371,7 @@ html {
     border: solid 0.1rem rgb(209, 208, 208);
     box-shadow: 0px 3px 2px rgb(179, 178, 178);
     margin-bottom: 1rem;
+    overflow-y: hidden;
   }
   #bill-img {
     width: 25vw;
@@ -1453,7 +1454,7 @@ html {
     margin-right: 2rem;
   }
   .savings-trend-box {
-    height: 70vh;
+    height: 50vh;
     width: 49%;
     margin-top: -0.5rem;
     background: rgb(255, 255, 255);
@@ -1461,6 +1462,7 @@ html {
     border: solid 0.1rem rgb(209, 208, 208);
     box-shadow: 0px 6px 2px rgb(179, 178, 178);
     padding: 2.3rem 1.3rem 0rem 1.3rem;
+    overflow-y: hidden;
   }
   .trend-heading {
     display: flex;
@@ -1509,7 +1511,7 @@ html {
     transform: scale(0.96);
   }
   .trend-chart {
-    height: 40vh;
+    min-height: 20vh;
     margin: 10rem auto 0;
   }
   .bar {
@@ -1523,7 +1525,7 @@ html {
     display: flex;
     justify-content: center;
     gap: 2.1rem;
-    padding-top: 23rem;
+    padding-top: 28rem;
   }
   .bar::after {
     content: "";
@@ -1577,7 +1579,7 @@ html {
     background: rgb(111, 66, 193);
     border-radius: 1rem;
     width: 29vw;
-    height: 6.5vh;
+    height: 5vh;
     margin-top: 0rem;
     margin-left: 2rem;
   }
@@ -1616,8 +1618,8 @@ html {
     color: rgb(73, 73, 73);
   }
   .savings-item {
-    height: 85vh;
-    margin-top: 4rem;
+    height: 63vh;
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -1628,7 +1630,7 @@ html {
   .car {
     background: rgb(255, 255, 255);
     width: 31%;
-    height: 38vh;
+    height: 26vh;
     border-radius: 1rem;
     padding-top: 2rem;
     display: flex;
