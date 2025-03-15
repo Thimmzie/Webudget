@@ -3709,7 +3709,7 @@ footer {
   }
 
     .people {
-        height: 100vh;
+        height: 140vh;
         width: 100%;
         padding-top: 5vh;
         background-color: #fec107;
@@ -3738,12 +3738,14 @@ footer {
     }
     
     .peopleGrid {
-        height: 77vh;
+        height: 122vh;
         width: 90vw;
         display: flex;
+        flex-direction: column;
         margin: auto;
         justify-content: space-between;
         position: relative;
+        padding-top: 2vh;
     }
     
     .pG2a {
@@ -3755,7 +3757,7 @@ footer {
         padding: 5vw;
         color: black;
         position: absolute;
-        margin-top: 4vh;
+        margin: auto;
         z-index: 3;
         animation-name: pGani;
         animation-duration: 2s;
@@ -3763,7 +3765,6 @@ footer {
         animation-iteration-count: 10;
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
-        margin-left: 10vw;
         animation-name: fadeup;
         display: flex;
         flex-direction: column;
@@ -3779,8 +3780,8 @@ footer {
         padding: 5vw;
         color: black;
         position: absolute;
-        margin-top: 30vh;
-        margin-left: 10vw;
+        top: 40vh;
+        margin: auto;
         z-index: 1;
         animation-name: pGani;
         animation-duration: 10s;
@@ -3802,8 +3803,8 @@ footer {
         padding: 5vw;
         color: black;
         position: absolute;
-        margin-top: 17vh;
-        margin-left: 10vw;
+        top: 80vh;
+        /* margin-left: 10vw; */
         z-index: 1;
         animation-name: pGani;
         animation-duration: 10s;
