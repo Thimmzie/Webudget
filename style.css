@@ -1390,6 +1390,17 @@ footer {
   cursor: pointer;
 }
 
+a.Alink-faq:link, a.Alink-faq:visited {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.Alink-faq:hover, a.Alink-faq:active {
+  color: #ac95d6;
+  transition: 0.3s ease-in-out;
+}
+
 
 
 /* Tablet screen */
@@ -2742,6 +2753,100 @@ footer {
       height: 5vh;
       font-size: 1.8vh;
     }
+
+    footer {
+      background: #160d27;
+      height: 125vh;
+    }
+    
+    .footer-container {
+      margin-top: 8rem;
+      background: rgb(22, 13, 39);
+      padding-bottom: 5rem;
+      display: flex;
+      flex-direction: column;
+      padding-top: 2.5rem;
+      height: 120vh;
+      width: 95vw;
+    }
+    
+    .contact {
+      margin: auto;
+      width: 70vw;
+      height: 30vh;
+    }
+    
+    #footer-logo {
+      height: 9vh;
+      width: 53vw;
+      margin: auto;
+    }
+    
+    .footerHeading {
+      color: rgb(245, 245, 245);
+      font-size: 1.4rem;
+      margin-top: 1.2rem;
+      text-align: left;
+    }
+    
+    .social-media {
+      margin-top: 1.2rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    
+    #media-icon {
+      height: 5vh;
+      border: 1px solid #ac95d6;
+      border-radius: 50%;
+    }
+    
+    .footer-links-menu {
+      margin-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      width: 90vw;
+      height: 80vh;
+    }
+    
+    .footer-links {
+      margin-top: 1.5rem;
+      width: 36vw;
+    }
+    
+    .footerHeading {
+      font-size: 2vh;
+      color: rgb(255, 255, 255);
+    }
+    
+    .footerul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.4rem;
+      margin-top: 2rem;
+    }
+    
+    .footerli {
+      font-size: 1.6rem;
+      color: rgb(230, 229, 229);
+      font-family: "poppins", serif;
+      cursor: pointer;
+    }
+
+    a.Alink-faq:link, a.Alink-faq:visited {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    a.Alink-faq:hover, a.Alink-faq:active {
+      color: #ac95d6;
+      transition: 0.3s ease-in-out;
+    }
+
     
 }
 
@@ -4289,5 +4394,14 @@ footer {
       cursor: pointer;
     }
 
+    a.Alink-faq:link, a.Alink-faq:visited {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
     
+    a.Alink-faq:hover, a.Alink-faq:active {
+      color: #ac95d6;
+      transition: 0.3s ease-in-out;
+    }
 }
