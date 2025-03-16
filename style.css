@@ -4274,7 +4274,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     .faqTextBox {
       z-index: 3;
       /* border: 2px solid yellow; */
-      width: 80w;
+      width: 80vw;
       height: 155vh;
       margin: auto;
       display: flex;
@@ -4284,7 +4284,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     
     .faq-h2 {
       color: white;
-      font-size: 3.2vh;
+      font-size: 3.5vh;
       text-align: center;
       font-weight: 500;
       display: inline-block;
@@ -4310,6 +4310,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
       background-color: white;
       padding: 1vw;
       border-radius: 1vw;
+      width: 68vw;
     }
     
     a.Alink-why:link, a.Alink-why:visited {
