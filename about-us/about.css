@@ -371,6 +371,19 @@ html {
   border-radius: 1vw;
 }
 
+.pd {
+  background-image: url("../images/IMG_2781.PNG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  background-size: cover;
+  background-origin: padding-box;
+  object-fit: cover;
+  object-position: 10% 30%;
+  border-radius: 1vw;
+}
+
 .fe1 {
   background-image: url("../images/IMG_2678.JPG");
   background-repeat: no-repeat;
@@ -901,6 +914,19 @@ html {
     background-size:cover;
     height: 15vh;
     width: 35vw;
+    background-origin: padding-box;
+    object-fit: cover;
+    object-position: 10% 30%;
+    border-radius: 1vw;
+  }
+
+  .pd {
+    background-image: url("../images/IMG_2781.PNG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-size: cover;
     background-origin: padding-box;
     object-fit: cover;
     object-position: 10% 30%;
@@ -1451,6 +1477,19 @@ html {
     border-radius: 1vw;
   }
 
+  .pd {
+    background-image: url("../images/IMG_2781.PNG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-size: cover;
+    background-origin: padding-box;
+    object-fit: cover;
+    object-position: 10% 30%;
+    border-radius: 1vw;
+  }
+
   .fe1 {
     background-image: url("../images/IMG_2678.JPG");
     background-repeat: no-repeat;
@@ -1975,6 +2014,19 @@ html {
 
   .pm {
     background-image: url("../images/IMG_2678.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-size: cover;
+    background-origin: padding-box;
+    object-fit: cover;
+    object-position: 10% 30%;
+    border-radius: 1vw;
+  }
+
+  .pd {
+    background-image: url("../images/IMG_2781.PNG");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: 100%;
@@ -2563,6 +2615,19 @@ html {
 
   .pm {
     background-image: url("../images/IMG_2678.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-size: cover;
+    background-origin: padding-box;
+    object-fit: cover;
+    object-position: 10% 30%;
+    border-radius: 1vw;
+  }
+
+  .pd {
+    background-image: url("../images/IMG_2781.PNG");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: 100%;
@@ -3202,6 +3267,20 @@ html {
     border-radius: 1vw;
   }
 
+  .pd {
+    background-image: url("../images/IMG_2781.PNG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-size: cover;
+    background-origin: padding-box;
+    object-fit: cover;
+    object-position: 10% 30%;
+    border-radius: 1vw;
+  }
+
+
   .fe1 {
     background-image: url("../images/IMG_2678.JPG");
     background-repeat: no-repeat;
@@ -3283,7 +3362,7 @@ html {
   .team-slides {
     background: rgb(241, 241, 241);
     width: 14.5vw;
-    height: 27vh;
+    height: 35vh;
     border-radius: 1.5rem;
     padding: 1rem;
     display: flex;
