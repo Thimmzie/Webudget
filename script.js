@@ -16,16 +16,17 @@ const modal = document.getElementById("myModal");
 const img = document.getElementById("myImg");
 const modalImg = document.getElementById("img01");
 const captionText = document.getElementById("caption");
+
 img.onclick = function() {
   modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+  modalImg.src = this.src; // to get the image link
+  captionText.innerHTML = this.alt; // to get the caption
 }
 
-// Get the <span> element that closes the modal
+// create a variable for the <span> element that closes the modal
 const spanClose = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
+// When the user clicks on <span> (x), it closes the modal
 spanClose.onclick = function() {
   modal.style.display = "none";
 }

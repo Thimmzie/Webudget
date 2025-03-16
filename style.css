@@ -937,12 +937,13 @@ a.Alink-accG:hover, a.Alink-accG:active {
     margin: auto;
     padding: 2vw;
     color: black;
+    /*
     animation-duration: 10s;
     animation-delay: 0s;
     animation-iteration-count: 10;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
-    animation-name: fadeup;
+    animation-name: fadeup;*/
 }
 
 /*
@@ -2348,7 +2349,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     }
     
     .pG2a, .pG2, .pG3 {
-        height: 45vh;
+        height: 47vh;
         width: 25vw;
         background-color: white;
         z-index: 2;
@@ -2356,19 +2357,20 @@ a.Alink-faq:hover, a.Alink-faq:active {
         border-radius: 3vh;
         padding: 2vw;
         color: black;
+        /*
         animation-duration: 10s;
         animation-delay: 0s;
         animation-iteration-count: 10;
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
-        animation-name: fadeup;
+        animation-name: fadeup;*/
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
     
     .pG2a:hover, .pG2:hover, .pG3:hover {
-        height: 45vh;
+        height: 47vh;
         width: 25vw;
         background-color: rgb(255, 255, 255);
         z-index: 2;
@@ -2405,14 +2407,14 @@ a.Alink-faq:hover, a.Alink-faq:active {
     }
     
     .pGName {
-        font-size: 2vh;
+        font-size: 2.5vh;
         color: black;
         text-align: center;
         line-height: 2vh;
     }
     
     .pGtext {
-        font-size: 1.3vh;
+        font-size: 2vh;
         color: black;
         text-align: justify;
     }
@@ -3438,7 +3440,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
 
   #caption,
   #captionB,
-  #captionC {
+  #captionC, #captionD {
     margin: auto;
     display: block;
     width: 80%;
@@ -3453,7 +3455,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
   .modal-content,
   #caption,
   #captionB,
-  #captionC {
+  #captionC, #captionD {
     animation-name: zoom;
     animation-duration: 0.6s;
   }
@@ -3525,7 +3527,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
   }
 
   .oG-txtBox {
-    width: 60vw;
+    width: 62vw;
     height: 22vh;
     display: flex;
     flex-direction: column;
@@ -3541,7 +3543,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
   }
 
   .oG-txtpara {
-    font-size: 1.3vh;
+    font-size: 1.4vh;
     color: black;
     text-align: left;
     word-wrap: break-word;
@@ -3553,7 +3555,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     text-decoration: none;
     font-weight: 500;
     cursor: pointer;
-    width: 20vw;
+    width: 44vw;
     height: 4vh;
     align-content: center;
     text-align: left;
@@ -3794,8 +3796,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     transition: background-color 0.6s ease;
   }
 
-  .dot:hover,
-  .dot:active {
+  .dot:active .active, .dot:hover {
     background-color: #5d37a1;
   }
 
@@ -3864,13 +3865,14 @@ a.Alink-faq:hover, a.Alink-faq:active {
         position: absolute;
         margin: auto;
         z-index: 3;
+        /*
         animation-name: pGani;
         animation-duration: 2s;
         animation-delay: 0s;
         animation-iteration-count: 10;
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
-        animation-name: fadeup;
+        animation-name: fadeup; */
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -3885,15 +3887,15 @@ a.Alink-faq:hover, a.Alink-faq:active {
         padding: 5vw;
         color: black;
         position: absolute;
-        top: 40vh;
+        top: 42vh;
         margin: auto;
         z-index: 1;
-        animation-name: pGani;
+        /* animation-name: pGani;
         animation-duration: 10s;
         animation-delay: 0s;
         animation-iteration-count: 10;
         animation-direction: alternate;
-        animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out; */
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -3908,15 +3910,15 @@ a.Alink-faq:hover, a.Alink-faq:active {
         padding: 5vw;
         color: black;
         position: absolute;
-        top: 80vh;
+        margin-top: 80vh;
         /* margin-left: 10vw; */
         z-index: 1;
-        animation-name: pGani;
+        /* animation-name: pGani;
         animation-duration: 10s;
         animation-delay: 0s;
         animation-iteration-count: 10;
         animation-direction: alternate;
-        animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out; */
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -3929,8 +3931,8 @@ a.Alink-faq:hover, a.Alink-faq:active {
         color: white;
         box-shadow: 1px 1px 10px 1px #5d37a1;
         border-radius: 3vh;
-        padding: 2vw;
-        /* transform: scale(1.1,1.1); */
+        padding: 5vw;
+        transform: scale(1.1,1.1);
     }
     
     /*
@@ -3941,12 +3943,13 @@ a.Alink-faq:hover, a.Alink-faq:active {
         75% {top:0px; bottom:20px;}
         100% {top:20px; bottom:0px;}
     }
-    */
+    
 
     @keyframes fadeup {
         0% {top: -20px; display: block;}
         100% {top: 0px; display: none;}
     }
+     */
     
     .pGimg {
         height: 8vh;
@@ -4057,7 +4060,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     }
 
     .subsG-label-main {
-        font-size: 2.5vh;
+        font-size: 2.6vh;
         color: black;
         text-align: center;
         line-height: 3vh;
@@ -4070,7 +4073,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     }
 
     .subsG-label {
-        font-size: 2.4vh;
+        font-size: 2.3vh;
         color: black;
         text-align: left;
         line-height: 3vh;
@@ -4083,7 +4086,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
 
     .subsG-pSpan {
       color: #e8e1f5;
-      font-size: 1.2vh;
+      font-size: 1.5vh;
     }
     
     .subsG-ulli {
@@ -4121,29 +4124,27 @@ a.Alink-faq:hover, a.Alink-faq:active {
     a.Alink-subsG:link, a.Alink-subsG:visited {
         background-color: #6f42c1;
         text-decoration: none;
-        height: 8vh;
+        height: 7vh;
         width: 55vw;
         color: white;
         border-radius: 1.8vh;
-        font-size: 2vh;
+        font-size: 2.2vh;
         display: flex;
         align-items: center;
         text-align: center;
-        padding-left: 15vw;
         margin: auto;
     }   
     
     a.Alink-subsG:hover, a.Alink-subsG:active {
-        background-color:#5d37a1;
+        background-color: #382161;
         text-decoration: none;
-        height: 8vh;
-        width: 46vw;
+        height: 7vh;
+        width: 55vw;
         color: white;
-        border-radius: 2vh;
-        font-size: 2vh;
+        border-radius: 1.8vh;
+        font-size: 2.2vh;
         transition: 0.5s ease-in-out;
-        text-align: center;
-        padding-left: 15vw;
+        text-align: center; 
     }
 
     .faqs {
@@ -4178,7 +4179,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     .faqBox {
       border: 2px solid white;
       width: 80vw;
-      height: 140vh;
+      height: 144vh;
       border-radius: 4vh;
       margin: auto;
       z-index: 3;
@@ -4220,13 +4221,13 @@ a.Alink-faq:hover, a.Alink-faq:active {
     
     .faqHeading {
       color: white;
-      font-size: 1.9vh;
+      font-size: 2vh;
       font-weight: 400;
     }
     
     #faqPara, #faqPara1, #faqPara2, #faqPara3, #faqPara4, #faqPara5, #faqPara6, #faqPara7, #faqPara8, #faqPara9, #faqPara10, #faqPara11 {
       color: #160d27;
-      font-size: 1.1vh;
+      font-size: 1.3vh;
       font-weight: 300;
       display: none;
       background-color: white;
@@ -4303,7 +4304,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     }
 
     .get-started-btn:hover {
-      background: #382161;
+      border: 2px solid #5d37a1;
       border-radius: 1.2rem;
       border: none;
       color: rgb(255, 255, 255);
