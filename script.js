@@ -1,10 +1,32 @@
 "use-strict";
 
+
 // get hold of barsicon div that contains the icon
+
 document.querySelector(".barsicon").addEventListener("click", function() {
     const navlinks = document.querySelector("nav");
     navlinks.classList.toggle("show")
 });
+
+
+/*
+const hamburger = document.querySelector(".hamburger");
+const navBar = document.querySelector(".nav");
+
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navBar.classList.toggle("active");
+});
+
+document.querySelectorAll(".Alink-nav active").forEach((n) =>
+  n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navBar.classList.remove("active");
+    unscroll.classList.remove("active");
+  })
+);
+*/
 
 // OFFERS GRID FUNCTIONS - MODALS
 

@@ -1149,7 +1149,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
 }
 
 .faqs {
-  height: 180vh;
+  height: 200vh;
   width: 100%;
   position: relative;
   background-color: #382161;
@@ -1157,7 +1157,7 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
 
 .faqShapes {
   width: 100%;
-  height: 180vh;
+  height: 200vh;
   position: absolute;
   z-index: 1;
   display: inline-block;
@@ -1179,8 +1179,8 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
 
 .faqBox {
   border: 2px solid white;
-  width: 50vw;
-  height: 150vh;
+  width: 60vw;
+  height: 180vh;
   border-radius: 4vh;
   margin: auto;
   z-index: 3;
@@ -1193,17 +1193,19 @@ a.Alink-subsG:hover, a.Alink-subsG:active {
   padding-top: 4vh;
   top: 14vh;
   left: 25vw;
+ 
 }
 
 .faqTextBox {
   z-index: 3;
   /* border: 2px solid yellow; */
-  width: 45vw;
-  height: 120vh;
+  width: 55vw;
+  height: 160vh;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .faq-h2 {
@@ -2591,7 +2593,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     }
 
     .faqs {
-      height: 160vh;
+      height: 180vh;
       width: 100%;
       position: relative;
       background-color: #382161;
@@ -2599,7 +2601,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     
     .faqShapes {
       width: 100%;
-      height: 160vh;
+      height: 180vh;
       position: absolute;
       z-index: 1;
       display: inline-block;
@@ -2621,8 +2623,8 @@ a.Alink-faq:hover, a.Alink-faq:active {
     
     .faqBox {
       border: 2px solid white;
-      width: 80vw;
-      height: 140vh;
+      width: 86vw;
+      height: 160vh;
       border-radius: 4vh;
       margin: auto;
       z-index: 3;
@@ -2634,14 +2636,14 @@ a.Alink-faq:hover, a.Alink-faq:active {
       justify-content: space-around;
       padding-top: 4vh;
       top: 10vh;
-      left: 9.8vw;
+      left: 6.6vw;
     }
     
     .faqTextBox {
       z-index: 3;
       /* border: 2px solid yellow; */
-      width: 70vw;
-      height: 120vh;
+      width: 80vw;
+      height: 145vh;
       margin: auto;
       display: flex;
       flex-direction: column;
@@ -2658,19 +2660,19 @@ a.Alink-faq:hover, a.Alink-faq:active {
     
     .fTB {
       /* border: 2px solid plum; */
-      width: 62vw;
+      width: 70vw;
       margin: auto;
     }
     
     .faqHeading {
       color: white;
-      font-size: 2vh;
+      font-size: 2.1vh;
       font-weight: 400;
     }
     
     #faqPara, #faqPara1, #faqPara2, #faqPara3, #faqPara4, #faqPara5, #faqPara6, #faqPara7, #faqPara8, #faqPara9, #faqPara10, #faqPara11 {
       color: #160d27;
-      font-size: 1.2vh;
+      font-size: 1.3vh;
       font-weight: 300;
       display: none;
       background-color: white;
@@ -2895,6 +2897,80 @@ a.Alink-faq:hover, a.Alink-faq:active {
     justify-content: space-between;
   }
 
+  /*
+  .hamburger {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 100rem;
+    box-shadow: 0px 3px 3px rgb(190, 190, 190);
+    z-index: 1000;
+    display: block;
+  }
+
+  #burger {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .hamburger.active {
+    margin-left: -4rem;
+    position: fixed;
+    margin-top: 0.5rem;
+    box-shadow: none;
+    padding: 0rem;
+    display: block;
+  }
+
+  .hamburger.active #burger:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active #burger:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+    width: 2rem;
+    background-color: rgb(111, 66, 193);
+  }
+
+  .hamburger.active #burger:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+    width: 2rem;
+    background-color: rgb(111, 66, 193);
+  }
+
+  .burger-span-one {
+    display: block;
+    width: 1.5rem;
+    height: 0.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+
+  .burger-span-two {
+    display: block;
+    width: 2.2rem;
+    height: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+
+  .burger-span-three {
+    display: block;
+    width: 1.2rem;
+    height: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(111, 66, 193);
+  }
+    */
+
   .iconsbox {
     width: 100%;
     height: 10vh;
@@ -2913,6 +2989,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
   .bars:active {
     height: 7vh;
   }
+
 
   .bars {
     height: 8vh;
@@ -2934,10 +3011,10 @@ a.Alink-faq:hover, a.Alink-faq:active {
     width: 93vw;
     margin: auto;
     border-radius: 15px;
-    box-shadow: 1px 1px 60px 60px rgba(0, 0, 0, 0.458);
+    box-shadow: 1px 1px 60px 60px rgba(0, 0, 0, 0.645);
     position: absolute;
     top: 0;
-    right: 1vw;
+    right: 3.5vw;
     margin-top: 3.5vh;
     z-index: 99;
   }
@@ -4148,7 +4225,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     }
 
     .faqs {
-      height: 160vh;
+      height: 180vh;
       width: 100%;
       position: relative;
       background-color: #382161;
@@ -4156,7 +4233,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     
     .faqShapes {
       width: 100%;
-      height: 160vh;
+      height: 180vh;
       position: absolute;
       z-index: 1;
       display: inline-block;
@@ -4178,8 +4255,8 @@ a.Alink-faq:hover, a.Alink-faq:active {
     
     .faqBox {
       border: 2px solid white;
-      width: 80vw;
-      height: 144vh;
+      width: 90vw;
+      height: 166vh;
       border-radius: 4vh;
       margin: auto;
       z-index: 3;
@@ -4191,14 +4268,14 @@ a.Alink-faq:hover, a.Alink-faq:active {
       justify-content: space-around;
       padding-top: 4vh;
       top: 10vh;
-      left: 9.8vw;
+      left: 4.8vw;
     }
     
     .faqTextBox {
       z-index: 3;
       /* border: 2px solid yellow; */
-      width: 70vw;
-      height: 120vh;
+      width: 80w;
+      height: 155vh;
       margin: auto;
       display: flex;
       flex-direction: column;
@@ -4207,7 +4284,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     
     .faq-h2 {
       color: white;
-      font-size: 2.8vh;
+      font-size: 3.2vh;
       text-align: center;
       font-weight: 500;
       display: inline-block;
@@ -4215,7 +4292,7 @@ a.Alink-faq:hover, a.Alink-faq:active {
     
     .fTB {
       /* border: 2px solid plum; */
-      width: 62vw;
+      width: 70vw;
       margin: auto;
     }
     

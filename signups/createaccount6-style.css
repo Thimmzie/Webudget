@@ -479,7 +479,7 @@ a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
     }
     
     section {
-        height: 136vh;
+        height: 142vh;
         display: flex;
         justify-content: space-between;
     }
@@ -493,16 +493,16 @@ a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
     }
     
     .shape-n-form { 
-        width: 93vw;
-        height: 136vw;
+        width: 99vw;
+        height: 142vh;
         background: linear-gradient(rgb(231, 231, 231), rgb(200, 200, 200));
         z-index: 0;
         position: relative;
     }
     
     .shape-sect {
-        height: 136vh; /* adjust to cover the edges */
-        width: 93vw; /* adjust to cover the edges */
+        height: 140vh; /* adjust to cover the edges */
+        width: 99vw; /* adjust to cover the edges */
         position: absolute;
         z-index: 1;
     }
@@ -525,7 +525,7 @@ a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
         z-index: 1;
         position: absolute;
         left: 0vw;
-        top: 121vh;
+        top: 120vh;
     }
     
     .s2 {
@@ -548,7 +548,7 @@ a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
     .form-sect {
         margin: auto;
         width: 80vw;
-        height: 120vh;
+        height: 135vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -559,7 +559,7 @@ a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
     .form-sectA {
         margin: auto;
         width: 80vw;
-        height: 120vh;
+        height: 125vh;
         background-color: white;
         border-radius: 3vh;
         padding-top: 3vh;
@@ -610,7 +610,7 @@ a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
         display: flex;
         flex-direction: column;
         width: 70vw;
-        height: 107vh;
+        height: 113vh;
         margin: auto;
         margin-top: 3vh;
         padding: 0.5vw;
@@ -618,7 +618,7 @@ a.Alink-proceedButton:hover, a.Alink-proceedButton:active {
     }
     
     .txt {
-        height: 95vh;
+        height: 100vh;
     }
     
     .txtpara {
